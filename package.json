@@ -2,12 +2,12 @@
   "name": "codecatch-icons",
   "version": "1.0.0",
   "description": "A React-based icon library intended for all CodeCatch React projects.",
+  "scope": "@codecatch/codecatch-icons",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
   "repository": "https://github.com/codecatchorg/codecatch-icons.git",
   "author": "Cameron Shatto <cameronshatto99@gmail.com>",
   "license": "MIT",
-  "private": true,
   "scripts": {
     "optimize": "rimraf ./optimized & svgo -q -p 8 -f ./raw -o ./optimized",
     "build": "yarn optimize && node scripts/build.js"
