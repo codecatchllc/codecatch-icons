@@ -17,9 +17,6 @@ Please read this section if you are wanting to add a new icon to the icon librar
 
 2. Run `yarn build`
 
-3. Run `yarn changeset`
+3. Commit your changes according to [semantic-release](https://github.com/semantic-release/semantic-release#how-does-it-work) requirements
 
-4. Run `git checkout dev` and `git pull` in your terminal if your local dev branch is not up to date
-
-5. Create a new branch off the existing dev branch using the format ISSUE-\<issue_number>
-   - e.g. `git branch ISSUE-#7`
+4. Run `git push`
