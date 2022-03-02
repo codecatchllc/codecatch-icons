@@ -17,6 +17,8 @@ Please read this section if you are wanting to add a new icon to the icon librar
 
 2. Run `yarn build`
 
-3. Commit your changes according to [semantic-release](https://github.com/semantic-release/semantic-release#how-does-it-work) requirements
+3. Run `git add .`
 
-4. Run `git push`
+4. Commit your changes according to [semantic-release](https://github.com/semantic-release/semantic-release#how-does-it-work) requirements
+
+5. Run `git push`
