@@ -5,6 +5,9 @@
   "scope": "@codecatch/codecatch-icons",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
   "repository": "https://github.com/codecatchorg/codecatch-icons.git",
   "author": "Cameron Shatto <cameronshatto99@gmail.com>",
   "license": "MIT",
