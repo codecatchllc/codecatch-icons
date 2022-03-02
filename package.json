@@ -1,6 +1,6 @@
 {
   "name": "codecatch-icons",
-  "version": "1.0.0",
+  "version": "0.0.0-semantic-release",
   "description": "A React-based icon library intended for all CodeCatch React projects.",
   "scope": "@codecatch/codecatch-icons",
   "main": "./dist/cjs/index.js",
@@ -10,14 +10,18 @@
   "license": "MIT",
   "scripts": {
     "optimize": "rimraf ./optimized & svgo -q -p 8 -f ./raw -o ./optimized",
-    "build": "yarn optimize && node scripts/build.js"
+    "build": "yarn optimize && node scripts/build.js",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",
     "@babel/preset-react": "^7.16.7",
+    "@commitlint/cli": "^16.2.1",
+    "@commitlint/config-conventional": "^16.2.1",
     "@svgr/cli": "^6.2.1",
     "@svgr/core": "^6.2.1",
     "camelcase": "^6.3.0",
+    "husky": "^7.0.4",
     "rimraf": "^3.0.2",
     "svgo": "^2.8.0",
     "terser": "^5.11.0"
