@@ -1,3 +1,10 @@
+## [1.2.11](https://github.com/codecatchorg/codecatch-icons/compare/v1.2.10...v1.2.11) (2022-03-05)
+
+
+### Bug Fixes
+
+* attempt at creating svg component with custom size prop ([fb17478](https://github.com/codecatchorg/codecatch-icons/commit/fb17478f05a9c4b277c2a923a32311ad178e00df))
+
 ## [1.2.10](https://github.com/codecatchorg/codecatch-icons/compare/v1.2.9...v1.2.10) (2022-03-05)
 
 
