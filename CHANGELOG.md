@@ -1,3 +1,10 @@
+## [1.2.7](https://github.com/codecatchorg/codecatch-icons/compare/v1.2.6...v1.2.7) (2022-03-05)
+
+
+### Bug Fixes
+
+* added to README and fixed GitHub icon name ([554f732](https://github.com/codecatchorg/codecatch-icons/commit/554f73210e67d99479d06d3af0e528d351f229db))
+
 ## [1.2.6](https://github.com/codecatchorg/codecatch-icons/compare/v1.2.5...v1.2.6) (2022-03-05)
 
 
