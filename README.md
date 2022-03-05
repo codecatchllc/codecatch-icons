@@ -1,4 +1,4 @@
-<img src="../img/logo.png" width="120" alt="CodeCatch Icons">
+<img src="https://github.com/codecatchorg/codecatch-icons/blob/master/img/logo.png" width="120" alt="CodeCatch Icons">
 
 # [CodeCatch Icons](https://github.com/codecatchorg/codecatch-icons)
 
@@ -32,7 +32,7 @@ const Component = () => {
 
 output
 
-<img src="img/output.png" width="212px" alt="Don't stare directly at the <SunIcon />">
+<img src="https://github.com/codecatchorg/codecatch-icons/blob/master/img/output.png" width="212px" alt="Don't stare directly at the <SunIcon />">
 
 ## Icons
 
