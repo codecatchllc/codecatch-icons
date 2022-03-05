@@ -1,4 +1,4 @@
-<img src="./logo.png" width="120" alt="CodeCatch Icons">
+<img src="../logo.png" width="120" alt="CodeCatch Icons">
 
 # [CodeCatch Icons](https://github.com/codecatchorg/codecatch-icons)
 
