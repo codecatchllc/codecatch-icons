@@ -5,8 +5,8 @@ const DIR_PATH = path.join(__dirname, "../optimized");
 const SPACER = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
 const ICON_URL =
   "https://github.com/codecatchorg/codecatch-icons/blob/master/optimized";
-const ICON_WIDTH = "36";
-const BEFORE_ICON_DOCS = `<img src="./logo.png" width="120" alt="CodeCatch Icons">
+const ICON_WIDTH = "24";
+const BEFORE_ICON_DOCS = `<img src="../img/logo.png" width="120" alt="CodeCatch Icons">
 
 # [CodeCatch Icons](https://github.com/codecatchorg/codecatch-icons)
 
@@ -38,6 +38,10 @@ const Component = () => {
 };
 \`\`\`
 
+output
+
+<img src="img/output.png" width="212px" alt="Don't stare directly at the <SunIcon />">
+
 `;
 
 const AFTER_ICON_DOCS = `
@@ -50,7 +54,7 @@ const AFTER_ICON_DOCS = `
 
 3. Create a new branch off master
 
-4. Add the desired svg file to the \`./optimized\` directory
+4. Add the desired svg file to the \`./raw\` directory
 
 5. Run \`yarn build\`
 
@@ -59,6 +63,8 @@ const AFTER_ICON_DOCS = `
 7. Commit your changes according to [semantic-release](https://github.com/semantic-release/semantic-release#how-does-it-work) requirements
 
 8. Run \`git push\`
+
+9. Create a PR!
 `;
 
 fs.readdir(DIR_PATH, (err, files) => {
@@ -78,7 +84,7 @@ fs.readdir(DIR_PATH, (err, files) => {
     // e.g. Copy Code
     const altFileName = capsFileName.split(/(?=[A-Z])/).join(" ");
 
-    iconDocs += `<img src="${ICON_URL}/${file}" alt="${altFileName} Icon" title="<${capsFileName} />" width="${ICON_WIDTH}">${SPACER}`;
+    iconDocs += `<img src="${ICON_URL}/${file}" alt="${altFileName} Icon" title="<${capsFileName}Icon />" width="${ICON_WIDTH}">${SPACER}`;
   });
 
   const content = BEFORE_ICON_DOCS + iconDocs + AFTER_ICON_DOCS;

@@ -1,4 +1,4 @@
-<img src="../logo.png" width="120" alt="CodeCatch Icons">
+<img src="../img/logo.png" width="120" alt="CodeCatch Icons">
 
 # [CodeCatch Icons](https://github.com/codecatchorg/codecatch-icons)
 
@@ -23,12 +23,16 @@ example usage
 import { SunIcon } from "codecatch-icons";
 const Component = () => {
   return (
-    <h1>
+    <h4>
       Don't stare directly at the <SunIcon />
-    </h1>
+    </h4>
   );
 };
 ```
+
+output
+
+<img src="img/output.png" width="212px" alt="Don't stare directly at the <SunIcon />">
 
 ## Icons
 
@@ -42,7 +46,7 @@ Visit the CodeCatch Icons [GitHub repository](https://github.com/codecatchorg/co
 
 3. Create a new branch off master
 
-4. Add the desired svg file to the `./optimized` directory
+4. Add the desired svg file to the `./raw` directory
 
 5. Run `yarn build`
 
@@ -51,3 +55,5 @@ Visit the CodeCatch Icons [GitHub repository](https://github.com/codecatchorg/co
 7. Commit your changes according to [semantic-release](https://github.com/semantic-release/semantic-release#how-does-it-work) requirements
 
 8. Run `git push`
+
+9. Create a PR!
