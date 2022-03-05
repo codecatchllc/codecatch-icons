@@ -13,7 +13,7 @@ export { default as EditIcon } from './EditIcon';
 export { default as EyeIcon } from './EyeIcon';
 export { default as EyeOffIcon } from './EyeOffIcon';
 export { default as FilterIcon } from './FilterIcon';
-export { default as GitHubIcon } from './GitHubIcon';
+export { default as GithubIcon } from './GithubIcon';
 export { default as GoBackIcon } from './GoBackIcon';
 export { default as InfoIcon } from './InfoIcon';
 export { default as InfoFillIcon } from './InfoFillIcon';
