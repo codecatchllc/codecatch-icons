@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/codecatchorg/codecatch-icons/compare/v1.2.3...v1.2.4) (2022-03-05)
+
+
+### Bug Fixes
+
+* fixed a file name parsing bug in docs script ([b2df785](https://github.com/codecatchorg/codecatch-icons/commit/b2df78518a0c18ae3c0550b2e493529aa4530581))
+
 ## [1.2.3](https://github.com/codecatchorg/codecatch-icons/compare/v1.2.2...v1.2.3) (2022-03-05)
 
 
