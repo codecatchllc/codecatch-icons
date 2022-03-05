@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/codecatchorg/codecatch-icons/compare/v1.2.2...v1.2.3) (2022-03-05)
+
+
+### Bug Fixes
+
+* fixed README and added auto documentation update script ([ba5f18b](https://github.com/codecatchorg/codecatch-icons/commit/ba5f18b451080a85f38ea67350e6cc9d75be5820))
+
 ## [1.2.2](https://github.com/codecatchorg/codecatch-icons/compare/v1.2.1...v1.2.2) (2022-03-05)
 
 
