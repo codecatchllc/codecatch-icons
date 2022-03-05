@@ -1,3 +1,10 @@
+## [1.2.6](https://github.com/codecatchorg/codecatch-icons/compare/v1.2.5...v1.2.6) (2022-03-05)
+
+
+### Bug Fixes
+
+* created separate README for npm page and github repo ([b0c28f2](https://github.com/codecatchorg/codecatch-icons/commit/b0c28f2be1cb0ef2048481dcf51eec7ac6427388))
+
 ## [1.2.5](https://github.com/codecatchorg/codecatch-icons/compare/v1.2.4...v1.2.5) (2022-03-05)
 
 
