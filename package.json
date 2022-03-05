@@ -13,7 +13,7 @@
   "license": "MIT",
   "scripts": {
     "optimize": "rimraf ./optimized & svgo -q -p 8 -f ./raw -o ./optimized",
-    "build": "yarn optimize && node scripts/build.js",
+    "build": "yarn optimize && node scripts/build.js && node scripts/docs.js",
     "prepare": "husky install"
   },
   "devDependencies": {

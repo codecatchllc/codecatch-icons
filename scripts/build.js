@@ -100,5 +100,5 @@ async function buildIcons(format = "esm") {
     rimraf(`${outputPath}/*`, resolve);
   })
     .then(() => Promise.all([buildIcons("cjs"), buildIcons("esm")]))
-    .then(() => console.log("✅ Finished building package."));
+    .then(() => console.log("✅ Finished building package.\n"));
 })();
