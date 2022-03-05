@@ -17,8 +17,8 @@ async function transformSVGtoJSX(file, componentName, format) {
         "#F8F9FA": "{props.color || '#F8F9FA'}",
       },
       svgProps: {
-        width: 24,
-        height: 24,
+        width: "{props.size || 24}",
+        height: "{props.size || 24}",
       },
     },
     { componentName }
