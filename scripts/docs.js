@@ -76,13 +76,13 @@ fs.readdir(DIR_PATH, (err, files) => {
     // e.g. CopyCode
     const capsFileName = fileName.charAt(0).toUpperCase() + fileName.slice(1);
     // e.g. Copy Code
-    const altFileName = capsFileName.split(/(?=[A-Z])/);
+    const altFileName = capsFileName.split(/(?=[A-Z])/).join(" ");
 
     iconDocs += `<img src="${ICON_URL}/${file}" alt="${altFileName} Icon" title="<${capsFileName} />" width="${ICON_WIDTH}">${SPACER}`;
   });
 
   const content = BEFORE_ICON_DOCS + iconDocs + AFTER_ICON_DOCS;
-  fs.writeFile("README.md", content, err => {
+  fs.writeFile(".github/README.md", content, err => {
     if (err) {
       return console.log("Unable to write to README: " + err);
     }
