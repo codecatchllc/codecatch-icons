@@ -5,7 +5,7 @@ const DIR_PATH = path.join(__dirname, "../optimized");
 const SPACER = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
 const ICON_URL =
   "https://github.com/codecatchorg/codecatch-icons/blob/master/optimized";
-const ICON_HEIGHT = "36";
+const ICON_WIDTH = "36";
 const BEFORE_ICON_DOCS = `<img src="./logo.png" width="120" alt="CodeCatch Icons">
 
 # [CodeCatch Icons](https://github.com/codecatchorg/codecatch-icons)
@@ -78,10 +78,7 @@ fs.readdir(DIR_PATH, (err, files) => {
     // e.g. Copy Code
     const altFileName = capsFileName.split(/(?=[A-Z])/);
 
-    iconDocs += `<img src="${ICON_URL}/${file}" alt="${altFileName} Icon" title="<${capsFileName} />" height="${ICON_HEIGHT}">`;
-    if (index !== files.length - 1) {
-      iconDocs += SPACER;
-    }
+    iconDocs += `<img src="${ICON_URL}/${file}" alt="${altFileName} Icon" title="<${capsFileName} />" width="${ICON_WIDTH}">${SPACER}`;
   });
 
   const content = BEFORE_ICON_DOCS + iconDocs + AFTER_ICON_DOCS;
