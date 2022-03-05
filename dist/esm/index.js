@@ -13,7 +13,7 @@ export { default as EditIcon } from './EditIcon.js';
 export { default as EyeIcon } from './EyeIcon.js';
 export { default as EyeOffIcon } from './EyeOffIcon.js';
 export { default as FilterIcon } from './FilterIcon.js';
-export { default as GitHubIcon } from './GitHubIcon.js';
+export { default as GithubIcon } from './GithubIcon.js';
 export { default as GoBackIcon } from './GoBackIcon.js';
 export { default as InfoIcon } from './InfoIcon.js';
 export { default as InfoFillIcon } from './InfoFillIcon.js';

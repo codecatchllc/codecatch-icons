@@ -1,3 +1,10 @@
+## [1.2.10](https://github.com/codecatchorg/codecatch-icons/compare/v1.2.9...v1.2.10) (2022-03-05)
+
+
+### Bug Fixes
+
+* updated svg component props ([df2e284](https://github.com/codecatchorg/codecatch-icons/commit/df2e28428ae463eb1d7de03bda681f3c3d0f651c))
+
 ## [1.2.9](https://github.com/codecatchorg/codecatch-icons/compare/v1.2.8...v1.2.9) (2022-03-05)
 
 
