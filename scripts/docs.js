@@ -32,7 +32,7 @@ import { SunIcon } from "codecatch-icons";
 const Component = () => {
   return (
     <h1>
-      Don't stare directly at the <SunIcon />
+      Don't stare directly at the <SunIcon fontSize={24} color="white" />
     </h1>
   );
 };
