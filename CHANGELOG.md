@@ -1,3 +1,10 @@
+## [1.2.9](https://github.com/codecatchorg/codecatch-icons/compare/v1.2.8...v1.2.9) (2022-03-05)
+
+
+### Bug Fixes
+
+* updated README example usage and two icon props ([97b0bbe](https://github.com/codecatchorg/codecatch-icons/commit/97b0bbe2a8f176c81416ce5ba7e87abea7768861))
+
 ## [1.2.8](https://github.com/codecatchorg/codecatch-icons/compare/v1.2.7...v1.2.8) (2022-03-05)
 
 
