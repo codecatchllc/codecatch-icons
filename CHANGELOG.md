@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/codecatchorg/codecatch-icons/compare/v1.2.0...v1.2.1) (2022-03-05)
+
+
+### Bug Fixes
+
+* made all icons default to off-white ([967697d](https://github.com/codecatchorg/codecatch-icons/commit/967697dc569884e3105a31cb53e7c0c34e8ef8d9))
+
 # [1.2.0](https://github.com/codecatchorg/codecatch-icons/compare/v1.1.1...v1.2.0) (2022-03-03)
 
 
