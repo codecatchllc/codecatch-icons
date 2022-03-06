@@ -1,4 +1,11 @@
-<img src="https://github.com/codecatchorg/codecatch-icons/blob/master/img/logo.png" width="120" alt="CodeCatch Icons">
+const path = require("path");
+
+const ICONS_DIR_PATH = path.join(__dirname, "../svg");
+const ICON_URL =
+  "https://github.com/codecatchorg/codecatch-icons/blob/master/svg";
+const ICON_WIDTH = "24";
+const SPACER = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+const BEFORE_ICON_DOCS = `<img src="https://github.com/codecatchorg/codecatch-icons/blob/master/img/logo.png" width="120" alt="CodeCatch Icons">
 
 # [CodeCatch Icons](https://github.com/codecatchorg/codecatch-icons)
 
@@ -11,15 +18,15 @@ CodeCatch Icons is a React-based icon library intended for all CodeCatch React p
 
 ## Installation
 
-```bash
+\`\`\`bash
 yarn add codecatch-icons
 # or
 npm install codecatch-icons
-```
+\`\`\`
 
 example usage
 
-```jsx
+\`\`\`jsx
 import { SunIcon } from "codecatch-icons";
 const Component = () => {
   return (
@@ -28,33 +35,41 @@ const Component = () => {
     </h1>
   );
 };
-```
+\`\`\`
 
 output
 
 <img src="https://github.com/codecatchorg/codecatch-icons/blob/master/img/output.png" width="212px" alt="Don't stare directly at the <SunIcon />">
 
-## Icons
-
-Visit the CodeCatch Icons [GitHub repository](https://github.com/codecatchorg/codecatch-icons#icons) to see examples of all available icons.
-
+`;
+const AFTER_ICON_DOCS = `
 
 ## Contributing
 
-1. Run `git clone https://github.com/codecatchorg/codecatch-icons.git`
+1. Run \`git clone https://github.com/codecatchorg/codecatch-icons.git\`
 
-2. Run `yarn` to install the dependencies
+2. Run \`yarn\` to install the dependencies
 
 3. Create a new branch off master
 
-4. Add the desired svg file to the `svg` directory
+4. Add the desired svg file to the \`svg\` directory
 
-5. Run `yarn build`
+5. Run \`yarn build\`
 
-6. Run `git add .`
+6. Run \`git add .\`
 
 7. Commit your changes according to [semantic-release](https://github.com/semantic-release/semantic-release#how-does-it-work) requirements
 
-8. Run `git push`
+8. Run \`git push\`
 
 9. Create a PR!
+`;
+
+module.exports = {
+  ICONS_DIR_PATH,
+  ICON_URL,
+  ICON_WIDTH,
+  SPACER,
+  BEFORE_ICON_DOCS,
+  AFTER_ICON_DOCS,
+};
