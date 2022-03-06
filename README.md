@@ -24,7 +24,7 @@ import { SunIcon } from "codecatch-icons";
 const Component = () => {
   return (
     <h4>
-      Don't stare directly at the <SunIcon size={24} color="yellow" />
+      Don't stare directly at the <SunIcon size={24} color="orange" />
     </h4>
   );
 };
@@ -34,10 +34,20 @@ output
 
 <img src="https://github.com/codecatchorg/codecatch-icons/blob/master/img/output.png" width="212px" alt="Don't stare directly at the <SunIcon />">
 
+## Icon Props
+
+| Name    | Default | Type                 | Description                                             |
+| :------ | :------ | :------------------- | :------------------------------------------------------ |
+| size    | 24px    | number &#124; string | Width and height of icon, can be any CSS unit           |
+| color   | #F8F9FA | string               | Color of icon, can be any CSS legal color value         |
+| title   |         | string               | Tooltip that specifies extra information about the icon |
+| titleId |         | string               | Id of the title prop                                    |
+
+All CodeCatch Icons include and extend the attributes defined in the [MDN SVG Attribute reference](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute#svg_attributes_a_to_z).
+
 ## Icons
 
 Visit the CodeCatch Icons [GitHub repository](https://github.com/codecatchorg/codecatch-icons#icons) to see examples of all available icons.
-
 
 ## Contributing
 

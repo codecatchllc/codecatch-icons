@@ -6,13 +6,8 @@ fs.readdir(C.ICONS_DIR_PATH, (err, files) => {
     return console.log("Unable to scan directory: " + err);
   }
 
-  let gitHubIconDocs = `## Icons
-
-`;
-  const npmIconDocs = `## Icons
-
-Visit the CodeCatch Icons [GitHub repository](https://github.com/codecatchorg/codecatch-icons#icons) to see examples of all available icons.
-`;
+  let gitHubIconDocs = ``;
+  const npmIconDocs = `Visit the CodeCatch Icons [GitHub repository](https://github.com/codecatchorg/codecatch-icons#icons) to see examples of all available icons.`;
 
   // generate markdown for the "Icons" README section
   files.forEach(file => {

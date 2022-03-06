@@ -23,7 +23,7 @@ function defaultCustomTemplate(variables, { tpl }) {
     ${imports};
     ${INTERFACE}
     function ${customComponentName}(${PROPS}) {
-      const props = {...{width: size, height: size, fill: color}, ...rest}
+      const props = {...{width: size, height: size}, ...rest}
        return ${jsx}
     };
     export default ${customComponentName};

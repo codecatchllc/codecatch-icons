@@ -18,13 +18,13 @@ function LogoutIcon({
     ...{
       width: size,
       height: size,
-      fill: color,
     },
     ...rest,
   };
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
+      fill={color}
       stroke="currentColor"
       strokeWidth={0}
       viewBox="0 0 24 24"
