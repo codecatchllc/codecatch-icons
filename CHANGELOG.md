@@ -1,3 +1,15 @@
+# [1.3.0](https://github.com/codecatchorg/codecatch-icons/compare/v1.2.11...v1.3.0) (2022-03-06)
+
+
+### Bug Fixes
+
+* resolved merge conflict ([b6cecb1](https://github.com/codecatchorg/codecatch-icons/commit/b6cecb1be0f729a871ec90e4b1a1ac8caa1e1ad4))
+
+
+### Features
+
+* converted to using svgr for all icon generation (removed svgo externally) ([4d7d473](https://github.com/codecatchorg/codecatch-icons/commit/4d7d4736fd1f24a1af801b4c6189780bdacf72ef))
+
 ## [1.2.11](https://github.com/codecatchorg/codecatch-icons/compare/v1.2.10...v1.2.11) (2022-03-05)
 
 
