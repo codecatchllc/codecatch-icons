@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/codecatchorg/codecatch-icons/compare/v1.4.0...v1.5.0) (2022-03-06)
+
+
+### Features
+
+* changed the account icon to use an 'outline' style ([4f32237](https://github.com/codecatchorg/codecatch-icons/commit/4f322378ae6ebad2797267db0336bd2f4c8454a5))
+
 # [1.4.0](https://github.com/codecatchorg/codecatch-icons/compare/v1.3.0...v1.4.0) (2022-03-06)
 
 
