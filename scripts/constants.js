@@ -30,9 +30,9 @@ example usage
 import { SunIcon } from "codecatch-icons";
 const Component = () => {
   return (
-    <h1>
-      Don't stare directly at the <SunIcon size={24} color="white" />
-    </h1>
+    <h4>
+      Don't stare directly at the <SunIcon size={24} color="yellow" />
+    </h4>
   );
 };
 \`\`\`

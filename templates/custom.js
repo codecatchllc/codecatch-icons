@@ -1,11 +1,30 @@
-function defaultCustomTemplate(variables, context) {
-  const customComponentName =
-    variables.componentName.replace("Svg", "") + "Icon";
-  return context.tpl`
-    ${variables.imports};
-    ${variables.interfaces};
-    function ${customComponentName}(${variables.props}) {
-      ${variables.jsx}
+const INTERFACE = `
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+  size?: string | number;
+  color?: string;
+}
+`;
+const PROPS = `
+{
+  title,
+  titleId,
+  size = 24,
+  color = '#F8F9FA',
+  ...rest
+}: SVGProps<SVGSVGElement> & SVGRProps
+`;
+
+function defaultCustomTemplate(variables, { tpl }) {
+  const { componentName, imports, interfaces, props, jsx } = variables;
+  const customComponentName = componentName.replace("Svg", "") + "Icon";
+  return tpl`
+    ${imports};
+    ${INTERFACE}
+    function ${customComponentName}(${PROPS}) {
+      const props = {...{width: size, height: size, fill: color}, ...rest}
+       return ${jsx}
     };
     export default ${customComponentName};
   `;
