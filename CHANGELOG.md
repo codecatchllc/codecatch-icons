@@ -1,3 +1,15 @@
+# [1.4.0](https://github.com/codecatchorg/codecatch-icons/compare/v1.3.0...v1.4.0) (2022-03-06)
+
+
+### Bug Fixes
+
+* resolved merge conflic ([864fa6e](https://github.com/codecatchorg/codecatch-icons/commit/864fa6ee92d4d9d39529e3274ade173fdf60a766))
+
+
+### Features
+
+* finalized the first round of icons and updated the README ([5ddcaa7](https://github.com/codecatchorg/codecatch-icons/commit/5ddcaa72147e34716e79923b6f35041ccf1e6954))
+
 # [1.3.0](https://github.com/codecatchorg/codecatch-icons/compare/v1.2.11...v1.3.0) (2022-03-06)
 
 
