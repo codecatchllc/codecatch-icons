@@ -1,3 +1,10 @@
+## [1.5.2](https://github.com/codecatchorg/codecatch-icons/compare/v1.5.1...v1.5.2) (2022-03-07)
+
+
+### Bug Fixes
+
+* added config to minify rollup output ([1d54aed](https://github.com/codecatchorg/codecatch-icons/commit/1d54aedfc304650e21a5372039c882f6f3600c83))
+
 ## [1.5.1](https://github.com/codecatchorg/codecatch-icons/compare/v1.5.0...v1.5.1) (2022-03-06)
 
 
