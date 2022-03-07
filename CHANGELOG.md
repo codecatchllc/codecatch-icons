@@ -1,3 +1,10 @@
+## [1.5.3](https://github.com/codecatchorg/codecatch-icons/compare/v1.5.2...v1.5.3) (2022-03-07)
+
+
+### Bug Fixes
+
+* attempt to fix security issue ([1de1ba8](https://github.com/codecatchorg/codecatch-icons/commit/1de1ba81942f97ea61ed9b2e912193beb6d305f2))
+
 ## [1.5.2](https://github.com/codecatchorg/codecatch-icons/compare/v1.5.1...v1.5.2) (2022-03-07)
 
 
