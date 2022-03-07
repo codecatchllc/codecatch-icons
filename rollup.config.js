@@ -1,6 +1,7 @@
 import peerDepsExternal from "rollup-plugin-peer-deps-external";
 import resolve from "@rollup/plugin-node-resolve";
 import typescript from "rollup-plugin-typescript2";
+import { uglify } from "rollup-plugin-uglify";
 const packageJson = require("./package.json");
 
 export default {
@@ -19,5 +20,6 @@ export default {
     peerDepsExternal(), // prevents building peerDependencies
     resolve(), // resolves package entrypoints
     typescript({ useTsconfigDeclarationDir: true }), // typescript
+    uglify({ sourcemap: true }),
   ],
 };
