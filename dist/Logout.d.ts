@@ -5,5 +5,5 @@ interface SVGRProps {
     size?: string | number;
     color?: string;
 }
-declare function LogoutIcon({ title, titleId, size, color, ...rest }: SVGProps<SVGSVGElement> & SVGRProps): JSX.Element;
+declare function LogoutIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps): JSX.Element;
 export default LogoutIcon;

@@ -12,12 +12,15 @@ function UploadIcon({
   titleId,
   size = 24,
   color = "#F8F9FA",
+  className,
   ...rest
 }: SVGProps<SVGSVGElement> & SVGRProps) {
+  const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
       width: size,
       height: size,
+      className: classNames.join(" "),
     },
     ...rest,
   };
