@@ -1,3 +1,10 @@
+## [1.5.4](https://github.com/codecatchorg/codecatch-icons/compare/v1.5.3...v1.5.4) (2022-03-12)
+
+
+### Bug Fixes
+
+* **ISSUE-#2:** modified MoreIcon visuals. Added default className to all icons ([66a9cde](https://github.com/codecatchorg/codecatch-icons/commit/66a9cdec0de2d79999384d1f483778aeab54b3c2)), closes [ISSUE-#2](https://github.com/ISSUE-/issues/2)
+
 ## [1.5.3](https://github.com/codecatchorg/codecatch-icons/compare/v1.5.2...v1.5.3) (2022-03-07)
 
 
