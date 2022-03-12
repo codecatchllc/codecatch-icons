@@ -5,5 +5,5 @@ interface SVGRProps {
     size?: string | number;
     color?: string;
 }
-declare function PaletteIcon({ title, titleId, size, color, ...rest }: SVGProps<SVGSVGElement> & SVGRProps): JSX.Element;
+declare function PaletteIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps): JSX.Element;
 export default PaletteIcon;

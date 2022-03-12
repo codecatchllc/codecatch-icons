@@ -5,5 +5,5 @@ interface SVGRProps {
     size?: string | number;
     color?: string;
 }
-declare function CopyCodeIcon({ title, titleId, size, color, ...rest }: SVGProps<SVGSVGElement> & SVGRProps): JSX.Element;
+declare function CopyCodeIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps): JSX.Element;
 export default CopyCodeIcon;

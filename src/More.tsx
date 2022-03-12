@@ -12,12 +12,15 @@ function MoreIcon({
   titleId,
   size = 24,
   color = "#F8F9FA",
+  className,
   ...rest
 }: SVGProps<SVGSVGElement> & SVGRProps) {
+  const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
       width: size,
       height: size,
+      className: classNames.join(" "),
     },
     ...rest,
   };
@@ -34,7 +37,7 @@ function MoreIcon({
       {title ? <title id={titleId}>{title}</title> : null}
       <g stroke="none">
         <path fill="none" d="M0 0h24v24H0z" />
-        <path d="M5 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm14 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-7 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z" />
+        <path d="M12 3c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 14c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0-7c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z" />
       </g>
     </svg>
   );
