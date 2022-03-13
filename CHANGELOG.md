@@ -1,3 +1,10 @@
+## [1.5.6](https://github.com/codecatchorg/codecatch-icons/compare/v1.5.5...v1.5.6) (2022-03-13)
+
+
+### Bug Fixes
+
+* **ISSUE-#5:** added  and  attributes to all icons to improve testability ([aa570ff](https://github.com/codecatchorg/codecatch-icons/commit/aa570ff371ca7a78f1dd92ffb62699459f62f5e1)), closes [ISSUE-#5](https://github.com/ISSUE-/issues/5)
+
 ## [1.5.5](https://github.com/codecatchorg/codecatch-icons/compare/v1.5.4...v1.5.5) (2022-03-13)
 
 
