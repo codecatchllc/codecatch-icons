@@ -1,3 +1,10 @@
+## [1.5.5](https://github.com/codecatchorg/codecatch-icons/compare/v1.5.4...v1.5.5) (2022-03-13)
+
+
+### Bug Fixes
+
+* **ISSUE-#2:** modified the build process. Now using tsup and esbuild to build the source code ([8591a5b](https://github.com/codecatchorg/codecatch-icons/commit/8591a5b683faa010369bc0cfbca386e9158364ca)), closes [ISSUE-#2](https://github.com/ISSUE-/issues/2)
+
 ## [1.5.4](https://github.com/codecatchorg/codecatch-icons/compare/v1.5.3...v1.5.4) (2022-03-12)
 
 
