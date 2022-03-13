@@ -20,7 +20,6 @@
   "author": "Cameron Shatto <cameronshatto99@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "clean": "rm -rf src && rm -rf dist",
     "docs": "node scripts/docs.js",
     "svgr": "svgr --icon --title-prop --no-dimensions --typescript -d src svg",
     "build": "yarn docs && yarn svgr && tsup src/index.ts --format cjs,esm --dts --clean",
