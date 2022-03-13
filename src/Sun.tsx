@@ -13,11 +13,14 @@ function SunIcon({
   size = 24,
   color = "#F8F9FA",
   className,
+  role = "img",
   ...rest
 }: SVGProps<SVGSVGElement> & SVGRProps) {
   const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
+      role,
+      "data-testid": "codecatch-SunIcon",
       width: size,
       height: size,
       className: classNames.join(" "),
