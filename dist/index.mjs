@@ -35,16 +35,20 @@ function AccountIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className
+    className,
+    role = "img"
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className"
+    "className",
+    "role"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
+    role,
+    "data-testid": "codecatch-AccountIcon",
     width: size,
     height: size,
     className: classNames.join(" ")
@@ -77,16 +81,20 @@ function CheckIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className
+    className,
+    role = "img"
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className"
+    "className",
+    "role"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
+    role,
+    "data-testid": "codecatch-CheckIcon",
     width: size,
     height: size,
     className: classNames.join(" ")
@@ -119,16 +127,20 @@ function ChecklistIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className
+    className,
+    role = "img"
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className"
+    "className",
+    "role"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
+    role,
+    "data-testid": "codecatch-ChecklistIcon",
     width: size,
     height: size,
     className: classNames.join(" ")
@@ -161,16 +173,20 @@ function ChevronDownIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className
+    className,
+    role = "img"
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className"
+    "className",
+    "role"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
+    role,
+    "data-testid": "codecatch-ChevronDownIcon",
     width: size,
     height: size,
     className: classNames.join(" ")
@@ -203,16 +219,20 @@ function ChevronLeftIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className
+    className,
+    role = "img"
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className"
+    "className",
+    "role"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
+    role,
+    "data-testid": "codecatch-ChevronLeftIcon",
     width: size,
     height: size,
     className: classNames.join(" ")
@@ -245,16 +265,20 @@ function ChevronRightIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className
+    className,
+    role = "img"
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className"
+    "className",
+    "role"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
+    role,
+    "data-testid": "codecatch-ChevronRightIcon",
     width: size,
     height: size,
     className: classNames.join(" ")
@@ -287,16 +311,20 @@ function CloseIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className
+    className,
+    role = "img"
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className"
+    "className",
+    "role"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
+    role,
+    "data-testid": "codecatch-CloseIcon",
     width: size,
     height: size,
     className: classNames.join(" ")
@@ -329,16 +357,20 @@ function CopyCodeIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className
+    className,
+    role = "img"
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className"
+    "className",
+    "role"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
+    role,
+    "data-testid": "codecatch-CopyCodeIcon",
     width: size,
     height: size,
     className: classNames.join(" ")
@@ -371,16 +403,20 @@ function CopyLinkIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className
+    className,
+    role = "img"
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className"
+    "className",
+    "role"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
+    role,
+    "data-testid": "codecatch-CopyLinkIcon",
     width: size,
     height: size,
     className: classNames.join(" ")
@@ -413,16 +449,20 @@ function DeleteIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className
+    className,
+    role = "img"
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className"
+    "className",
+    "role"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
+    role,
+    "data-testid": "codecatch-DeleteIcon",
     width: size,
     height: size,
     className: classNames.join(" ")
@@ -455,16 +495,20 @@ function DiscordIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className
+    className,
+    role = "img"
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className"
+    "className",
+    "role"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
+    role,
+    "data-testid": "codecatch-DiscordIcon",
     width: size,
     height: size,
     className: classNames.join(" ")
@@ -493,16 +537,20 @@ function EditIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className
+    className,
+    role = "img"
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className"
+    "className",
+    "role"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
+    role,
+    "data-testid": "codecatch-EditIcon",
     width: size,
     height: size,
     className: classNames.join(" ")
@@ -535,16 +583,20 @@ function EyeIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className
+    className,
+    role = "img"
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className"
+    "className",
+    "role"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
+    role,
+    "data-testid": "codecatch-EyeIcon",
     width: size,
     height: size,
     className: classNames.join(" ")
@@ -577,16 +629,20 @@ function EyeOffIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className
+    className,
+    role = "img"
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className"
+    "className",
+    "role"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
+    role,
+    "data-testid": "codecatch-EyeOffIcon",
     width: size,
     height: size,
     className: classNames.join(" ")
@@ -619,16 +675,20 @@ function FilterIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className
+    className,
+    role = "img"
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className"
+    "className",
+    "role"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
+    role,
+    "data-testid": "codecatch-FilterIcon",
     width: size,
     height: size,
     className: classNames.join(" ")
@@ -661,16 +721,20 @@ function GitHubIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className
+    className,
+    role = "img"
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className"
+    "className",
+    "role"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
+    role,
+    "data-testid": "codecatch-GitHubIcon",
     width: size,
     height: size,
     className: classNames.join(" ")
@@ -703,16 +767,20 @@ function GoBackIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className
+    className,
+    role = "img"
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className"
+    "className",
+    "role"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
+    role,
+    "data-testid": "codecatch-GoBackIcon",
     width: size,
     height: size,
     className: classNames.join(" ")
@@ -745,16 +813,20 @@ function InfoIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className
+    className,
+    role = "img"
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className"
+    "className",
+    "role"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
+    role,
+    "data-testid": "codecatch-InfoIcon",
     width: size,
     height: size,
     className: classNames.join(" ")
@@ -787,16 +859,20 @@ function InfoFillIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className
+    className,
+    role = "img"
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className"
+    "className",
+    "role"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
+    role,
+    "data-testid": "codecatch-InfoFillIcon",
     width: size,
     height: size,
     className: classNames.join(" ")
@@ -829,16 +905,20 @@ function LoginIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className
+    className,
+    role = "img"
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className"
+    "className",
+    "role"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
+    role,
+    "data-testid": "codecatch-LoginIcon",
     width: size,
     height: size,
     className: classNames.join(" ")
@@ -871,16 +951,20 @@ function LogoutIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className
+    className,
+    role = "img"
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className"
+    "className",
+    "role"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
+    role,
+    "data-testid": "codecatch-LogoutIcon",
     width: size,
     height: size,
     className: classNames.join(" ")
@@ -913,16 +997,20 @@ function MenuIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className
+    className,
+    role = "img"
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className"
+    "className",
+    "role"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
+    role,
+    "data-testid": "codecatch-MenuIcon",
     width: size,
     height: size,
     className: classNames.join(" ")
@@ -955,16 +1043,20 @@ function MoonIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className
+    className,
+    role = "img"
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className"
+    "className",
+    "role"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
+    role,
+    "data-testid": "codecatch-MoonIcon",
     width: size,
     height: size,
     className: classNames.join(" ")
@@ -997,16 +1089,20 @@ function MoreIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className
+    className,
+    role = "img"
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className"
+    "className",
+    "role"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
+    role,
+    "data-testid": "codecatch-MoreIcon",
     width: size,
     height: size,
     className: classNames.join(" ")
@@ -1039,16 +1135,20 @@ function PaletteIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className
+    className,
+    role = "img"
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className"
+    "className",
+    "role"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
+    role,
+    "data-testid": "codecatch-PaletteIcon",
     width: size,
     height: size,
     className: classNames.join(" ")
@@ -1081,16 +1181,20 @@ function ProfileIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className
+    className,
+    role = "img"
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className"
+    "className",
+    "role"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
+    role,
+    "data-testid": "codecatch-ProfileIcon",
     width: size,
     height: size,
     className: classNames.join(" ")
@@ -1123,16 +1227,20 @@ function SaveIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className
+    className,
+    role = "img"
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className"
+    "className",
+    "role"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
+    role,
+    "data-testid": "codecatch-SaveIcon",
     width: size,
     height: size,
     className: classNames.join(" ")
@@ -1165,16 +1273,20 @@ function SearchIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className
+    className,
+    role = "img"
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className"
+    "className",
+    "role"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
+    role,
+    "data-testid": "codecatch-SearchIcon",
     width: size,
     height: size,
     className: classNames.join(" ")
@@ -1207,16 +1319,20 @@ function SettingsIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className
+    className,
+    role = "img"
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className"
+    "className",
+    "role"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
+    role,
+    "data-testid": "codecatch-SettingsIcon",
     width: size,
     height: size,
     className: classNames.join(" ")
@@ -1249,16 +1365,20 @@ function SignUpIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className
+    className,
+    role = "img"
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className"
+    "className",
+    "role"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
+    role,
+    "data-testid": "codecatch-SignUpIcon",
     width: size,
     height: size,
     className: classNames.join(" ")
@@ -1291,16 +1411,20 @@ function SunIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className
+    className,
+    role = "img"
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className"
+    "className",
+    "role"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
+    role,
+    "data-testid": "codecatch-SunIcon",
     width: size,
     height: size,
     className: classNames.join(" ")
@@ -1333,16 +1457,20 @@ function UploadIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className
+    className,
+    role = "img"
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className"
+    "className",
+    "role"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
+    role,
+    "data-testid": "codecatch-UploadIcon",
     width: size,
     height: size,
     className: classNames.join(" ")

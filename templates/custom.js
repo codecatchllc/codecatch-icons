@@ -13,19 +13,21 @@ const PROPS = `
   size = 24,
   color = '#F8F9FA',
   className,
+  role = 'img',
   ...rest
 }: SVGProps<SVGSVGElement> & SVGRProps
 `;
 
 function defaultCustomTemplate(variables, { tpl }) {
-  const { componentName, imports, interfaces, props, jsx } = variables;
+  const { componentName, imports, jsx } = variables;
   const customComponentName = componentName.replace("Svg", "") + "Icon";
+  const dataTestId = `\'codecatch-${customComponentName}\'`;
   return tpl`
     ${imports};
     ${INTERFACE}
     function ${customComponentName}(${PROPS}) {
       const classNames = ['codecatch-Icon', className];
-      const props = {...{width: size, height: size, className: classNames.join(" ")}, ...rest}
+      const props = {...{role, 'data-testid': ${dataTestId}, width: size, height: size, className: classNames.join(" ")}, ...rest}
        return ${jsx}
     };
     export default ${customComponentName};
