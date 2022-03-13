@@ -1,32 +1,259 @@
-export { default as AccountIcon } from "./Account";
-export { default as CheckIcon } from "./Check";
-export { default as ChecklistIcon } from "./Checklist";
-export { default as ChevronDownIcon } from "./ChevronDown";
-export { default as ChevronLeftIcon } from "./ChevronLeft";
-export { default as ChevronRightIcon } from "./ChevronRight";
-export { default as CloseIcon } from "./Close";
-export { default as CopyCodeIcon } from "./CopyCode";
-export { default as CopyLinkIcon } from "./CopyLink";
-export { default as DeleteIcon } from "./Delete";
-export { default as DiscordIcon } from "./Discord";
-export { default as EditIcon } from "./Edit";
-export { default as EyeIcon } from "./Eye";
-export { default as EyeOffIcon } from "./EyeOff";
-export { default as FilterIcon } from "./Filter";
-export { default as GitHubIcon } from "./GitHub";
-export { default as GoBackIcon } from "./GoBack";
-export { default as InfoIcon } from "./Info";
-export { default as InfoFillIcon } from "./InfoFill";
-export { default as LoginIcon } from "./Login";
-export { default as LogoutIcon } from "./Logout";
-export { default as MenuIcon } from "./Menu";
-export { default as MoonIcon } from "./Moon";
-export { default as MoreIcon } from "./More";
-export { default as PaletteIcon } from "./Palette";
-export { default as ProfileIcon } from "./Profile";
-export { default as SaveIcon } from "./Save";
-export { default as SearchIcon } from "./Search";
-export { default as SettingsIcon } from "./Settings";
-export { default as SignUpIcon } from "./SignUp";
-export { default as SunIcon } from "./Sun";
-export { default as UploadIcon } from "./Upload";
+import { SVGProps } from 'react';
+
+interface SVGRProps$v {
+    title?: string;
+    titleId?: string;
+    size?: string | number;
+    color?: string;
+}
+declare function AccountIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$v): JSX.Element;
+
+interface SVGRProps$u {
+    title?: string;
+    titleId?: string;
+    size?: string | number;
+    color?: string;
+}
+declare function CheckIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$u): JSX.Element;
+
+interface SVGRProps$t {
+    title?: string;
+    titleId?: string;
+    size?: string | number;
+    color?: string;
+}
+declare function ChecklistIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$t): JSX.Element;
+
+interface SVGRProps$s {
+    title?: string;
+    titleId?: string;
+    size?: string | number;
+    color?: string;
+}
+declare function ChevronDownIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$s): JSX.Element;
+
+interface SVGRProps$r {
+    title?: string;
+    titleId?: string;
+    size?: string | number;
+    color?: string;
+}
+declare function ChevronLeftIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$r): JSX.Element;
+
+interface SVGRProps$q {
+    title?: string;
+    titleId?: string;
+    size?: string | number;
+    color?: string;
+}
+declare function ChevronRightIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$q): JSX.Element;
+
+interface SVGRProps$p {
+    title?: string;
+    titleId?: string;
+    size?: string | number;
+    color?: string;
+}
+declare function CloseIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$p): JSX.Element;
+
+interface SVGRProps$o {
+    title?: string;
+    titleId?: string;
+    size?: string | number;
+    color?: string;
+}
+declare function CopyCodeIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$o): JSX.Element;
+
+interface SVGRProps$n {
+    title?: string;
+    titleId?: string;
+    size?: string | number;
+    color?: string;
+}
+declare function CopyLinkIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$n): JSX.Element;
+
+interface SVGRProps$m {
+    title?: string;
+    titleId?: string;
+    size?: string | number;
+    color?: string;
+}
+declare function DeleteIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$m): JSX.Element;
+
+interface SVGRProps$l {
+    title?: string;
+    titleId?: string;
+    size?: string | number;
+    color?: string;
+}
+declare function DiscordIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$l): JSX.Element;
+
+interface SVGRProps$k {
+    title?: string;
+    titleId?: string;
+    size?: string | number;
+    color?: string;
+}
+declare function EditIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$k): JSX.Element;
+
+interface SVGRProps$j {
+    title?: string;
+    titleId?: string;
+    size?: string | number;
+    color?: string;
+}
+declare function EyeIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$j): JSX.Element;
+
+interface SVGRProps$i {
+    title?: string;
+    titleId?: string;
+    size?: string | number;
+    color?: string;
+}
+declare function EyeOffIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$i): JSX.Element;
+
+interface SVGRProps$h {
+    title?: string;
+    titleId?: string;
+    size?: string | number;
+    color?: string;
+}
+declare function FilterIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$h): JSX.Element;
+
+interface SVGRProps$g {
+    title?: string;
+    titleId?: string;
+    size?: string | number;
+    color?: string;
+}
+declare function GitHubIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$g): JSX.Element;
+
+interface SVGRProps$f {
+    title?: string;
+    titleId?: string;
+    size?: string | number;
+    color?: string;
+}
+declare function GoBackIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$f): JSX.Element;
+
+interface SVGRProps$e {
+    title?: string;
+    titleId?: string;
+    size?: string | number;
+    color?: string;
+}
+declare function InfoIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$e): JSX.Element;
+
+interface SVGRProps$d {
+    title?: string;
+    titleId?: string;
+    size?: string | number;
+    color?: string;
+}
+declare function InfoFillIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$d): JSX.Element;
+
+interface SVGRProps$c {
+    title?: string;
+    titleId?: string;
+    size?: string | number;
+    color?: string;
+}
+declare function LoginIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$c): JSX.Element;
+
+interface SVGRProps$b {
+    title?: string;
+    titleId?: string;
+    size?: string | number;
+    color?: string;
+}
+declare function LogoutIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$b): JSX.Element;
+
+interface SVGRProps$a {
+    title?: string;
+    titleId?: string;
+    size?: string | number;
+    color?: string;
+}
+declare function MenuIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$a): JSX.Element;
+
+interface SVGRProps$9 {
+    title?: string;
+    titleId?: string;
+    size?: string | number;
+    color?: string;
+}
+declare function MoonIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$9): JSX.Element;
+
+interface SVGRProps$8 {
+    title?: string;
+    titleId?: string;
+    size?: string | number;
+    color?: string;
+}
+declare function MoreIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$8): JSX.Element;
+
+interface SVGRProps$7 {
+    title?: string;
+    titleId?: string;
+    size?: string | number;
+    color?: string;
+}
+declare function PaletteIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$7): JSX.Element;
+
+interface SVGRProps$6 {
+    title?: string;
+    titleId?: string;
+    size?: string | number;
+    color?: string;
+}
+declare function ProfileIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$6): JSX.Element;
+
+interface SVGRProps$5 {
+    title?: string;
+    titleId?: string;
+    size?: string | number;
+    color?: string;
+}
+declare function SaveIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$5): JSX.Element;
+
+interface SVGRProps$4 {
+    title?: string;
+    titleId?: string;
+    size?: string | number;
+    color?: string;
+}
+declare function SearchIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$4): JSX.Element;
+
+interface SVGRProps$3 {
+    title?: string;
+    titleId?: string;
+    size?: string | number;
+    color?: string;
+}
+declare function SettingsIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$3): JSX.Element;
+
+interface SVGRProps$2 {
+    title?: string;
+    titleId?: string;
+    size?: string | number;
+    color?: string;
+}
+declare function SignUpIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$2): JSX.Element;
+
+interface SVGRProps$1 {
+    title?: string;
+    titleId?: string;
+    size?: string | number;
+    color?: string;
+}
+declare function SunIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$1): JSX.Element;
+
+interface SVGRProps {
+    title?: string;
+    titleId?: string;
+    size?: string | number;
+    color?: string;
+}
+declare function UploadIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps): JSX.Element;
+
+export { AccountIcon, CheckIcon, ChecklistIcon, ChevronDownIcon, ChevronLeftIcon, ChevronRightIcon, CloseIcon, CopyCodeIcon, CopyLinkIcon, DeleteIcon, DiscordIcon, EditIcon, EyeIcon, EyeOffIcon, FilterIcon, GitHubIcon, GoBackIcon, InfoFillIcon, InfoIcon, LoginIcon, LogoutIcon, MenuIcon, MoonIcon, MoreIcon, PaletteIcon, ProfileIcon, SaveIcon, SearchIcon, SettingsIcon, SignUpIcon, SunIcon, UploadIcon };
