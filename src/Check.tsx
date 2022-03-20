@@ -13,17 +13,17 @@ function CheckIcon({
   size = 24,
   color = "#F8F9FA",
   className,
-  role = "img",
   ...rest
 }: SVGProps<SVGSVGElement> & SVGRProps) {
   const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
-      role,
+      role: "img",
+      alt: "Check Icon",
       "data-testid": "codecatch-CheckIcon",
       width: size,
       height: size,
-      className: classNames.join(" "),
+      className: classNames.join(" ").trim(),
     },
     ...rest,
   };

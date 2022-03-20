@@ -13,17 +13,17 @@ function ChevronDownIcon({
   size = 24,
   color = "#F8F9FA",
   className,
-  role = "img",
   ...rest
 }: SVGProps<SVGSVGElement> & SVGRProps) {
   const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
-      role,
+      role: "img",
+      alt: "Chevron Down Icon",
       "data-testid": "codecatch-ChevronDownIcon",
       width: size,
       height: size,
-      className: classNames.join(" "),
+      className: classNames.join(" ").trim(),
     },
     ...rest,
   };
