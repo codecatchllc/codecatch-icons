@@ -1,3 +1,10 @@
+## [1.5.7](https://github.com/codecatchorg/codecatch-icons/compare/v1.5.6...v1.5.7) (2022-03-20)
+
+
+### Bug Fixes
+
+* **ISSUE-#7:** added an alt attribute to all icons to improve testability ([384fd7d](https://github.com/codecatchorg/codecatch-icons/commit/384fd7d318aba1025cd44520c8b0e16143535ce9)), closes [ISSUE-#7](https://github.com/ISSUE-/issues/7)
+
 ## [1.5.6](https://github.com/codecatchorg/codecatch-icons/compare/v1.5.5...v1.5.6) (2022-03-13)
 
 
