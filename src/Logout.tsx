@@ -13,17 +13,17 @@ function LogoutIcon({
   size = 24,
   color = "#F8F9FA",
   className,
-  role = "img",
   ...rest
 }: SVGProps<SVGSVGElement> & SVGRProps) {
   const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
-      role,
+      role: "img",
+      alt: "Logout Icon",
       "data-testid": "codecatch-LogoutIcon",
       width: size,
       height: size,
-      className: classNames.join(" "),
+      className: classNames.join(" ").trim(),
     },
     ...rest,
   };

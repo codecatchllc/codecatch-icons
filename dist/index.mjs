@@ -35,23 +35,22 @@ function AccountIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className,
-    role = "img"
+    className
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className",
-    "role"
+    "className"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role,
+    role: "img",
+    alt: "Account Icon",
     "data-testid": "codecatch-AccountIcon",
     width: size,
     height: size,
-    className: classNames.join(" ")
+    className: classNames.join(" ").trim()
   }), rest);
   return /* @__PURE__ */ React.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
@@ -81,23 +80,22 @@ function CheckIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className,
-    role = "img"
+    className
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className",
-    "role"
+    "className"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role,
+    role: "img",
+    alt: "Check Icon",
     "data-testid": "codecatch-CheckIcon",
     width: size,
     height: size,
-    className: classNames.join(" ")
+    className: classNames.join(" ").trim()
   }), rest);
   return /* @__PURE__ */ React2.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
@@ -127,23 +125,22 @@ function ChecklistIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className,
-    role = "img"
+    className
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className",
-    "role"
+    "className"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role,
+    role: "img",
+    alt: "Checklist Icon",
     "data-testid": "codecatch-ChecklistIcon",
     width: size,
     height: size,
-    className: classNames.join(" ")
+    className: classNames.join(" ").trim()
   }), rest);
   return /* @__PURE__ */ React3.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
@@ -173,23 +170,22 @@ function ChevronDownIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className,
-    role = "img"
+    className
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className",
-    "role"
+    "className"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role,
+    role: "img",
+    alt: "Chevron Down Icon",
     "data-testid": "codecatch-ChevronDownIcon",
     width: size,
     height: size,
-    className: classNames.join(" ")
+    className: classNames.join(" ").trim()
   }), rest);
   return /* @__PURE__ */ React4.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
@@ -219,23 +215,22 @@ function ChevronLeftIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className,
-    role = "img"
+    className
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className",
-    "role"
+    "className"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role,
+    role: "img",
+    alt: "Chevron Left Icon",
     "data-testid": "codecatch-ChevronLeftIcon",
     width: size,
     height: size,
-    className: classNames.join(" ")
+    className: classNames.join(" ").trim()
   }), rest);
   return /* @__PURE__ */ React5.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
@@ -265,23 +260,22 @@ function ChevronRightIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className,
-    role = "img"
+    className
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className",
-    "role"
+    "className"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role,
+    role: "img",
+    alt: "Chevron Right Icon",
     "data-testid": "codecatch-ChevronRightIcon",
     width: size,
     height: size,
-    className: classNames.join(" ")
+    className: classNames.join(" ").trim()
   }), rest);
   return /* @__PURE__ */ React6.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
@@ -311,23 +305,22 @@ function CloseIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className,
-    role = "img"
+    className
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className",
-    "role"
+    "className"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role,
+    role: "img",
+    alt: "Close Icon",
     "data-testid": "codecatch-CloseIcon",
     width: size,
     height: size,
-    className: classNames.join(" ")
+    className: classNames.join(" ").trim()
   }), rest);
   return /* @__PURE__ */ React7.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
@@ -357,23 +350,22 @@ function CopyCodeIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className,
-    role = "img"
+    className
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className",
-    "role"
+    "className"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role,
+    role: "img",
+    alt: "Copy Code Icon",
     "data-testid": "codecatch-CopyCodeIcon",
     width: size,
     height: size,
-    className: classNames.join(" ")
+    className: classNames.join(" ").trim()
   }), rest);
   return /* @__PURE__ */ React8.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
@@ -403,23 +395,22 @@ function CopyLinkIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className,
-    role = "img"
+    className
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className",
-    "role"
+    "className"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role,
+    role: "img",
+    alt: "Copy Link Icon",
     "data-testid": "codecatch-CopyLinkIcon",
     width: size,
     height: size,
-    className: classNames.join(" ")
+    className: classNames.join(" ").trim()
   }), rest);
   return /* @__PURE__ */ React9.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
@@ -449,23 +440,22 @@ function DeleteIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className,
-    role = "img"
+    className
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className",
-    "role"
+    "className"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role,
+    role: "img",
+    alt: "Delete Icon",
     "data-testid": "codecatch-DeleteIcon",
     width: size,
     height: size,
-    className: classNames.join(" ")
+    className: classNames.join(" ").trim()
   }), rest);
   return /* @__PURE__ */ React10.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
@@ -495,23 +485,22 @@ function DiscordIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className,
-    role = "img"
+    className
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className",
-    "role"
+    "className"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role,
+    role: "img",
+    alt: "Discord Icon",
     "data-testid": "codecatch-DiscordIcon",
     width: size,
     height: size,
-    className: classNames.join(" ")
+    className: classNames.join(" ").trim()
   }), rest);
   return /* @__PURE__ */ React11.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
@@ -537,23 +526,22 @@ function EditIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className,
-    role = "img"
+    className
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className",
-    "role"
+    "className"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role,
+    role: "img",
+    alt: "Edit Icon",
     "data-testid": "codecatch-EditIcon",
     width: size,
     height: size,
-    className: classNames.join(" ")
+    className: classNames.join(" ").trim()
   }), rest);
   return /* @__PURE__ */ React12.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
@@ -583,23 +571,22 @@ function EyeIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className,
-    role = "img"
+    className
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className",
-    "role"
+    "className"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role,
+    role: "img",
+    alt: "Eye Icon",
     "data-testid": "codecatch-EyeIcon",
     width: size,
     height: size,
-    className: classNames.join(" ")
+    className: classNames.join(" ").trim()
   }), rest);
   return /* @__PURE__ */ React13.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
@@ -629,23 +616,22 @@ function EyeOffIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className,
-    role = "img"
+    className
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className",
-    "role"
+    "className"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role,
+    role: "img",
+    alt: "Eye Off Icon",
     "data-testid": "codecatch-EyeOffIcon",
     width: size,
     height: size,
-    className: classNames.join(" ")
+    className: classNames.join(" ").trim()
   }), rest);
   return /* @__PURE__ */ React14.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
@@ -675,23 +661,22 @@ function FilterIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className,
-    role = "img"
+    className
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className",
-    "role"
+    "className"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role,
+    role: "img",
+    alt: "Filter Icon",
     "data-testid": "codecatch-FilterIcon",
     width: size,
     height: size,
-    className: classNames.join(" ")
+    className: classNames.join(" ").trim()
   }), rest);
   return /* @__PURE__ */ React15.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
@@ -721,23 +706,22 @@ function GitHubIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className,
-    role = "img"
+    className
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className",
-    "role"
+    "className"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role,
+    role: "img",
+    alt: "Git Hub Icon",
     "data-testid": "codecatch-GitHubIcon",
     width: size,
     height: size,
-    className: classNames.join(" ")
+    className: classNames.join(" ").trim()
   }), rest);
   return /* @__PURE__ */ React16.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
@@ -767,23 +751,22 @@ function GoBackIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className,
-    role = "img"
+    className
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className",
-    "role"
+    "className"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role,
+    role: "img",
+    alt: "Go Back Icon",
     "data-testid": "codecatch-GoBackIcon",
     width: size,
     height: size,
-    className: classNames.join(" ")
+    className: classNames.join(" ").trim()
   }), rest);
   return /* @__PURE__ */ React17.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
@@ -813,23 +796,22 @@ function InfoIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className,
-    role = "img"
+    className
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className",
-    "role"
+    "className"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role,
+    role: "img",
+    alt: "Info Icon",
     "data-testid": "codecatch-InfoIcon",
     width: size,
     height: size,
-    className: classNames.join(" ")
+    className: classNames.join(" ").trim()
   }), rest);
   return /* @__PURE__ */ React18.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
@@ -859,23 +841,22 @@ function InfoFillIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className,
-    role = "img"
+    className
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className",
-    "role"
+    "className"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role,
+    role: "img",
+    alt: "Info Fill Icon",
     "data-testid": "codecatch-InfoFillIcon",
     width: size,
     height: size,
-    className: classNames.join(" ")
+    className: classNames.join(" ").trim()
   }), rest);
   return /* @__PURE__ */ React19.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
@@ -905,23 +886,22 @@ function LoginIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className,
-    role = "img"
+    className
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className",
-    "role"
+    "className"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role,
+    role: "img",
+    alt: "Login Icon",
     "data-testid": "codecatch-LoginIcon",
     width: size,
     height: size,
-    className: classNames.join(" ")
+    className: classNames.join(" ").trim()
   }), rest);
   return /* @__PURE__ */ React20.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
@@ -951,23 +931,22 @@ function LogoutIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className,
-    role = "img"
+    className
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className",
-    "role"
+    "className"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role,
+    role: "img",
+    alt: "Logout Icon",
     "data-testid": "codecatch-LogoutIcon",
     width: size,
     height: size,
-    className: classNames.join(" ")
+    className: classNames.join(" ").trim()
   }), rest);
   return /* @__PURE__ */ React21.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
@@ -997,23 +976,22 @@ function MenuIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className,
-    role = "img"
+    className
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className",
-    "role"
+    "className"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role,
+    role: "img",
+    alt: "Menu Icon",
     "data-testid": "codecatch-MenuIcon",
     width: size,
     height: size,
-    className: classNames.join(" ")
+    className: classNames.join(" ").trim()
   }), rest);
   return /* @__PURE__ */ React22.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
@@ -1043,23 +1021,22 @@ function MoonIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className,
-    role = "img"
+    className
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className",
-    "role"
+    "className"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role,
+    role: "img",
+    alt: "Moon Icon",
     "data-testid": "codecatch-MoonIcon",
     width: size,
     height: size,
-    className: classNames.join(" ")
+    className: classNames.join(" ").trim()
   }), rest);
   return /* @__PURE__ */ React23.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
@@ -1089,23 +1066,22 @@ function MoreIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className,
-    role = "img"
+    className
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className",
-    "role"
+    "className"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role,
+    role: "img",
+    alt: "More Icon",
     "data-testid": "codecatch-MoreIcon",
     width: size,
     height: size,
-    className: classNames.join(" ")
+    className: classNames.join(" ").trim()
   }), rest);
   return /* @__PURE__ */ React24.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
@@ -1135,23 +1111,22 @@ function PaletteIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className,
-    role = "img"
+    className
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className",
-    "role"
+    "className"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role,
+    role: "img",
+    alt: "Palette Icon",
     "data-testid": "codecatch-PaletteIcon",
     width: size,
     height: size,
-    className: classNames.join(" ")
+    className: classNames.join(" ").trim()
   }), rest);
   return /* @__PURE__ */ React25.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
@@ -1181,23 +1156,22 @@ function ProfileIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className,
-    role = "img"
+    className
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className",
-    "role"
+    "className"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role,
+    role: "img",
+    alt: "Profile Icon",
     "data-testid": "codecatch-ProfileIcon",
     width: size,
     height: size,
-    className: classNames.join(" ")
+    className: classNames.join(" ").trim()
   }), rest);
   return /* @__PURE__ */ React26.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
@@ -1227,23 +1201,22 @@ function SaveIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className,
-    role = "img"
+    className
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className",
-    "role"
+    "className"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role,
+    role: "img",
+    alt: "Save Icon",
     "data-testid": "codecatch-SaveIcon",
     width: size,
     height: size,
-    className: classNames.join(" ")
+    className: classNames.join(" ").trim()
   }), rest);
   return /* @__PURE__ */ React27.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
@@ -1273,23 +1246,22 @@ function SearchIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className,
-    role = "img"
+    className
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className",
-    "role"
+    "className"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role,
+    role: "img",
+    alt: "Search Icon",
     "data-testid": "codecatch-SearchIcon",
     width: size,
     height: size,
-    className: classNames.join(" ")
+    className: classNames.join(" ").trim()
   }), rest);
   return /* @__PURE__ */ React28.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
@@ -1319,23 +1291,22 @@ function SettingsIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className,
-    role = "img"
+    className
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className",
-    "role"
+    "className"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role,
+    role: "img",
+    alt: "Settings Icon",
     "data-testid": "codecatch-SettingsIcon",
     width: size,
     height: size,
-    className: classNames.join(" ")
+    className: classNames.join(" ").trim()
   }), rest);
   return /* @__PURE__ */ React29.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
@@ -1365,23 +1336,22 @@ function SignUpIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className,
-    role = "img"
+    className
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className",
-    "role"
+    "className"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role,
+    role: "img",
+    alt: "Sign Up Icon",
     "data-testid": "codecatch-SignUpIcon",
     width: size,
     height: size,
-    className: classNames.join(" ")
+    className: classNames.join(" ").trim()
   }), rest);
   return /* @__PURE__ */ React30.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
@@ -1411,23 +1381,22 @@ function SunIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className,
-    role = "img"
+    className
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className",
-    "role"
+    "className"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role,
+    role: "img",
+    alt: "Sun Icon",
     "data-testid": "codecatch-SunIcon",
     width: size,
     height: size,
-    className: classNames.join(" ")
+    className: classNames.join(" ").trim()
   }), rest);
   return /* @__PURE__ */ React31.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
@@ -1457,23 +1426,22 @@ function UploadIcon(_a) {
     titleId,
     size = 24,
     color = "#F8F9FA",
-    className,
-    role = "img"
+    className
   } = _b, rest = __objRest(_b, [
     "title",
     "titleId",
     "size",
     "color",
-    "className",
-    "role"
+    "className"
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role,
+    role: "img",
+    alt: "Upload Icon",
     "data-testid": "codecatch-UploadIcon",
     width: size,
     height: size,
-    className: classNames.join(" ")
+    className: classNames.join(" ").trim()
   }), rest);
   return /* @__PURE__ */ React32.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
