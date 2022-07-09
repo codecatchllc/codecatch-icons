@@ -74,6 +74,7 @@ __export(src_exports, {
   GoBackIcon: () => GoBack_default,
   InfoFillIcon: () => InfoFill_default,
   InfoIcon: () => Info_default,
+  LockIcon: () => Lock_default,
   LoginIcon: () => Login_default,
   LogoutIcon: () => Logout_default,
   MenuIcon: () => Menu_default,
@@ -940,8 +941,53 @@ function InfoFillIcon(_a) {
 }
 var InfoFill_default = InfoFillIcon;
 
-// src/Login.tsx
+// src/Lock.tsx
 var React20 = __toESM(require("react"));
+function LockIcon(_a) {
+  var _b = _a, {
+    title,
+    titleId,
+    size = 24,
+    color = "#F8F9FA",
+    className
+  } = _b, rest = __objRest(_b, [
+    "title",
+    "titleId",
+    "size",
+    "color",
+    "className"
+  ]);
+  const classNames = ["codecatch-Icon", className];
+  const props = __spreadValues(__spreadValues({}, {
+    role: "img",
+    alt: "Lock Icon",
+    "data-testid": "codecatch-LockIcon",
+    width: size,
+    height: size,
+    className: classNames.join(" ").trim()
+  }), rest);
+  return /* @__PURE__ */ React20.createElement("svg", __spreadValues({
+    xmlns: "http://www.w3.org/2000/svg",
+    fill: color,
+    stroke: "currentColor",
+    strokeWidth: 0,
+    viewBox: "0 0 24 24",
+    "aria-labelledby": titleId
+  }, props), title ? /* @__PURE__ */ React20.createElement("title", {
+    id: titleId
+  }, title) : null, /* @__PURE__ */ React20.createElement("g", {
+    stroke: "none"
+  }, /* @__PURE__ */ React20.createElement("path", {
+    fill: "none",
+    d: "M0 0h24v24H0z"
+  }), /* @__PURE__ */ React20.createElement("path", {
+    d: "M6 8V7a6 6 0 1 1 12 0v1h2a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1h2zm13 2H5v10h14V10zm-8 5.732a2 2 0 1 1 2 0V18h-2v-2.268zM8 8h8V7a4 4 0 1 0-8 0v1z"
+  })));
+}
+var Lock_default = LockIcon;
+
+// src/Login.tsx
+var React21 = __toESM(require("react"));
 function LoginIcon(_a) {
   var _b = _a, {
     title,
@@ -965,28 +1011,28 @@ function LoginIcon(_a) {
     height: size,
     className: classNames.join(" ").trim()
   }), rest);
-  return /* @__PURE__ */ React20.createElement("svg", __spreadValues({
+  return /* @__PURE__ */ React21.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
     fill: color,
     stroke: "currentColor",
     strokeWidth: 0,
     viewBox: "0 0 24 24",
     "aria-labelledby": titleId
-  }, props), title ? /* @__PURE__ */ React20.createElement("title", {
+  }, props), title ? /* @__PURE__ */ React21.createElement("title", {
     id: titleId
-  }, title) : null, /* @__PURE__ */ React20.createElement("g", {
+  }, title) : null, /* @__PURE__ */ React21.createElement("g", {
     stroke: "none"
-  }, /* @__PURE__ */ React20.createElement("path", {
+  }, /* @__PURE__ */ React21.createElement("path", {
     fill: "none",
     d: "M0 0h24v24H0z"
-  }), /* @__PURE__ */ React20.createElement("path", {
+  }), /* @__PURE__ */ React21.createElement("path", {
     d: "M4 15h2v5h12V4H6v5H4V3a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-6zm6-4V8l5 4-5 4v-3H2v-2h8z"
   })));
 }
 var Login_default = LoginIcon;
 
 // src/Logout.tsx
-var React21 = __toESM(require("react"));
+var React22 = __toESM(require("react"));
 function LogoutIcon(_a) {
   var _b = _a, {
     title,
@@ -1010,28 +1056,28 @@ function LogoutIcon(_a) {
     height: size,
     className: classNames.join(" ").trim()
   }), rest);
-  return /* @__PURE__ */ React21.createElement("svg", __spreadValues({
+  return /* @__PURE__ */ React22.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
     fill: color,
     stroke: "currentColor",
     strokeWidth: 0,
     viewBox: "0 0 24 24",
     "aria-labelledby": titleId
-  }, props), title ? /* @__PURE__ */ React21.createElement("title", {
+  }, props), title ? /* @__PURE__ */ React22.createElement("title", {
     id: titleId
-  }, title) : null, /* @__PURE__ */ React21.createElement("g", {
+  }, title) : null, /* @__PURE__ */ React22.createElement("g", {
     stroke: "none"
-  }, /* @__PURE__ */ React21.createElement("path", {
+  }, /* @__PURE__ */ React22.createElement("path", {
     fill: "none",
     d: "M0 0h24v24H0z"
-  }), /* @__PURE__ */ React21.createElement("path", {
+  }), /* @__PURE__ */ React22.createElement("path", {
     d: "M4 18h2v2h12V4H6v2H4V3a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-3zm2-7h7v2H6v3l-5-4 5-4v3z"
   })));
 }
 var Logout_default = LogoutIcon;
 
 // src/Menu.tsx
-var React22 = __toESM(require("react"));
+var React23 = __toESM(require("react"));
 function MenuIcon(_a) {
   var _b = _a, {
     title,
@@ -1055,28 +1101,28 @@ function MenuIcon(_a) {
     height: size,
     className: classNames.join(" ").trim()
   }), rest);
-  return /* @__PURE__ */ React22.createElement("svg", __spreadValues({
+  return /* @__PURE__ */ React23.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
     fill: color,
     stroke: "currentColor",
     strokeWidth: 0,
     viewBox: "0 0 24 24",
     "aria-labelledby": titleId
-  }, props), title ? /* @__PURE__ */ React22.createElement("title", {
+  }, props), title ? /* @__PURE__ */ React23.createElement("title", {
     id: titleId
-  }, title) : null, /* @__PURE__ */ React22.createElement("g", {
+  }, title) : null, /* @__PURE__ */ React23.createElement("g", {
     stroke: "none"
-  }, /* @__PURE__ */ React22.createElement("path", {
+  }, /* @__PURE__ */ React23.createElement("path", {
     fill: "none",
     d: "M0 0h24v24H0z"
-  }), /* @__PURE__ */ React22.createElement("path", {
+  }), /* @__PURE__ */ React23.createElement("path", {
     d: "M3 4h18v2H3V4zm0 7h18v2H3v-2zm0 7h18v2H3v-2z"
   })));
 }
 var Menu_default = MenuIcon;
 
 // src/Moon.tsx
-var React23 = __toESM(require("react"));
+var React24 = __toESM(require("react"));
 function MoonIcon(_a) {
   var _b = _a, {
     title,
@@ -1100,28 +1146,28 @@ function MoonIcon(_a) {
     height: size,
     className: classNames.join(" ").trim()
   }), rest);
-  return /* @__PURE__ */ React23.createElement("svg", __spreadValues({
+  return /* @__PURE__ */ React24.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
     fill: color,
     stroke: "currentColor",
     strokeWidth: 0,
     viewBox: "0 0 24 24",
     "aria-labelledby": titleId
-  }, props), title ? /* @__PURE__ */ React23.createElement("title", {
+  }, props), title ? /* @__PURE__ */ React24.createElement("title", {
     id: titleId
-  }, title) : null, /* @__PURE__ */ React23.createElement("g", {
+  }, title) : null, /* @__PURE__ */ React24.createElement("g", {
     stroke: "none"
-  }, /* @__PURE__ */ React23.createElement("path", {
+  }, /* @__PURE__ */ React24.createElement("path", {
     fill: "none",
     d: "M0 0h24v24H0z"
-  }), /* @__PURE__ */ React23.createElement("path", {
+  }), /* @__PURE__ */ React24.createElement("path", {
     d: "M10 7a7 7 0 0 0 12 4.9v.1c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2h.1A6.979 6.979 0 0 0 10 7zm-6 5a8 8 0 0 0 15.062 3.762A9 9 0 0 1 8.238 4.938 7.999 7.999 0 0 0 4 12z"
   })));
 }
 var Moon_default = MoonIcon;
 
 // src/More.tsx
-var React24 = __toESM(require("react"));
+var React25 = __toESM(require("react"));
 function MoreIcon(_a) {
   var _b = _a, {
     title,
@@ -1145,28 +1191,28 @@ function MoreIcon(_a) {
     height: size,
     className: classNames.join(" ").trim()
   }), rest);
-  return /* @__PURE__ */ React24.createElement("svg", __spreadValues({
+  return /* @__PURE__ */ React25.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
     fill: color,
     stroke: "currentColor",
     strokeWidth: 0,
     viewBox: "0 0 24 24",
     "aria-labelledby": titleId
-  }, props), title ? /* @__PURE__ */ React24.createElement("title", {
+  }, props), title ? /* @__PURE__ */ React25.createElement("title", {
     id: titleId
-  }, title) : null, /* @__PURE__ */ React24.createElement("g", {
+  }, title) : null, /* @__PURE__ */ React25.createElement("g", {
     stroke: "none"
-  }, /* @__PURE__ */ React24.createElement("path", {
+  }, /* @__PURE__ */ React25.createElement("path", {
     fill: "none",
     d: "M0 0h24v24H0z"
-  }), /* @__PURE__ */ React24.createElement("path", {
+  }), /* @__PURE__ */ React25.createElement("path", {
     d: "M12 3c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 14c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0-7c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
   })));
 }
 var More_default = MoreIcon;
 
 // src/Palette.tsx
-var React25 = __toESM(require("react"));
+var React26 = __toESM(require("react"));
 function PaletteIcon(_a) {
   var _b = _a, {
     title,
@@ -1190,28 +1236,28 @@ function PaletteIcon(_a) {
     height: size,
     className: classNames.join(" ").trim()
   }), rest);
-  return /* @__PURE__ */ React25.createElement("svg", __spreadValues({
+  return /* @__PURE__ */ React26.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
     fill: color,
     stroke: "currentColor",
     strokeWidth: 0,
     viewBox: "0 0 24 24",
     "aria-labelledby": titleId
-  }, props), title ? /* @__PURE__ */ React25.createElement("title", {
+  }, props), title ? /* @__PURE__ */ React26.createElement("title", {
     id: titleId
-  }, title) : null, /* @__PURE__ */ React25.createElement("g", {
+  }, title) : null, /* @__PURE__ */ React26.createElement("g", {
     stroke: "none"
-  }, /* @__PURE__ */ React25.createElement("path", {
+  }, /* @__PURE__ */ React26.createElement("path", {
     fill: "none",
     d: "M0 0h24v24H0z"
-  }), /* @__PURE__ */ React25.createElement("path", {
+  }), /* @__PURE__ */ React26.createElement("path", {
     d: "M12 2c5.522 0 10 3.978 10 8.889a5.558 5.558 0 0 1-5.556 5.555h-1.966c-.922 0-1.667.745-1.667 1.667 0 .422.167.811.422 1.1.267.3.434.689.434 1.122C13.667 21.256 12.9 22 12 22 6.478 22 2 17.522 2 12S6.478 2 12 2zm-1.189 16.111a3.664 3.664 0 0 1 3.667-3.667h1.966A3.558 3.558 0 0 0 20 10.89C20 7.139 16.468 4 12 4a8 8 0 0 0-.676 15.972 3.648 3.648 0 0 1-.513-1.86zM7.5 12a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm9 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zM12 9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"
   })));
 }
 var Palette_default = PaletteIcon;
 
 // src/Profile.tsx
-var React26 = __toESM(require("react"));
+var React27 = __toESM(require("react"));
 function ProfileIcon(_a) {
   var _b = _a, {
     title,
@@ -1235,28 +1281,28 @@ function ProfileIcon(_a) {
     height: size,
     className: classNames.join(" ").trim()
   }), rest);
-  return /* @__PURE__ */ React26.createElement("svg", __spreadValues({
+  return /* @__PURE__ */ React27.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
     fill: color,
     stroke: "currentColor",
     strokeWidth: 0,
     viewBox: "0 0 24 24",
     "aria-labelledby": titleId
-  }, props), title ? /* @__PURE__ */ React26.createElement("title", {
+  }, props), title ? /* @__PURE__ */ React27.createElement("title", {
     id: titleId
-  }, title) : null, /* @__PURE__ */ React26.createElement("g", {
+  }, title) : null, /* @__PURE__ */ React27.createElement("g", {
     stroke: "none"
-  }, /* @__PURE__ */ React26.createElement("path", {
+  }, /* @__PURE__ */ React27.createElement("path", {
     fill: "none",
     d: "M0 0h24v24H0z"
-  }), /* @__PURE__ */ React26.createElement("path", {
+  }), /* @__PURE__ */ React27.createElement("path", {
     d: "M2 3.993A1 1 0 0 1 2.992 3h18.016c.548 0 .992.445.992.993v16.014a1 1 0 0 1-.992.993H2.992A.993.993 0 0 1 2 20.007V3.993zM4 5v14h16V5H4zm2 2h6v6H6V7zm2 2v2h2V9H8zm-2 6h12v2H6v-2zm8-8h4v2h-4V7zm0 4h4v2h-4v-2z"
   })));
 }
 var Profile_default = ProfileIcon;
 
 // src/Save.tsx
-var React27 = __toESM(require("react"));
+var React28 = __toESM(require("react"));
 function SaveIcon(_a) {
   var _b = _a, {
     title,
@@ -1280,28 +1326,28 @@ function SaveIcon(_a) {
     height: size,
     className: classNames.join(" ").trim()
   }), rest);
-  return /* @__PURE__ */ React27.createElement("svg", __spreadValues({
+  return /* @__PURE__ */ React28.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
     fill: color,
     stroke: "currentColor",
     strokeWidth: 0,
     viewBox: "0 0 24 24",
     "aria-labelledby": titleId
-  }, props), title ? /* @__PURE__ */ React27.createElement("title", {
+  }, props), title ? /* @__PURE__ */ React28.createElement("title", {
     id: titleId
-  }, title) : null, /* @__PURE__ */ React27.createElement("g", {
+  }, title) : null, /* @__PURE__ */ React28.createElement("g", {
     stroke: "none"
-  }, /* @__PURE__ */ React27.createElement("path", {
+  }, /* @__PURE__ */ React28.createElement("path", {
     fill: "none",
     d: "M0 0h24v24H0z"
-  }), /* @__PURE__ */ React27.createElement("path", {
+  }), /* @__PURE__ */ React28.createElement("path", {
     d: "M7 19v-6h10v6h2V7.828L16.172 5H5v14h2zM4 3h13l4 4v13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm5 12v4h6v-4H9z"
   })));
 }
 var Save_default = SaveIcon;
 
 // src/Search.tsx
-var React28 = __toESM(require("react"));
+var React29 = __toESM(require("react"));
 function SearchIcon(_a) {
   var _b = _a, {
     title,
@@ -1325,28 +1371,28 @@ function SearchIcon(_a) {
     height: size,
     className: classNames.join(" ").trim()
   }), rest);
-  return /* @__PURE__ */ React28.createElement("svg", __spreadValues({
+  return /* @__PURE__ */ React29.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
     fill: color,
     stroke: "currentColor",
     strokeWidth: 0,
     viewBox: "0 0 24 24",
     "aria-labelledby": titleId
-  }, props), title ? /* @__PURE__ */ React28.createElement("title", {
+  }, props), title ? /* @__PURE__ */ React29.createElement("title", {
     id: titleId
-  }, title) : null, /* @__PURE__ */ React28.createElement("g", {
+  }, title) : null, /* @__PURE__ */ React29.createElement("g", {
     stroke: "none"
-  }, /* @__PURE__ */ React28.createElement("path", {
+  }, /* @__PURE__ */ React29.createElement("path", {
     fill: "none",
     d: "M0 0h24v24H0z"
-  }), /* @__PURE__ */ React28.createElement("path", {
+  }), /* @__PURE__ */ React29.createElement("path", {
     d: "m18.031 16.617 4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0 1 11 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 0 1-1.969 5.617zm-2.006-.742A6.977 6.977 0 0 0 18 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 0 0 4.875-1.975l.15-.15z"
   })));
 }
 var Search_default = SearchIcon;
 
 // src/Settings.tsx
-var React29 = __toESM(require("react"));
+var React30 = __toESM(require("react"));
 function SettingsIcon(_a) {
   var _b = _a, {
     title,
@@ -1370,28 +1416,28 @@ function SettingsIcon(_a) {
     height: size,
     className: classNames.join(" ").trim()
   }), rest);
-  return /* @__PURE__ */ React29.createElement("svg", __spreadValues({
+  return /* @__PURE__ */ React30.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
     fill: color,
     stroke: "currentColor",
     strokeWidth: 0,
     viewBox: "0 0 24 24",
     "aria-labelledby": titleId
-  }, props), title ? /* @__PURE__ */ React29.createElement("title", {
+  }, props), title ? /* @__PURE__ */ React30.createElement("title", {
     id: titleId
-  }, title) : null, /* @__PURE__ */ React29.createElement("g", {
+  }, title) : null, /* @__PURE__ */ React30.createElement("g", {
     stroke: "none"
-  }, /* @__PURE__ */ React29.createElement("path", {
+  }, /* @__PURE__ */ React30.createElement("path", {
     fill: "none",
     d: "M0 0h24v24H0z"
-  }), /* @__PURE__ */ React29.createElement("path", {
+  }), /* @__PURE__ */ React30.createElement("path", {
     d: "M2.213 14.06a9.945 9.945 0 0 1 0-4.12c1.11.13 2.08-.237 2.396-1.001.317-.765-.108-1.71-.986-2.403a9.945 9.945 0 0 1 2.913-2.913c.692.877 1.638 1.303 2.403.986.765-.317 1.132-1.286 1.001-2.396a9.945 9.945 0 0 1 4.12 0c-.13 1.11.237 2.08 1.001 2.396.765.317 1.71-.108 2.403-.986a9.945 9.945 0 0 1 2.913 2.913c-.877.692-1.303 1.638-.986 2.403.317.765 1.286 1.132 2.396 1.001a9.945 9.945 0 0 1 0 4.12c-1.11-.13-2.08.237-2.396 1.001-.317.765.108 1.71.986 2.403a9.945 9.945 0 0 1-2.913 2.913c-.692-.877-1.638-1.303-2.403-.986-.765.317-1.132 1.286-1.001 2.396a9.945 9.945 0 0 1-4.12 0c.13-1.11-.237-2.08-1.001-2.396-.765-.317-1.71.108-2.403.986a9.945 9.945 0 0 1-2.913-2.913c.877-.692 1.303-1.638.986-2.403-.317-.765-1.286-1.132-2.396-1.001zM4 12.21c1.1.305 2.007 1.002 2.457 2.086.449 1.085.3 2.22-.262 3.212.096.102.195.201.297.297.993-.562 2.127-.71 3.212-.262 1.084.45 1.781 1.357 2.086 2.457.14.004.28.004.42 0 .305-1.1 1.002-2.007 2.086-2.457 1.085-.449 2.22-.3 3.212.262.102-.096.201-.195.297-.297-.562-.993-.71-2.127-.262-3.212.45-1.084 1.357-1.781 2.457-2.086.004-.14.004-.28 0-.42-1.1-.305-2.007-1.002-2.457-2.086-.449-1.085-.3-2.22.262-3.212a7.935 7.935 0 0 0-.297-.297c-.993.562-2.127.71-3.212.262C13.212 6.007 12.515 5.1 12.21 4a7.935 7.935 0 0 0-.42 0c-.305 1.1-1.002 2.007-2.086 2.457-1.085.449-2.22.3-3.212-.262a6.932 6.932 0 0 0-.297.297c.562.993.71 2.127.262 3.212C6.007 10.788 5.1 11.485 4 11.79c-.004.14-.004.28 0 .42zM12 15a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
   })));
 }
 var Settings_default = SettingsIcon;
 
 // src/SignUp.tsx
-var React30 = __toESM(require("react"));
+var React31 = __toESM(require("react"));
 function SignUpIcon(_a) {
   var _b = _a, {
     title,
@@ -1415,28 +1461,28 @@ function SignUpIcon(_a) {
     height: size,
     className: classNames.join(" ").trim()
   }), rest);
-  return /* @__PURE__ */ React30.createElement("svg", __spreadValues({
+  return /* @__PURE__ */ React31.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
     fill: color,
     stroke: "currentColor",
     strokeWidth: 0,
     viewBox: "0 0 24 24",
     "aria-labelledby": titleId
-  }, props), title ? /* @__PURE__ */ React30.createElement("title", {
+  }, props), title ? /* @__PURE__ */ React31.createElement("title", {
     id: titleId
-  }, title) : null, /* @__PURE__ */ React30.createElement("g", {
+  }, title) : null, /* @__PURE__ */ React31.createElement("g", {
     stroke: "none"
-  }, /* @__PURE__ */ React30.createElement("path", {
+  }, /* @__PURE__ */ React31.createElement("path", {
     fill: "none",
     d: "M0 0h24v24H0z"
-  }), /* @__PURE__ */ React30.createElement("path", {
+  }), /* @__PURE__ */ React31.createElement("path", {
     d: "M14 14.252v2.09A6 6 0 0 0 6 22l-2-.001a8 8 0 0 1 10-7.748zM12 13c-3.315 0-6-2.685-6-6s2.685-6 6-6 6 2.685 6 6-2.685 6-6 6zm0-2c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm6 6v-3h2v3h3v2h-3v3h-2v-3h-3v-2h3z"
   })));
 }
 var SignUp_default = SignUpIcon;
 
 // src/Sun.tsx
-var React31 = __toESM(require("react"));
+var React32 = __toESM(require("react"));
 function SunIcon(_a) {
   var _b = _a, {
     title,
@@ -1460,28 +1506,28 @@ function SunIcon(_a) {
     height: size,
     className: classNames.join(" ").trim()
   }), rest);
-  return /* @__PURE__ */ React31.createElement("svg", __spreadValues({
+  return /* @__PURE__ */ React32.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
     fill: color,
     stroke: "currentColor",
     strokeWidth: 0,
     viewBox: "0 0 24 24",
     "aria-labelledby": titleId
-  }, props), title ? /* @__PURE__ */ React31.createElement("title", {
+  }, props), title ? /* @__PURE__ */ React32.createElement("title", {
     id: titleId
-  }, title) : null, /* @__PURE__ */ React31.createElement("g", {
+  }, title) : null, /* @__PURE__ */ React32.createElement("g", {
     stroke: "none"
-  }, /* @__PURE__ */ React31.createElement("path", {
+  }, /* @__PURE__ */ React32.createElement("path", {
     fill: "none",
     d: "M0 0h24v24H0z"
-  }), /* @__PURE__ */ React31.createElement("path", {
+  }), /* @__PURE__ */ React32.createElement("path", {
     d: "M12 18a6 6 0 1 1 0-12 6 6 0 0 1 0 12zm0-2a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM11 1h2v3h-2V1zm0 19h2v3h-2v-3zM3.515 4.929l1.414-1.414L7.05 5.636 5.636 7.05 3.515 4.93zM16.95 18.364l1.414-1.414 2.121 2.121-1.414 1.414-2.121-2.121zm2.121-14.85 1.414 1.415-2.121 2.121-1.414-1.414 2.121-2.121zM5.636 16.95l1.414 1.414-2.121 2.121-1.414-1.414 2.121-2.121zM23 11v2h-3v-2h3zM4 11v2H1v-2h3z"
   })));
 }
 var Sun_default = SunIcon;
 
 // src/Upload.tsx
-var React32 = __toESM(require("react"));
+var React33 = __toESM(require("react"));
 function UploadIcon(_a) {
   var _b = _a, {
     title,
@@ -1505,21 +1551,21 @@ function UploadIcon(_a) {
     height: size,
     className: classNames.join(" ").trim()
   }), rest);
-  return /* @__PURE__ */ React32.createElement("svg", __spreadValues({
+  return /* @__PURE__ */ React33.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
     fill: color,
     stroke: "currentColor",
     strokeWidth: 0,
     viewBox: "0 0 24 24",
     "aria-labelledby": titleId
-  }, props), title ? /* @__PURE__ */ React32.createElement("title", {
+  }, props), title ? /* @__PURE__ */ React33.createElement("title", {
     id: titleId
-  }, title) : null, /* @__PURE__ */ React32.createElement("g", {
+  }, title) : null, /* @__PURE__ */ React33.createElement("g", {
     stroke: "none"
-  }, /* @__PURE__ */ React32.createElement("path", {
+  }, /* @__PURE__ */ React33.createElement("path", {
     fill: "none",
     d: "M0 0h24v24H0z"
-  }), /* @__PURE__ */ React32.createElement("path", {
+  }), /* @__PURE__ */ React33.createElement("path", {
     d: "M3 19h18v2H3v-2zM13 5.828V17h-2V5.828L4.929 11.9l-1.414-1.414L12 2l8.485 8.485-1.414 1.414L13 5.83z"
   })));
 }
@@ -1546,6 +1592,7 @@ module.exports = __toCommonJS(src_exports);
   GoBackIcon,
   InfoFillIcon,
   InfoIcon,
+  LockIcon,
   LoginIcon,
   LogoutIcon,
   MenuIcon,

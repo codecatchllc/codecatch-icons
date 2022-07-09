@@ -17,6 +17,7 @@ export { default as GitHubIcon } from "./GitHub";
 export { default as GoBackIcon } from "./GoBack";
 export { default as InfoIcon } from "./Info";
 export { default as InfoFillIcon } from "./InfoFill";
+export { default as LockIcon } from "./Lock";
 export { default as LoginIcon } from "./Login";
 export { default as LogoutIcon } from "./Logout";
 export { default as MenuIcon } from "./Menu";
