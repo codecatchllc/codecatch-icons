@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/codecatchorg/codecatch-icons/compare/v1.5.7...v1.6.0) (2022-07-09)
+
+
+### Features
+
+* **ISSUE-#9:** added lock icon ([f3239ff](https://github.com/codecatchorg/codecatch-icons/commit/f3239ff4aa2757264920c6f0c8131ed2658d4f7c)), closes [ISSUE-#9](https://github.com/ISSUE-/issues/9)
+
 ## [1.5.7](https://github.com/codecatchorg/codecatch-icons/compare/v1.5.6...v1.5.7) (2022-03-20)
 
 
