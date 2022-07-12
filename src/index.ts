@@ -1,4 +1,5 @@
 export { default as AccountIcon } from "./Account";
+export { default as BranchIcon } from "./Branch";
 export { default as CheckIcon } from "./Check";
 export { default as ChecklistIcon } from "./Checklist";
 export { default as ChevronDownIcon } from "./ChevronDown";

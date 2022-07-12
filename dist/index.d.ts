@@ -1,12 +1,20 @@
 import { SVGProps } from 'react';
 
+interface SVGRProps$x {
+    title?: string;
+    titleId?: string;
+    size?: string | number;
+    color?: string;
+}
+declare function AccountIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$x): JSX.Element;
+
 interface SVGRProps$w {
     title?: string;
     titleId?: string;
     size?: string | number;
     color?: string;
 }
-declare function AccountIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$w): JSX.Element;
+declare function BranchIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$w): JSX.Element;
 
 interface SVGRProps$v {
     title?: string;
@@ -264,4 +272,4 @@ interface SVGRProps {
 }
 declare function UploadIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps): JSX.Element;
 
-export { AccountIcon, CheckIcon, ChecklistIcon, ChevronDownIcon, ChevronLeftIcon, ChevronRightIcon, CloseIcon, CopyCodeIcon, CopyLinkIcon, DeleteIcon, DiscordIcon, EditIcon, EyeIcon, EyeOffIcon, FilterIcon, GitHubIcon, GoBackIcon, InfoFillIcon, InfoIcon, LockIcon, LoginIcon, LogoutIcon, MenuIcon, MoonIcon, MoreIcon, PaletteIcon, ProfileIcon, SaveIcon, SearchIcon, SettingsIcon, SignUpIcon, SunIcon, UploadIcon };
+export { AccountIcon, BranchIcon, CheckIcon, ChecklistIcon, ChevronDownIcon, ChevronLeftIcon, ChevronRightIcon, CloseIcon, CopyCodeIcon, CopyLinkIcon, DeleteIcon, DiscordIcon, EditIcon, EyeIcon, EyeOffIcon, FilterIcon, GitHubIcon, GoBackIcon, InfoFillIcon, InfoIcon, LockIcon, LoginIcon, LogoutIcon, MenuIcon, MoonIcon, MoreIcon, PaletteIcon, ProfileIcon, SaveIcon, SearchIcon, SettingsIcon, SignUpIcon, SunIcon, UploadIcon };
