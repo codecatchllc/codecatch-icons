@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/codecatchorg/codecatch-icons/compare/v1.7.0...v1.8.0) (2022-07-13)
+
+
+### Features
+
+* **master:** added download icon ([f119f10](https://github.com/codecatchorg/codecatch-icons/commit/f119f10a0caef77187a2fc90577b0ff905ebad1f))
+
 # [1.7.0](https://github.com/codecatchorg/codecatch-icons/compare/v1.6.0...v1.7.0) (2022-07-12)
 
 
