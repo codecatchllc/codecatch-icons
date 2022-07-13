@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/codecatchorg/codecatch-icons/compare/v1.6.0...v1.7.0) (2022-07-12)
+
+
+### Features
+
+* **master:** added branch icon ([4047c87](https://github.com/codecatchorg/codecatch-icons/commit/4047c870146434450e3fdf22ba5b8e8741d16bf6))
+
 # [1.6.0](https://github.com/codecatchorg/codecatch-icons/compare/v1.5.7...v1.6.0) (2022-07-09)
 
 
