@@ -10,6 +10,7 @@ export { default as CopyCodeIcon } from "./CopyCode";
 export { default as CopyLinkIcon } from "./CopyLink";
 export { default as DeleteIcon } from "./Delete";
 export { default as DiscordIcon } from "./Discord";
+export { default as DownloadIcon } from "./Download";
 export { default as EditIcon } from "./Edit";
 export { default as EyeIcon } from "./Eye";
 export { default as EyeOffIcon } from "./EyeOff";
