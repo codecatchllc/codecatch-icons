@@ -1,3 +1,10 @@
+## [1.8.1](https://github.com/codecatchorg/codecatch-icons/compare/v1.8.0...v1.8.1) (2022-10-03)
+
+
+### Bug Fixes
+
+* **add-expand-icon:** added an expand icon ([453eb66](https://github.com/codecatchorg/codecatch-icons/commit/453eb66cfd65ba8b639b9500196a89b92ce0de8c))
+
 # [1.8.0](https://github.com/codecatchorg/codecatch-icons/compare/v1.7.0...v1.8.0) (2022-07-13)
 
 
