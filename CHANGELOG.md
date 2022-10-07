@@ -1,3 +1,10 @@
+## [1.8.2](https://github.com/codecatchorg/codecatch-icons/compare/v1.8.1...v1.8.2) (2022-10-07)
+
+
+### Bug Fixes
+
+* **add-google-and-chart-icons:** add Google and BarChart icons ([ec87568](https://github.com/codecatchorg/codecatch-icons/commit/ec875684feafb044cb60ef4c965461a97a23dfa6))
+
 ## [1.8.1](https://github.com/codecatchorg/codecatch-icons/compare/v1.8.0...v1.8.1) (2022-10-03)
 
 
