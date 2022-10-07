@@ -1,4 +1,5 @@
 export { default as AccountIcon } from "./Account";
+export { default as BarChartIcon } from "./BarChart";
 export { default as BranchIcon } from "./Branch";
 export { default as CheckIcon } from "./Check";
 export { default as ChecklistIcon } from "./Checklist";
@@ -18,6 +19,7 @@ export { default as EyeOffIcon } from "./EyeOff";
 export { default as FilterIcon } from "./Filter";
 export { default as GitHubIcon } from "./GitHub";
 export { default as GoBackIcon } from "./GoBack";
+export { default as GoogleIcon } from "./Google";
 export { default as InfoIcon } from "./Info";
 export { default as InfoFillIcon } from "./InfoFill";
 export { default as LockIcon } from "./Lock";
