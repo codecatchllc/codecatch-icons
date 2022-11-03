@@ -1,3 +1,10 @@
+## [1.8.3](https://github.com/codecatchorg/codecatch-icons/compare/v1.8.2...v1.8.3) (2022-11-03)
+
+
+### Bug Fixes
+
+* **add-follow-unfollow-icons:** added follow and unfollow icons ([64eac6c](https://github.com/codecatchorg/codecatch-icons/commit/64eac6cf6c333a1939829a59bbb707989969ca68))
+
 ## [1.8.2](https://github.com/codecatchorg/codecatch-icons/compare/v1.8.1...v1.8.2) (2022-10-07)
 
 
