@@ -1733,8 +1733,98 @@ function SunIcon(_a) {
 }
 var Sun_default = SunIcon;
 
-// src/Unfollow.tsx
+// src/ThumbUp.tsx
 import * as React39 from "react";
+function ThumbUpIcon(_a) {
+  var _b = _a, {
+    title,
+    titleId,
+    size = 24,
+    color = "#F8F9FA",
+    className
+  } = _b, rest = __objRest(_b, [
+    "title",
+    "titleId",
+    "size",
+    "color",
+    "className"
+  ]);
+  const classNames = ["codecatch-Icon", className];
+  const props = __spreadValues(__spreadValues({}, {
+    role: "img",
+    alt: "Thumb Up Icon",
+    "data-testid": "codecatch-ThumbUpIcon",
+    width: size,
+    height: size,
+    className: classNames.join(" ").trim()
+  }), rest);
+  return /* @__PURE__ */ React39.createElement("svg", __spreadValues({
+    xmlns: "http://www.w3.org/2000/svg",
+    fill: color,
+    stroke: "currentColor",
+    strokeWidth: 0,
+    viewBox: "0 0 24 24",
+    "aria-labelledby": titleId
+  }, props), title ? /* @__PURE__ */ React39.createElement("title", {
+    id: titleId
+  }, title) : null, /* @__PURE__ */ React39.createElement("g", {
+    stroke: "none"
+  }, /* @__PURE__ */ React39.createElement("path", {
+    fill: "none",
+    d: "M0 0h24v24H0z"
+  }), /* @__PURE__ */ React39.createElement("path", {
+    d: "M14.6 8H21a2 2 0 0 1 2 2v2.104a2 2 0 0 1-.15.762l-3.095 7.515a1 1 0 0 1-.925.619H2a1 1 0 0 1-1-1V10a1 1 0 0 1 1-1h3.482a1 1 0 0 0 .817-.423L11.752.85a.5.5 0 0 1 .632-.159l1.814.907a2.5 2.5 0 0 1 1.305 2.853L14.6 8zM7 10.588V19h11.16L21 12.104V10h-6.4a2 2 0 0 1-1.938-2.493l.903-3.548a.5.5 0 0 0-.261-.571l-.661-.33-4.71 6.672c-.25.354-.57.644-.933.858zM5 11H3v8h2v-8z"
+  })));
+}
+var ThumbUp_default = ThumbUpIcon;
+
+// src/ThumbUpFill.tsx
+import * as React40 from "react";
+function ThumbUpFillIcon(_a) {
+  var _b = _a, {
+    title,
+    titleId,
+    size = 24,
+    color = "#F8F9FA",
+    className
+  } = _b, rest = __objRest(_b, [
+    "title",
+    "titleId",
+    "size",
+    "color",
+    "className"
+  ]);
+  const classNames = ["codecatch-Icon", className];
+  const props = __spreadValues(__spreadValues({}, {
+    role: "img",
+    alt: "Thumb Up Fill Icon",
+    "data-testid": "codecatch-ThumbUpFillIcon",
+    width: size,
+    height: size,
+    className: classNames.join(" ").trim()
+  }), rest);
+  return /* @__PURE__ */ React40.createElement("svg", __spreadValues({
+    xmlns: "http://www.w3.org/2000/svg",
+    fill: color,
+    stroke: "currentColor",
+    strokeWidth: 0,
+    viewBox: "0 0 24 24",
+    "aria-labelledby": titleId
+  }, props), title ? /* @__PURE__ */ React40.createElement("title", {
+    id: titleId
+  }, title) : null, /* @__PURE__ */ React40.createElement("g", {
+    stroke: "none"
+  }, /* @__PURE__ */ React40.createElement("path", {
+    fill: "none",
+    d: "M0 0h24v24H0z"
+  }), /* @__PURE__ */ React40.createElement("path", {
+    d: "M2 9h3v12H2a1 1 0 0 1-1-1V10a1 1 0 0 1 1-1zm5.293-1.293 6.4-6.4a.5.5 0 0 1 .654-.047l.853.64a1.5 1.5 0 0 1 .553 1.57L14.6 8H21a2 2 0 0 1 2 2v2.104a2 2 0 0 1-.15.762l-3.095 7.515a1 1 0 0 1-.925.619H8a1 1 0 0 1-1-1V8.414a1 1 0 0 1 .293-.707z"
+  })));
+}
+var ThumbUpFill_default = ThumbUpFillIcon;
+
+// src/Unfollow.tsx
+import * as React41 from "react";
 function UnfollowIcon(_a) {
   var _b = _a, {
     title,
@@ -1758,28 +1848,28 @@ function UnfollowIcon(_a) {
     height: size,
     className: classNames.join(" ").trim()
   }), rest);
-  return /* @__PURE__ */ React39.createElement("svg", __spreadValues({
+  return /* @__PURE__ */ React41.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
     fill: color,
     stroke: "currentColor",
     strokeWidth: 0,
     viewBox: "0 0 24 24",
     "aria-labelledby": titleId
-  }, props), title ? /* @__PURE__ */ React39.createElement("title", {
+  }, props), title ? /* @__PURE__ */ React41.createElement("title", {
     id: titleId
-  }, title) : null, /* @__PURE__ */ React39.createElement("g", {
+  }, title) : null, /* @__PURE__ */ React41.createElement("g", {
     stroke: "none"
-  }, /* @__PURE__ */ React39.createElement("path", {
+  }, /* @__PURE__ */ React41.createElement("path", {
     fill: "none",
     d: "M0 0h24v24H0z"
-  }), /* @__PURE__ */ React39.createElement("path", {
+  }), /* @__PURE__ */ React41.createElement("path", {
     d: "M14 14.252v2.09A6 6 0 0 0 6 22l-2-.001a8 8 0 0 1 10-7.748zM12 13c-3.315 0-6-2.685-6-6s2.685-6 6-6 6 2.685 6 6-2.685 6-6 6zm0-2c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm7 6.586 2.121-2.122 1.415 1.415L20.414 19l2.122 2.121-1.415 1.415L19 20.414l-2.121 2.122-1.415-1.415L17.586 19l-2.122-2.121 1.415-1.415L19 17.586z"
   })));
 }
 var Unfollow_default = UnfollowIcon;
 
 // src/Upload.tsx
-import * as React40 from "react";
+import * as React42 from "react";
 function UploadIcon(_a) {
   var _b = _a, {
     title,
@@ -1803,21 +1893,21 @@ function UploadIcon(_a) {
     height: size,
     className: classNames.join(" ").trim()
   }), rest);
-  return /* @__PURE__ */ React40.createElement("svg", __spreadValues({
+  return /* @__PURE__ */ React42.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
     fill: color,
     stroke: "currentColor",
     strokeWidth: 0,
     viewBox: "0 0 24 24",
     "aria-labelledby": titleId
-  }, props), title ? /* @__PURE__ */ React40.createElement("title", {
+  }, props), title ? /* @__PURE__ */ React42.createElement("title", {
     id: titleId
-  }, title) : null, /* @__PURE__ */ React40.createElement("g", {
+  }, title) : null, /* @__PURE__ */ React42.createElement("g", {
     stroke: "none"
-  }, /* @__PURE__ */ React40.createElement("path", {
+  }, /* @__PURE__ */ React42.createElement("path", {
     fill: "none",
     d: "M0 0h24v24H0z"
-  }), /* @__PURE__ */ React40.createElement("path", {
+  }), /* @__PURE__ */ React42.createElement("path", {
     d: "M3 19h18v2H3v-2zM13 5.828V17h-2V5.828L4.929 11.9l-1.414-1.414L12 2l8.485 8.485-1.414 1.414L13 5.83z"
   })));
 }
@@ -1861,6 +1951,8 @@ export {
   Settings_default as SettingsIcon,
   SignUp_default as SignUpIcon,
   Sun_default as SunIcon,
+  ThumbUpFill_default as ThumbUpFillIcon,
+  ThumbUp_default as ThumbUpIcon,
   Unfollow_default as UnfollowIcon,
   Upload_default as UploadIcon
 };
