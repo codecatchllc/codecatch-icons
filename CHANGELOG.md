@@ -1,3 +1,10 @@
+## [1.8.4](https://github.com/codecatchorg/codecatch-icons/compare/v1.8.3...v1.8.4) (2022-11-15)
+
+
+### Bug Fixes
+
+* **master:** add like icons ([f578b0a](https://github.com/codecatchorg/codecatch-icons/commit/f578b0a2b4ff735951919eae90d45f6f429870e8))
+
 ## [1.8.3](https://github.com/codecatchorg/codecatch-icons/compare/v1.8.2...v1.8.3) (2022-11-03)
 
 
