@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/codecatchorg/codecatch-icons/compare/v1.8.4...v1.9.0) (2022-11-28)
+
+
+### Features
+
+* **master:** add error icons ([d0db68c](https://github.com/codecatchorg/codecatch-icons/commit/d0db68c61695c2b21770c0ae312fb478b43bf1d7))
+
 ## [1.8.4](https://github.com/codecatchorg/codecatch-icons/compare/v1.8.3...v1.8.4) (2022-11-15)
 
 
