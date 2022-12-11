@@ -29,8 +29,6 @@ function defaultCustomTemplate(variables, { tpl }) {
       const classNames = ['codecatch-Icon', className];
       const props = {
         ...{
-          role: 'img',
-          alt: '${customComponentName.split(/(?=[A-Z])/).join(" ")}',
           'data-testid': ${dataTestId},
           width: size,
           height: size,
