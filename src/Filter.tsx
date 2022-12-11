@@ -18,8 +18,6 @@ function FilterIcon({
   const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
-      role: "img",
-      alt: "Filter Icon",
       "data-testid": "codecatch-FilterIcon",
       width: size,
       height: size,

@@ -18,8 +18,6 @@ function LogoutIcon({
   const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
-      role: "img",
-      alt: "Logout Icon",
       "data-testid": "codecatch-LogoutIcon",
       width: size,
       height: size,

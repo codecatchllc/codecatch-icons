@@ -18,8 +18,6 @@ function PaletteIcon({
   const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
-      role: "img",
-      alt: "Palette Icon",
       "data-testid": "codecatch-PaletteIcon",
       width: size,
       height: size,

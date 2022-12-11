@@ -18,8 +18,6 @@ function LoginIcon({
   const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
-      role: "img",
-      alt: "Login Icon",
       "data-testid": "codecatch-LoginIcon",
       width: size,
       height: size,

@@ -18,8 +18,6 @@ function ChecklistIcon({
   const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
-      role: "img",
-      alt: "Checklist Icon",
       "data-testid": "codecatch-ChecklistIcon",
       width: size,
       height: size,

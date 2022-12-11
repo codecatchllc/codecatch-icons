@@ -18,8 +18,6 @@ function FollowIcon({
   const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
-      role: "img",
-      alt: "Follow Icon",
       "data-testid": "codecatch-FollowIcon",
       width: size,
       height: size,

@@ -18,8 +18,6 @@ function SignUpIcon({
   const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
-      role: "img",
-      alt: "Sign Up Icon",
       "data-testid": "codecatch-SignUpIcon",
       width: size,
       height: size,

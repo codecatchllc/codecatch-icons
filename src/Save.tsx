@@ -18,8 +18,6 @@ function SaveIcon({
   const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
-      role: "img",
-      alt: "Save Icon",
       "data-testid": "codecatch-SaveIcon",
       width: size,
       height: size,

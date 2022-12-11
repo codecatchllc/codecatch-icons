@@ -18,8 +18,6 @@ function BranchIcon({
   const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
-      role: "img",
-      alt: "Branch Icon",
       "data-testid": "codecatch-BranchIcon",
       width: size,
       height: size,

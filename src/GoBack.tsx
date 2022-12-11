@@ -18,8 +18,6 @@ function GoBackIcon({
   const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
-      role: "img",
-      alt: "Go Back Icon",
       "data-testid": "codecatch-GoBackIcon",
       width: size,
       height: size,

@@ -18,8 +18,6 @@ function GoogleIcon({
   const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
-      role: "img",
-      alt: "Google Icon",
       "data-testid": "codecatch-GoogleIcon",
       width: size,
       height: size,

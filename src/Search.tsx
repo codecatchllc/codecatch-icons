@@ -18,8 +18,6 @@ function SearchIcon({
   const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
-      role: "img",
-      alt: "Search Icon",
       "data-testid": "codecatch-SearchIcon",
       width: size,
       height: size,

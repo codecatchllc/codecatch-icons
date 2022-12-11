@@ -18,8 +18,6 @@ function DeleteIcon({
   const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
-      role: "img",
-      alt: "Delete Icon",
       "data-testid": "codecatch-DeleteIcon",
       width: size,
       height: size,

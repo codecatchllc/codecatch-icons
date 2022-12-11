@@ -18,8 +18,6 @@ function MenuIcon({
   const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
-      role: "img",
-      alt: "Menu Icon",
       "data-testid": "codecatch-MenuIcon",
       width: size,
       height: size,

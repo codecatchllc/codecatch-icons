@@ -18,8 +18,6 @@ function EditIcon({
   const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
-      role: "img",
-      alt: "Edit Icon",
       "data-testid": "codecatch-EditIcon",
       width: size,
       height: size,

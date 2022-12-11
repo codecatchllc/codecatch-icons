@@ -18,8 +18,6 @@ function CloseIcon({
   const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
-      role: "img",
-      alt: "Close Icon",
       "data-testid": "codecatch-CloseIcon",
       width: size,
       height: size,

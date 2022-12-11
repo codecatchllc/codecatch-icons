@@ -18,8 +18,6 @@ function MoonIcon({
   const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
-      role: "img",
-      alt: "Moon Icon",
       "data-testid": "codecatch-MoonIcon",
       width: size,
       height: size,

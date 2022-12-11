@@ -18,8 +18,6 @@ function ProfileIcon({
   const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
-      role: "img",
-      alt: "Profile Icon",
       "data-testid": "codecatch-ProfileIcon",
       width: size,
       height: size,

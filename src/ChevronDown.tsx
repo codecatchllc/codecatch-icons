@@ -18,8 +18,6 @@ function ChevronDownIcon({
   const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
-      role: "img",
-      alt: "Chevron Down Icon",
       "data-testid": "codecatch-ChevronDownIcon",
       width: size,
       height: size,

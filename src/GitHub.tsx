@@ -18,8 +18,6 @@ function GitHubIcon({
   const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
-      role: "img",
-      alt: "Git Hub Icon",
       "data-testid": "codecatch-GitHubIcon",
       width: size,
       height: size,

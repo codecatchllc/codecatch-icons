@@ -18,8 +18,6 @@ function UploadIcon({
   const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
-      role: "img",
-      alt: "Upload Icon",
       "data-testid": "codecatch-UploadIcon",
       width: size,
       height: size,

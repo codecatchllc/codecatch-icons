@@ -18,8 +18,6 @@ function InfoIcon({
   const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
-      role: "img",
-      alt: "Info Icon",
       "data-testid": "codecatch-InfoIcon",
       width: size,
       height: size,

@@ -18,8 +18,6 @@ function EyeOffIcon({
   const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
-      role: "img",
-      alt: "Eye Off Icon",
       "data-testid": "codecatch-EyeOffIcon",
       width: size,
       height: size,

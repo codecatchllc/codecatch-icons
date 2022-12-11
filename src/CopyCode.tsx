@@ -18,8 +18,6 @@ function CopyCodeIcon({
   const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
-      role: "img",
-      alt: "Copy Code Icon",
       "data-testid": "codecatch-CopyCodeIcon",
       width: size,
       height: size,

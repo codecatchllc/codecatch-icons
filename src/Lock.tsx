@@ -18,8 +18,6 @@ function LockIcon({
   const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
-      role: "img",
-      alt: "Lock Icon",
       "data-testid": "codecatch-LockIcon",
       width: size,
       height: size,

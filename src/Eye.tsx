@@ -18,8 +18,6 @@ function EyeIcon({
   const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
-      role: "img",
-      alt: "Eye Icon",
       "data-testid": "codecatch-EyeIcon",
       width: size,
       height: size,

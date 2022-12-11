@@ -18,8 +18,6 @@ function UnfollowIcon({
   const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
-      role: "img",
-      alt: "Unfollow Icon",
       "data-testid": "codecatch-UnfollowIcon",
       width: size,
       height: size,

@@ -18,8 +18,6 @@ function CheckIcon({
   const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
-      role: "img",
-      alt: "Check Icon",
       "data-testid": "codecatch-CheckIcon",
       width: size,
       height: size,

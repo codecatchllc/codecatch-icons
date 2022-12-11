@@ -18,8 +18,6 @@ function ErrorWarningFillIcon({
   const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
-      role: "img",
-      alt: "Error Warning Fill Icon",
       "data-testid": "codecatch-ErrorWarningFillIcon",
       width: size,
       height: size,

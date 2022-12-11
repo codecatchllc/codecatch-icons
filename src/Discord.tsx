@@ -18,8 +18,6 @@ function DiscordIcon({
   const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
-      role: "img",
-      alt: "Discord Icon",
       "data-testid": "codecatch-DiscordIcon",
       width: size,
       height: size,

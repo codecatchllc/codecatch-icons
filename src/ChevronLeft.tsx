@@ -18,8 +18,6 @@ function ChevronLeftIcon({
   const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
-      role: "img",
-      alt: "Chevron Left Icon",
       "data-testid": "codecatch-ChevronLeftIcon",
       width: size,
       height: size,

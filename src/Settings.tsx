@@ -18,8 +18,6 @@ function SettingsIcon({
   const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
-      role: "img",
-      alt: "Settings Icon",
       "data-testid": "codecatch-SettingsIcon",
       width: size,
       height: size,

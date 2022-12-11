@@ -18,8 +18,6 @@ function BarChartIcon({
   const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
-      role: "img",
-      alt: "Bar Chart Icon",
       "data-testid": "codecatch-BarChartIcon",
       width: size,
       height: size,

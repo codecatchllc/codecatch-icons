@@ -18,8 +18,6 @@ function DownloadIcon({
   const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
-      role: "img",
-      alt: "Download Icon",
       "data-testid": "codecatch-DownloadIcon",
       width: size,
       height: size,

@@ -18,8 +18,6 @@ function ExpandIcon({
   const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
-      role: "img",
-      alt: "Expand Icon",
       "data-testid": "codecatch-ExpandIcon",
       width: size,
       height: size,

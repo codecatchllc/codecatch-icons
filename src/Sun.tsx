@@ -18,8 +18,6 @@ function SunIcon({
   const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
-      role: "img",
-      alt: "Sun Icon",
       "data-testid": "codecatch-SunIcon",
       width: size,
       height: size,

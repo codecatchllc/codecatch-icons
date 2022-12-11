@@ -18,8 +18,6 @@ function ThumbUpIcon({
   const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
-      role: "img",
-      alt: "Thumb Up Icon",
       "data-testid": "codecatch-ThumbUpIcon",
       width: size,
       height: size,

@@ -18,8 +18,6 @@ function MoreIcon({
   const classNames = ["codecatch-Icon", className];
   const props = {
     ...{
-      role: "img",
-      alt: "More Icon",
       "data-testid": "codecatch-MoreIcon",
       width: size,
       height: size,
