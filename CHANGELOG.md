@@ -1,3 +1,10 @@
+## [1.9.2](https://github.com/codecatchorg/codecatch-icons/compare/v1.9.1...v1.9.2) (2022-12-11)
+
+
+### Bug Fixes
+
+* **master:** remove role and alt attributes from all icons ([75c9b18](https://github.com/codecatchorg/codecatch-icons/commit/75c9b188ac494f4f1cf264da7583d0f4addd6fa7))
+
 ## [1.9.1](https://github.com/codecatchorg/codecatch-icons/compare/v1.9.0...v1.9.1) (2022-12-11)
 
 
