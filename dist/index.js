@@ -119,8 +119,6 @@ function AccountIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "Account Icon",
     "data-testid": "codecatch-AccountIcon",
     width: size,
     height: size,
@@ -164,8 +162,6 @@ function BarChartIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "Bar Chart Icon",
     "data-testid": "codecatch-BarChartIcon",
     width: size,
     height: size,
@@ -209,8 +205,6 @@ function BranchIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "Branch Icon",
     "data-testid": "codecatch-BranchIcon",
     width: size,
     height: size,
@@ -254,8 +248,6 @@ function CheckIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "Check Icon",
     "data-testid": "codecatch-CheckIcon",
     width: size,
     height: size,
@@ -299,8 +291,6 @@ function ChecklistIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "Checklist Icon",
     "data-testid": "codecatch-ChecklistIcon",
     width: size,
     height: size,
@@ -344,8 +334,6 @@ function ChevronDownIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "Chevron Down Icon",
     "data-testid": "codecatch-ChevronDownIcon",
     width: size,
     height: size,
@@ -389,8 +377,6 @@ function ChevronLeftIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "Chevron Left Icon",
     "data-testid": "codecatch-ChevronLeftIcon",
     width: size,
     height: size,
@@ -434,8 +420,6 @@ function ChevronRightIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "Chevron Right Icon",
     "data-testid": "codecatch-ChevronRightIcon",
     width: size,
     height: size,
@@ -479,8 +463,6 @@ function CloseIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "Close Icon",
     "data-testid": "codecatch-CloseIcon",
     width: size,
     height: size,
@@ -524,8 +506,6 @@ function CopyCodeIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "Copy Code Icon",
     "data-testid": "codecatch-CopyCodeIcon",
     width: size,
     height: size,
@@ -569,8 +549,6 @@ function CopyLinkIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "Copy Link Icon",
     "data-testid": "codecatch-CopyLinkIcon",
     width: size,
     height: size,
@@ -614,8 +592,6 @@ function DeleteIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "Delete Icon",
     "data-testid": "codecatch-DeleteIcon",
     width: size,
     height: size,
@@ -659,8 +635,6 @@ function DiscordIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "Discord Icon",
     "data-testid": "codecatch-DiscordIcon",
     width: size,
     height: size,
@@ -700,8 +674,6 @@ function DownloadIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "Download Icon",
     "data-testid": "codecatch-DownloadIcon",
     width: size,
     height: size,
@@ -745,8 +717,6 @@ function EditIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "Edit Icon",
     "data-testid": "codecatch-EditIcon",
     width: size,
     height: size,
@@ -790,8 +760,6 @@ function ErrorWarningIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "Error Warning Icon",
     "data-testid": "codecatch-ErrorWarningIcon",
     width: size,
     height: size,
@@ -835,8 +803,6 @@ function ErrorWarningFillIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "Error Warning Fill Icon",
     "data-testid": "codecatch-ErrorWarningFillIcon",
     width: size,
     height: size,
@@ -880,8 +846,6 @@ function ExpandIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "Expand Icon",
     "data-testid": "codecatch-ExpandIcon",
     width: size,
     height: size,
@@ -925,8 +889,6 @@ function EyeIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "Eye Icon",
     "data-testid": "codecatch-EyeIcon",
     width: size,
     height: size,
@@ -970,8 +932,6 @@ function EyeOffIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "Eye Off Icon",
     "data-testid": "codecatch-EyeOffIcon",
     width: size,
     height: size,
@@ -1015,8 +975,6 @@ function FilterIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "Filter Icon",
     "data-testid": "codecatch-FilterIcon",
     width: size,
     height: size,
@@ -1060,8 +1018,6 @@ function FollowIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "Follow Icon",
     "data-testid": "codecatch-FollowIcon",
     width: size,
     height: size,
@@ -1105,8 +1061,6 @@ function GitHubIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "Git Hub Icon",
     "data-testid": "codecatch-GitHubIcon",
     width: size,
     height: size,
@@ -1150,8 +1104,6 @@ function GoBackIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "Go Back Icon",
     "data-testid": "codecatch-GoBackIcon",
     width: size,
     height: size,
@@ -1195,8 +1147,6 @@ function GoogleIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "Google Icon",
     "data-testid": "codecatch-GoogleIcon",
     width: size,
     height: size,
@@ -1240,8 +1190,6 @@ function InfoIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "Info Icon",
     "data-testid": "codecatch-InfoIcon",
     width: size,
     height: size,
@@ -1285,8 +1233,6 @@ function InfoFillIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "Info Fill Icon",
     "data-testid": "codecatch-InfoFillIcon",
     width: size,
     height: size,
@@ -1330,8 +1276,6 @@ function LockIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "Lock Icon",
     "data-testid": "codecatch-LockIcon",
     width: size,
     height: size,
@@ -1375,8 +1319,6 @@ function LoginIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "Login Icon",
     "data-testid": "codecatch-LoginIcon",
     width: size,
     height: size,
@@ -1420,8 +1362,6 @@ function LogoutIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "Logout Icon",
     "data-testid": "codecatch-LogoutIcon",
     width: size,
     height: size,
@@ -1465,8 +1405,6 @@ function MenuIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "Menu Icon",
     "data-testid": "codecatch-MenuIcon",
     width: size,
     height: size,
@@ -1510,8 +1448,6 @@ function MoonIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "Moon Icon",
     "data-testid": "codecatch-MoonIcon",
     width: size,
     height: size,
@@ -1555,8 +1491,6 @@ function MoreIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "More Icon",
     "data-testid": "codecatch-MoreIcon",
     width: size,
     height: size,
@@ -1600,8 +1534,6 @@ function PaletteIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "Palette Icon",
     "data-testid": "codecatch-PaletteIcon",
     width: size,
     height: size,
@@ -1645,8 +1577,6 @@ function ProfileIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "Profile Icon",
     "data-testid": "codecatch-ProfileIcon",
     width: size,
     height: size,
@@ -1690,8 +1620,6 @@ function SaveIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "Save Icon",
     "data-testid": "codecatch-SaveIcon",
     width: size,
     height: size,
@@ -1735,8 +1663,6 @@ function SearchIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "Search Icon",
     "data-testid": "codecatch-SearchIcon",
     width: size,
     height: size,
@@ -1780,8 +1706,6 @@ function SettingsIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "Settings Icon",
     "data-testid": "codecatch-SettingsIcon",
     width: size,
     height: size,
@@ -1825,8 +1749,6 @@ function SignUpIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "Sign Up Icon",
     "data-testid": "codecatch-SignUpIcon",
     width: size,
     height: size,
@@ -1870,8 +1792,6 @@ function SunIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "Sun Icon",
     "data-testid": "codecatch-SunIcon",
     width: size,
     height: size,
@@ -1915,8 +1835,6 @@ function ThumbUpIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "Thumb Up Icon",
     "data-testid": "codecatch-ThumbUpIcon",
     width: size,
     height: size,
@@ -1960,8 +1878,6 @@ function ThumbUpFillIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "Thumb Up Fill Icon",
     "data-testid": "codecatch-ThumbUpFillIcon",
     width: size,
     height: size,
@@ -2005,8 +1921,6 @@ function UnfollowIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "Unfollow Icon",
     "data-testid": "codecatch-UnfollowIcon",
     width: size,
     height: size,
@@ -2050,8 +1964,6 @@ function UploadIcon(_a) {
   ]);
   const classNames = ["codecatch-Icon", className];
   const props = __spreadValues(__spreadValues({}, {
-    role: "img",
-    alt: "Upload Icon",
     "data-testid": "codecatch-UploadIcon",
     width: size,
     height: size,

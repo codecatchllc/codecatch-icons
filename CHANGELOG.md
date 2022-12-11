@@ -1,3 +1,10 @@
+## [1.9.1](https://github.com/codecatchorg/codecatch-icons/compare/v1.9.0...v1.9.1) (2022-12-11)
+
+
+### Bug Fixes
+
+* **master:** remove role and alt properties from icons, this is invalid by ARIA standards ([8773d9f](https://github.com/codecatchorg/codecatch-icons/commit/8773d9fa5b3d53b6523df9b9ed9d7e07ea51bf74))
+
 # [1.9.0](https://github.com/codecatchorg/codecatch-icons/compare/v1.8.4...v1.9.0) (2022-11-28)
 
 
