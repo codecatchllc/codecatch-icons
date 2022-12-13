@@ -1,3 +1,10 @@
+## [1.9.3](https://github.com/codecatchorg/codecatch-icons/compare/v1.9.2...v1.9.3) (2022-12-13)
+
+
+### Bug Fixes
+
+* **master:** add file code icon ([8f4f1a6](https://github.com/codecatchorg/codecatch-icons/commit/8f4f1a61e4d47b1d4c389c179024c4c97641adc6))
+
 ## [1.9.2](https://github.com/codecatchorg/codecatch-icons/compare/v1.9.1...v1.9.2) (2022-12-11)
 
 
