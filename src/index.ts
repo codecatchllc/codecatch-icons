@@ -18,6 +18,7 @@ export { default as ErrorWarningFillIcon } from "./ErrorWarningFill";
 export { default as ExpandIcon } from "./Expand";
 export { default as EyeIcon } from "./Eye";
 export { default as EyeOffIcon } from "./EyeOff";
+export { default as FileCodeIcon } from "./FileCode";
 export { default as FilterIcon } from "./Filter";
 export { default as FollowIcon } from "./Follow";
 export { default as GitHubIcon } from "./GitHub";
