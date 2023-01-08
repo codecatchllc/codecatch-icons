@@ -1,3 +1,10 @@
+## [1.9.4](https://github.com/codecatchorg/codecatch-icons/compare/v1.9.3...v1.9.4) (2023-01-08)
+
+
+### Bug Fixes
+
+* **master:** set static semantic-release version ([c7f8807](https://github.com/codecatchorg/codecatch-icons/commit/c7f8807288adc21a207a39be4febe4781534269a))
+
 ## [1.9.3](https://github.com/codecatchorg/codecatch-icons/compare/v1.9.2...v1.9.3) (2022-12-13)
 
 
