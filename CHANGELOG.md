@@ -1,3 +1,10 @@
+## [1.10.1](https://github.com/codecatchorg/codecatch-icons/compare/v1.10.0...v1.10.1) (2023-04-14)
+
+
+### Bug Fixes
+
+* **ISSUE-#15:** fix play icon and group icon color ([0b1d8db](https://github.com/codecatchorg/codecatch-icons/commit/0b1d8dbe430313b22aaa0b666c77752cf7349de1))
+
 # [1.10.0](https://github.com/codecatchorg/codecatch-icons/compare/v1.9.4...v1.10.0) (2023-04-14)
 
 
