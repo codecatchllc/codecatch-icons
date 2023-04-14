@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/codecatchorg/codecatch-icons/compare/v1.9.4...v1.10.0) (2023-04-14)
+
+
+### Features
+
+* **ISSUE-#15:** add play icon and group icon ([b0c1047](https://github.com/codecatchorg/codecatch-icons/commit/b0c1047c9f490ba792f72f496d15d9ee1cfdbb1b)), closes [ISSUE-#15](https://github.com/ISSUE-/issues/15)
+
 ## [1.9.4](https://github.com/codecatchorg/codecatch-icons/compare/v1.9.3...v1.9.4) (2023-01-08)
 
 
