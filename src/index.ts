@@ -12,6 +12,7 @@ export { default as CopyLinkIcon } from "./CopyLink";
 export { default as DeleteIcon } from "./Delete";
 export { default as DiscordIcon } from "./Discord";
 export { default as DownloadIcon } from "./Download";
+export { default as EarthIcon } from "./Earth";
 export { default as EditIcon } from "./Edit";
 export { default as ErrorWarningIcon } from "./ErrorWarning";
 export { default as ErrorWarningFillIcon } from "./ErrorWarningFill";

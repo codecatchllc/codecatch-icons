@@ -1,12 +1,20 @@
 import { SVGProps } from 'react';
 
+interface SVGRProps$L {
+    title?: string;
+    titleId?: string;
+    size?: string | number;
+    color?: string;
+}
+declare function AccountIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$L): JSX.Element;
+
 interface SVGRProps$K {
     title?: string;
     titleId?: string;
     size?: string | number;
     color?: string;
 }
-declare function AccountIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$K): JSX.Element;
+declare function BarChartIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$K): JSX.Element;
 
 interface SVGRProps$J {
     title?: string;
@@ -14,7 +22,7 @@ interface SVGRProps$J {
     size?: string | number;
     color?: string;
 }
-declare function BarChartIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$J): JSX.Element;
+declare function BranchIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$J): JSX.Element;
 
 interface SVGRProps$I {
     title?: string;
@@ -22,7 +30,7 @@ interface SVGRProps$I {
     size?: string | number;
     color?: string;
 }
-declare function BranchIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$I): JSX.Element;
+declare function CheckIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$I): JSX.Element;
 
 interface SVGRProps$H {
     title?: string;
@@ -30,7 +38,7 @@ interface SVGRProps$H {
     size?: string | number;
     color?: string;
 }
-declare function CheckIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$H): JSX.Element;
+declare function ChecklistIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$H): JSX.Element;
 
 interface SVGRProps$G {
     title?: string;
@@ -38,7 +46,7 @@ interface SVGRProps$G {
     size?: string | number;
     color?: string;
 }
-declare function ChecklistIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$G): JSX.Element;
+declare function ChevronDownIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$G): JSX.Element;
 
 interface SVGRProps$F {
     title?: string;
@@ -46,7 +54,7 @@ interface SVGRProps$F {
     size?: string | number;
     color?: string;
 }
-declare function ChevronDownIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$F): JSX.Element;
+declare function ChevronLeftIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$F): JSX.Element;
 
 interface SVGRProps$E {
     title?: string;
@@ -54,7 +62,7 @@ interface SVGRProps$E {
     size?: string | number;
     color?: string;
 }
-declare function ChevronLeftIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$E): JSX.Element;
+declare function ChevronRightIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$E): JSX.Element;
 
 interface SVGRProps$D {
     title?: string;
@@ -62,7 +70,7 @@ interface SVGRProps$D {
     size?: string | number;
     color?: string;
 }
-declare function ChevronRightIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$D): JSX.Element;
+declare function CloseIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$D): JSX.Element;
 
 interface SVGRProps$C {
     title?: string;
@@ -70,7 +78,7 @@ interface SVGRProps$C {
     size?: string | number;
     color?: string;
 }
-declare function CloseIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$C): JSX.Element;
+declare function CopyCodeIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$C): JSX.Element;
 
 interface SVGRProps$B {
     title?: string;
@@ -78,7 +86,7 @@ interface SVGRProps$B {
     size?: string | number;
     color?: string;
 }
-declare function CopyCodeIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$B): JSX.Element;
+declare function CopyLinkIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$B): JSX.Element;
 
 interface SVGRProps$A {
     title?: string;
@@ -86,7 +94,7 @@ interface SVGRProps$A {
     size?: string | number;
     color?: string;
 }
-declare function CopyLinkIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$A): JSX.Element;
+declare function DeleteIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$A): JSX.Element;
 
 interface SVGRProps$z {
     title?: string;
@@ -94,7 +102,7 @@ interface SVGRProps$z {
     size?: string | number;
     color?: string;
 }
-declare function DeleteIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$z): JSX.Element;
+declare function DiscordIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$z): JSX.Element;
 
 interface SVGRProps$y {
     title?: string;
@@ -102,7 +110,7 @@ interface SVGRProps$y {
     size?: string | number;
     color?: string;
 }
-declare function DiscordIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$y): JSX.Element;
+declare function DownloadIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$y): JSX.Element;
 
 interface SVGRProps$x {
     title?: string;
@@ -110,7 +118,7 @@ interface SVGRProps$x {
     size?: string | number;
     color?: string;
 }
-declare function DownloadIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$x): JSX.Element;
+declare function EarthIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$x): JSX.Element;
 
 interface SVGRProps$w {
     title?: string;
@@ -376,4 +384,4 @@ interface SVGRProps {
 }
 declare function UploadIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps): JSX.Element;
 
-export { AccountIcon, BarChartIcon, BranchIcon, CheckIcon, ChecklistIcon, ChevronDownIcon, ChevronLeftIcon, ChevronRightIcon, CloseIcon, CopyCodeIcon, CopyLinkIcon, DeleteIcon, DiscordIcon, DownloadIcon, EditIcon, ErrorWarningFillIcon, ErrorWarningIcon, ExpandIcon, EyeIcon, EyeOffIcon, FileCodeIcon, FilterIcon, FollowIcon, GitHubIcon, GoBackIcon, GoogleIcon, GroupIcon, InfoFillIcon, InfoIcon, LockIcon, LoginIcon, LogoutIcon, MenuIcon, MoonIcon, MoreIcon, PaletteIcon, PlayIcon, ProfileIcon, SaveIcon, SearchIcon, SettingsIcon, SignUpIcon, SunIcon, ThumbUpFillIcon, ThumbUpIcon, UnfollowIcon, UploadIcon };
+export { AccountIcon, BarChartIcon, BranchIcon, CheckIcon, ChecklistIcon, ChevronDownIcon, ChevronLeftIcon, ChevronRightIcon, CloseIcon, CopyCodeIcon, CopyLinkIcon, DeleteIcon, DiscordIcon, DownloadIcon, EarthIcon, EditIcon, ErrorWarningFillIcon, ErrorWarningIcon, ExpandIcon, EyeIcon, EyeOffIcon, FileCodeIcon, FilterIcon, FollowIcon, GitHubIcon, GoBackIcon, GoogleIcon, GroupIcon, InfoFillIcon, InfoIcon, LockIcon, LoginIcon, LogoutIcon, MenuIcon, MoonIcon, MoreIcon, PaletteIcon, PlayIcon, ProfileIcon, SaveIcon, SearchIcon, SettingsIcon, SignUpIcon, SunIcon, ThumbUpFillIcon, ThumbUpIcon, UnfollowIcon, UploadIcon };
