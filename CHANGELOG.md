@@ -1,3 +1,10 @@
+## [1.10.2](https://github.com/codecatchorg/codecatch-icons/compare/v1.10.1...v1.10.2) (2023-05-04)
+
+
+### Bug Fixes
+
+* **add-earth-icon:** added earth icon ([3e839b4](https://github.com/codecatchorg/codecatch-icons/commit/3e839b4101d1e7e2367f964d9966eb2e42d4ebce))
+
 ## [1.10.1](https://github.com/codecatchorg/codecatch-icons/compare/v1.10.0...v1.10.1) (2023-04-14)
 
 
