@@ -1,3 +1,10 @@
+## [1.10.3](https://github.com/codecatchorg/codecatch-icons/compare/v1.10.2...v1.10.3) (2023-07-12)
+
+
+### Bug Fixes
+
+* **master:** fixed light theme bug with play icon ([7be1aa0](https://github.com/codecatchorg/codecatch-icons/commit/7be1aa002dabbb605dc7fadede14d4206e5df40f))
+
 ## [1.10.2](https://github.com/codecatchorg/codecatch-icons/compare/v1.10.1...v1.10.2) (2023-05-04)
 
 
