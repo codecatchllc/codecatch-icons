@@ -1632,13 +1632,16 @@ function PlayIcon(_a) {
   }), rest);
   return /* @__PURE__ */ React38.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
+    fill: color,
+    stroke: "currentColor",
+    strokeWidth: 0,
     viewBox: "0 0 24 24",
     "aria-labelledby": titleId
   }, props), title ? /* @__PURE__ */ React38.createElement("title", {
     id: titleId
   }, title) : null, /* @__PURE__ */ React38.createElement("path", {
     d: "M9 8.482v7.036L15.03 12 9 8.482ZM7.752 5.44l10.508 6.13a.5.5 0 0 1 0 .863l-10.508 6.13A.5.5 0 0 1 7 18.13V5.87a.5.5 0 0 1 .752-.431Z",
-    fill: "rgba(255,255,255,1)"
+    stroke: "none"
   }));
 }
 var Play_default = PlayIcon;
