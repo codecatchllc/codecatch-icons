@@ -1,3 +1,10 @@
+## [1.10.5](https://github.com/codecatchorg/codecatch-icons/compare/v1.10.4...v1.10.5) (2023-08-12)
+
+
+### Bug Fixes
+
+* **master:** update husky ([afbd549](https://github.com/codecatchorg/codecatch-icons/commit/afbd5498499cc38917866a760189c8f7203f0d52))
+
 ## [1.10.4](https://github.com/codecatchorg/codecatch-icons/compare/v1.10.3...v1.10.4) (2023-08-12)
 
 
