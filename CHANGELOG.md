@@ -1,3 +1,10 @@
+## [1.10.6](https://github.com/codecatchorg/codecatch-icons/compare/v1.10.5...v1.10.6) (2023-08-12)
+
+
+### Bug Fixes
+
+* **main:** rename default branch to main ([aff5ee4](https://github.com/codecatchorg/codecatch-icons/commit/aff5ee4197c0cd0b93be481fee2741acd9bb526f))
+
 ## [1.10.5](https://github.com/codecatchorg/codecatch-icons/compare/v1.10.4...v1.10.5) (2023-08-12)
 
 ### Bug Fixes
