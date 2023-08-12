@@ -1,3 +1,10 @@
+## [1.10.4](https://github.com/codecatchorg/codecatch-icons/compare/v1.10.3...v1.10.4) (2023-08-12)
+
+
+### Bug Fixes
+
+* **master:** update release action ([b946d7d](https://github.com/codecatchorg/codecatch-icons/commit/b946d7d486b12bf90a8c4a880e9467c4a42983b3))
+
 ## [1.10.3](https://github.com/codecatchorg/codecatch-icons/compare/v1.10.2...v1.10.3) (2023-07-12)
 
 
