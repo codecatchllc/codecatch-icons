@@ -2,10 +2,10 @@ const path = require("path");
 
 const ICONS_DIR_PATH = path.join(__dirname, "../svg");
 const ICON_URL =
-  "https://github.com/codecatchorg/codecatch-icons/blob/master/svg";
+  "https://github.com/codecatchorg/codecatch-icons/blob/main/svg";
 const ICON_WIDTH = "24";
 const SPACER = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
-const BEFORE_ICON_DOCS = `<img src="https://github.com/codecatchorg/codecatch-icons/blob/master/img/logo.png" width="120" alt="CodeCatch Icons">
+const BEFORE_ICON_DOCS = `<img src="https://github.com/codecatchorg/codecatch-icons/blob/main/img/logo.png" width="120" alt="CodeCatch Icons">
 
 # [CodeCatch Icons](https://github.com/codecatchorg/codecatch-icons)
 
@@ -39,7 +39,7 @@ const Component = () => {
 
 output
 
-<img src="https://github.com/codecatchorg/codecatch-icons/blob/master/img/output.png" width="212px" alt="Don't stare directly at the <SunIcon />">
+<img src="https://github.com/codecatchorg/codecatch-icons/blob/main/img/output.png" width="212px" alt="Don't stare directly at the <SunIcon />">
 
 ## Icon Props
 
@@ -63,7 +63,7 @@ const AFTER_ICON_DOCS = `
 
 2. Run \`yarn\` to install the dependencies
 
-3. Create a new branch off master
+3. Create a new branch off main
 
 4. Add the desired svg file to the \`svg\` directory
 

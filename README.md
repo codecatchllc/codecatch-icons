@@ -1,4 +1,4 @@
-<img src="https://github.com/codecatchorg/codecatch-icons/blob/master/img/logo.png" width="120" alt="CodeCatch Icons">
+<img src="https://github.com/codecatchorg/codecatch-icons/blob/main/img/logo.png" width="120" alt="CodeCatch Icons">
 
 # [CodeCatch Icons](https://github.com/codecatchorg/codecatch-icons)
 
@@ -32,7 +32,7 @@ const Component = () => {
 
 output
 
-<img src="https://github.com/codecatchorg/codecatch-icons/blob/master/img/output.png" width="212px" alt="Don't stare directly at the <SunIcon />">
+<img src="https://github.com/codecatchorg/codecatch-icons/blob/main/img/output.png" width="212px" alt="Don't stare directly at the <SunIcon />">
 
 ## Icon Props
 
@@ -55,7 +55,7 @@ Visit the CodeCatch Icons [GitHub repository](https://github.com/codecatchorg/co
 
 2. Run `yarn` to install the dependencies
 
-3. Create a new branch off master
+3. Create a new branch off main
 
 4. Add the desired svg file to the `svg` directory
 
