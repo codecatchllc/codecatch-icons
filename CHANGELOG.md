@@ -1,3 +1,10 @@
+## [1.10.7](https://github.com/codecatchorg/codecatch-icons/compare/v1.10.6...v1.10.7) (2023-09-23)
+
+
+### Bug Fixes
+
+* **main:** fix light theme of group icon ([24eaf4d](https://github.com/codecatchorg/codecatch-icons/commit/24eaf4d0c8626555c6525d6c5a92c8591ae444d4))
+
 ## [1.10.6](https://github.com/codecatchorg/codecatch-icons/compare/v1.10.5...v1.10.6) (2023-08-12)
 
 
