@@ -1,3 +1,10 @@
+## [1.10.8](https://github.com/codecatchorg/codecatch-icons/compare/v1.10.7...v1.10.8) (2023-09-23)
+
+
+### Bug Fixes
+
+* **main:** attempt to fix group icon color ([4ce0b02](https://github.com/codecatchorg/codecatch-icons/commit/4ce0b020c7107525fa2bdd383fc87706156d4c77))
+
 ## [1.10.7](https://github.com/codecatchorg/codecatch-icons/compare/v1.10.6...v1.10.7) (2023-09-23)
 
 
