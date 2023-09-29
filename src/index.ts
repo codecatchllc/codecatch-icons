@@ -37,6 +37,7 @@ export { default as MoreIcon } from "./More";
 export { default as PaletteIcon } from "./Palette";
 export { default as PlayIcon } from "./Play";
 export { default as ProfileIcon } from "./Profile";
+export { default as RobotIcon } from "./Robot";
 export { default as SaveIcon } from "./Save";
 export { default as SearchIcon } from "./Search";
 export { default as SettingsIcon } from "./Settings";
