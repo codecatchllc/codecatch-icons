@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/codecatchorg/codecatch-icons/compare/v1.10.8...v1.11.0) (2023-09-29)
+
+
+### Features
+
+* **main:** add robot icon ([9960b03](https://github.com/codecatchorg/codecatch-icons/commit/9960b039011d40707f0726cc605ac0a2ae2a4d1a))
+
 ## [1.10.8](https://github.com/codecatchorg/codecatch-icons/compare/v1.10.7...v1.10.8) (2023-09-23)
 
 
