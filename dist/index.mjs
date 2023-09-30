@@ -1692,8 +1692,47 @@ function ProfileIcon(_a) {
 }
 var Profile_default = ProfileIcon;
 
-// src/Robot.tsx
+// src/Reddit.tsx
 import * as React40 from "react";
+function RedditIcon(_a) {
+  var _b = _a, {
+    title,
+    titleId,
+    size = 24,
+    color = "#F8F9FA",
+    className
+  } = _b, rest = __objRest(_b, [
+    "title",
+    "titleId",
+    "size",
+    "color",
+    "className"
+  ]);
+  const classNames = ["codecatch-Icon", className];
+  const props = __spreadValues(__spreadValues({}, {
+    "data-testid": "codecatch-RedditIcon",
+    width: size,
+    height: size,
+    className: classNames.join(" ").trim()
+  }), rest);
+  return /* @__PURE__ */ React40.createElement("svg", __spreadValues({
+    xmlns: "http://www.w3.org/2000/svg",
+    fill: color,
+    stroke: "currentColor",
+    strokeWidth: 0,
+    viewBox: "0 0 24 24",
+    "aria-labelledby": titleId
+  }, props), title ? /* @__PURE__ */ React40.createElement("title", {
+    id: titleId
+  }, title) : null, /* @__PURE__ */ React40.createElement("path", {
+    d: "M12.001 22c-5.523 0-10-4.477-10-10s4.477-10 10-10 10 4.477 10 10-4.477 10-10 10Zm6.67-10a1.46 1.46 0 0 0-2.47-1 7.12 7.12 0 0 0-3.85-1.23l.65-3.12 2.14.45a1 1 0 1 0 .13-.61L12.821 6a.31.31 0 0 0-.37.24l-.74 3.47a7.14 7.14 0 0 0-3.9 1.23 1.46 1.46 0 1 0-1.61 2.39 2.87 2.87 0 0 0 0 .44c0 2.24 2.61 4.06 5.83 4.06s5.83-1.82 5.83-4.06a2.885 2.885 0 0 0 0-.44 1.46 1.46 0 0 0 .81-1.33Zm-10 1a1 1 0 1 1 2 0 1 1 0 0 1-2 0Zm5.81 2.75a3.84 3.84 0 0 1-2.47.77 3.84 3.84 0 0 1-2.47-.77.27.27 0 0 1 .38-.38 3.27 3.27 0 0 0 2.08.63 3.28 3.28 0 0 0 2.09-.61.28.28 0 1 1 .39.4v-.04Zm-.18-1.71a1 1 0 1 1 1-1 1 1 0 0 1-1.01 1.04l.01-.04Z",
+    stroke: "none"
+  }));
+}
+var Reddit_default = RedditIcon;
+
+// src/Robot.tsx
+import * as React41 from "react";
 function RobotIcon(_a) {
   var _b = _a, {
     title,
@@ -1715,16 +1754,16 @@ function RobotIcon(_a) {
     height: size,
     className: classNames.join(" ").trim()
   }), rest);
-  return /* @__PURE__ */ React40.createElement("svg", __spreadValues({
+  return /* @__PURE__ */ React41.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
     fill: color,
     stroke: "currentColor",
     strokeWidth: 0,
     viewBox: "0 0 24 24",
     "aria-labelledby": titleId
-  }, props), title ? /* @__PURE__ */ React40.createElement("title", {
+  }, props), title ? /* @__PURE__ */ React41.createElement("title", {
     id: titleId
-  }, title) : null, /* @__PURE__ */ React40.createElement("path", {
+  }, title) : null, /* @__PURE__ */ React41.createElement("path", {
     d: "M13.5 2c0 .444-.193.843-.5 1.118V5h5a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V8a3 3 0 0 1 3-3h5V3.118A1.5 1.5 0 1 1 13.5 2ZM6 7a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H6Zm-4 3H0v6h2v-6Zm20 0h2v6h-2v-6ZM9 14.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm6 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z",
     stroke: "none"
   }));
@@ -1732,7 +1771,7 @@ function RobotIcon(_a) {
 var Robot_default = RobotIcon;
 
 // src/Save.tsx
-import * as React41 from "react";
+import * as React42 from "react";
 function SaveIcon(_a) {
   var _b = _a, {
     title,
@@ -1754,28 +1793,28 @@ function SaveIcon(_a) {
     height: size,
     className: classNames.join(" ").trim()
   }), rest);
-  return /* @__PURE__ */ React41.createElement("svg", __spreadValues({
+  return /* @__PURE__ */ React42.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
     fill: color,
     stroke: "currentColor",
     strokeWidth: 0,
     viewBox: "0 0 24 24",
     "aria-labelledby": titleId
-  }, props), title ? /* @__PURE__ */ React41.createElement("title", {
+  }, props), title ? /* @__PURE__ */ React42.createElement("title", {
     id: titleId
-  }, title) : null, /* @__PURE__ */ React41.createElement("g", {
+  }, title) : null, /* @__PURE__ */ React42.createElement("g", {
     stroke: "none"
-  }, /* @__PURE__ */ React41.createElement("path", {
+  }, /* @__PURE__ */ React42.createElement("path", {
     fill: "none",
     d: "M0 0h24v24H0z"
-  }), /* @__PURE__ */ React41.createElement("path", {
+  }), /* @__PURE__ */ React42.createElement("path", {
     d: "M7 19v-6h10v6h2V7.828L16.172 5H5v14h2zM4 3h13l4 4v13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm5 12v4h6v-4H9z"
   })));
 }
 var Save_default = SaveIcon;
 
 // src/Search.tsx
-import * as React42 from "react";
+import * as React43 from "react";
 function SearchIcon(_a) {
   var _b = _a, {
     title,
@@ -1797,28 +1836,28 @@ function SearchIcon(_a) {
     height: size,
     className: classNames.join(" ").trim()
   }), rest);
-  return /* @__PURE__ */ React42.createElement("svg", __spreadValues({
+  return /* @__PURE__ */ React43.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
     fill: color,
     stroke: "currentColor",
     strokeWidth: 0,
     viewBox: "0 0 24 24",
     "aria-labelledby": titleId
-  }, props), title ? /* @__PURE__ */ React42.createElement("title", {
+  }, props), title ? /* @__PURE__ */ React43.createElement("title", {
     id: titleId
-  }, title) : null, /* @__PURE__ */ React42.createElement("g", {
+  }, title) : null, /* @__PURE__ */ React43.createElement("g", {
     stroke: "none"
-  }, /* @__PURE__ */ React42.createElement("path", {
+  }, /* @__PURE__ */ React43.createElement("path", {
     fill: "none",
     d: "M0 0h24v24H0z"
-  }), /* @__PURE__ */ React42.createElement("path", {
+  }), /* @__PURE__ */ React43.createElement("path", {
     d: "m18.031 16.617 4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0 1 11 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 0 1-1.969 5.617zm-2.006-.742A6.977 6.977 0 0 0 18 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 0 0 4.875-1.975l.15-.15z"
   })));
 }
 var Search_default = SearchIcon;
 
 // src/Settings.tsx
-import * as React43 from "react";
+import * as React44 from "react";
 function SettingsIcon(_a) {
   var _b = _a, {
     title,
@@ -1840,28 +1879,28 @@ function SettingsIcon(_a) {
     height: size,
     className: classNames.join(" ").trim()
   }), rest);
-  return /* @__PURE__ */ React43.createElement("svg", __spreadValues({
+  return /* @__PURE__ */ React44.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
     fill: color,
     stroke: "currentColor",
     strokeWidth: 0,
     viewBox: "0 0 24 24",
     "aria-labelledby": titleId
-  }, props), title ? /* @__PURE__ */ React43.createElement("title", {
+  }, props), title ? /* @__PURE__ */ React44.createElement("title", {
     id: titleId
-  }, title) : null, /* @__PURE__ */ React43.createElement("g", {
+  }, title) : null, /* @__PURE__ */ React44.createElement("g", {
     stroke: "none"
-  }, /* @__PURE__ */ React43.createElement("path", {
+  }, /* @__PURE__ */ React44.createElement("path", {
     fill: "none",
     d: "M0 0h24v24H0z"
-  }), /* @__PURE__ */ React43.createElement("path", {
+  }), /* @__PURE__ */ React44.createElement("path", {
     d: "M2.213 14.06a9.945 9.945 0 0 1 0-4.12c1.11.13 2.08-.237 2.396-1.001.317-.765-.108-1.71-.986-2.403a9.945 9.945 0 0 1 2.913-2.913c.692.877 1.638 1.303 2.403.986.765-.317 1.132-1.286 1.001-2.396a9.945 9.945 0 0 1 4.12 0c-.13 1.11.237 2.08 1.001 2.396.765.317 1.71-.108 2.403-.986a9.945 9.945 0 0 1 2.913 2.913c-.877.692-1.303 1.638-.986 2.403.317.765 1.286 1.132 2.396 1.001a9.945 9.945 0 0 1 0 4.12c-1.11-.13-2.08.237-2.396 1.001-.317.765.108 1.71.986 2.403a9.945 9.945 0 0 1-2.913 2.913c-.692-.877-1.638-1.303-2.403-.986-.765.317-1.132 1.286-1.001 2.396a9.945 9.945 0 0 1-4.12 0c.13-1.11-.237-2.08-1.001-2.396-.765-.317-1.71.108-2.403.986a9.945 9.945 0 0 1-2.913-2.913c.877-.692 1.303-1.638.986-2.403-.317-.765-1.286-1.132-2.396-1.001zM4 12.21c1.1.305 2.007 1.002 2.457 2.086.449 1.085.3 2.22-.262 3.212.096.102.195.201.297.297.993-.562 2.127-.71 3.212-.262 1.084.45 1.781 1.357 2.086 2.457.14.004.28.004.42 0 .305-1.1 1.002-2.007 2.086-2.457 1.085-.449 2.22-.3 3.212.262.102-.096.201-.195.297-.297-.562-.993-.71-2.127-.262-3.212.45-1.084 1.357-1.781 2.457-2.086.004-.14.004-.28 0-.42-1.1-.305-2.007-1.002-2.457-2.086-.449-1.085-.3-2.22.262-3.212a7.935 7.935 0 0 0-.297-.297c-.993.562-2.127.71-3.212.262C13.212 6.007 12.515 5.1 12.21 4a7.935 7.935 0 0 0-.42 0c-.305 1.1-1.002 2.007-2.086 2.457-1.085.449-2.22.3-3.212-.262a6.932 6.932 0 0 0-.297.297c.562.993.71 2.127.262 3.212C6.007 10.788 5.1 11.485 4 11.79c-.004.14-.004.28 0 .42zM12 15a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
   })));
 }
 var Settings_default = SettingsIcon;
 
 // src/SignUp.tsx
-import * as React44 from "react";
+import * as React45 from "react";
 function SignUpIcon(_a) {
   var _b = _a, {
     title,
@@ -1883,28 +1922,28 @@ function SignUpIcon(_a) {
     height: size,
     className: classNames.join(" ").trim()
   }), rest);
-  return /* @__PURE__ */ React44.createElement("svg", __spreadValues({
+  return /* @__PURE__ */ React45.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
     fill: color,
     stroke: "currentColor",
     strokeWidth: 0,
     viewBox: "0 0 24 24",
     "aria-labelledby": titleId
-  }, props), title ? /* @__PURE__ */ React44.createElement("title", {
+  }, props), title ? /* @__PURE__ */ React45.createElement("title", {
     id: titleId
-  }, title) : null, /* @__PURE__ */ React44.createElement("g", {
+  }, title) : null, /* @__PURE__ */ React45.createElement("g", {
     stroke: "none"
-  }, /* @__PURE__ */ React44.createElement("path", {
+  }, /* @__PURE__ */ React45.createElement("path", {
     fill: "none",
     d: "M0 0h24v24H0z"
-  }), /* @__PURE__ */ React44.createElement("path", {
+  }), /* @__PURE__ */ React45.createElement("path", {
     d: "M14 14.252v2.09A6 6 0 0 0 6 22l-2-.001a8 8 0 0 1 10-7.748zM12 13c-3.315 0-6-2.685-6-6s2.685-6 6-6 6 2.685 6 6-2.685 6-6 6zm0-2c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm6 6v-3h2v3h3v2h-3v3h-2v-3h-3v-2h3z"
   })));
 }
 var SignUp_default = SignUpIcon;
 
 // src/Sun.tsx
-import * as React45 from "react";
+import * as React46 from "react";
 function SunIcon(_a) {
   var _b = _a, {
     title,
@@ -1926,28 +1965,28 @@ function SunIcon(_a) {
     height: size,
     className: classNames.join(" ").trim()
   }), rest);
-  return /* @__PURE__ */ React45.createElement("svg", __spreadValues({
+  return /* @__PURE__ */ React46.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
     fill: color,
     stroke: "currentColor",
     strokeWidth: 0,
     viewBox: "0 0 24 24",
     "aria-labelledby": titleId
-  }, props), title ? /* @__PURE__ */ React45.createElement("title", {
+  }, props), title ? /* @__PURE__ */ React46.createElement("title", {
     id: titleId
-  }, title) : null, /* @__PURE__ */ React45.createElement("g", {
+  }, title) : null, /* @__PURE__ */ React46.createElement("g", {
     stroke: "none"
-  }, /* @__PURE__ */ React45.createElement("path", {
+  }, /* @__PURE__ */ React46.createElement("path", {
     fill: "none",
     d: "M0 0h24v24H0z"
-  }), /* @__PURE__ */ React45.createElement("path", {
+  }), /* @__PURE__ */ React46.createElement("path", {
     d: "M12 18a6 6 0 1 1 0-12 6 6 0 0 1 0 12zm0-2a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM11 1h2v3h-2V1zm0 19h2v3h-2v-3zM3.515 4.929l1.414-1.414L7.05 5.636 5.636 7.05 3.515 4.93zM16.95 18.364l1.414-1.414 2.121 2.121-1.414 1.414-2.121-2.121zm2.121-14.85 1.414 1.415-2.121 2.121-1.414-1.414 2.121-2.121zM5.636 16.95l1.414 1.414-2.121 2.121-1.414-1.414 2.121-2.121zM23 11v2h-3v-2h3zM4 11v2H1v-2h3z"
   })));
 }
 var Sun_default = SunIcon;
 
 // src/ThumbUp.tsx
-import * as React46 from "react";
+import * as React47 from "react";
 function ThumbUpIcon(_a) {
   var _b = _a, {
     title,
@@ -1969,28 +2008,28 @@ function ThumbUpIcon(_a) {
     height: size,
     className: classNames.join(" ").trim()
   }), rest);
-  return /* @__PURE__ */ React46.createElement("svg", __spreadValues({
+  return /* @__PURE__ */ React47.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
     fill: color,
     stroke: "currentColor",
     strokeWidth: 0,
     viewBox: "0 0 24 24",
     "aria-labelledby": titleId
-  }, props), title ? /* @__PURE__ */ React46.createElement("title", {
+  }, props), title ? /* @__PURE__ */ React47.createElement("title", {
     id: titleId
-  }, title) : null, /* @__PURE__ */ React46.createElement("g", {
+  }, title) : null, /* @__PURE__ */ React47.createElement("g", {
     stroke: "none"
-  }, /* @__PURE__ */ React46.createElement("path", {
+  }, /* @__PURE__ */ React47.createElement("path", {
     fill: "none",
     d: "M0 0h24v24H0z"
-  }), /* @__PURE__ */ React46.createElement("path", {
+  }), /* @__PURE__ */ React47.createElement("path", {
     d: "M14.6 8H21a2 2 0 0 1 2 2v2.104a2 2 0 0 1-.15.762l-3.095 7.515a1 1 0 0 1-.925.619H2a1 1 0 0 1-1-1V10a1 1 0 0 1 1-1h3.482a1 1 0 0 0 .817-.423L11.752.85a.5.5 0 0 1 .632-.159l1.814.907a2.5 2.5 0 0 1 1.305 2.853L14.6 8zM7 10.588V19h11.16L21 12.104V10h-6.4a2 2 0 0 1-1.938-2.493l.903-3.548a.5.5 0 0 0-.261-.571l-.661-.33-4.71 6.672c-.25.354-.57.644-.933.858zM5 11H3v8h2v-8z"
   })));
 }
 var ThumbUp_default = ThumbUpIcon;
 
 // src/ThumbUpFill.tsx
-import * as React47 from "react";
+import * as React48 from "react";
 function ThumbUpFillIcon(_a) {
   var _b = _a, {
     title,
@@ -2012,28 +2051,28 @@ function ThumbUpFillIcon(_a) {
     height: size,
     className: classNames.join(" ").trim()
   }), rest);
-  return /* @__PURE__ */ React47.createElement("svg", __spreadValues({
+  return /* @__PURE__ */ React48.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
     fill: color,
     stroke: "currentColor",
     strokeWidth: 0,
     viewBox: "0 0 24 24",
     "aria-labelledby": titleId
-  }, props), title ? /* @__PURE__ */ React47.createElement("title", {
+  }, props), title ? /* @__PURE__ */ React48.createElement("title", {
     id: titleId
-  }, title) : null, /* @__PURE__ */ React47.createElement("g", {
+  }, title) : null, /* @__PURE__ */ React48.createElement("g", {
     stroke: "none"
-  }, /* @__PURE__ */ React47.createElement("path", {
+  }, /* @__PURE__ */ React48.createElement("path", {
     fill: "none",
     d: "M0 0h24v24H0z"
-  }), /* @__PURE__ */ React47.createElement("path", {
+  }), /* @__PURE__ */ React48.createElement("path", {
     d: "M2 9h3v12H2a1 1 0 0 1-1-1V10a1 1 0 0 1 1-1zm5.293-1.293 6.4-6.4a.5.5 0 0 1 .654-.047l.853.64a1.5 1.5 0 0 1 .553 1.57L14.6 8H21a2 2 0 0 1 2 2v2.104a2 2 0 0 1-.15.762l-3.095 7.515a1 1 0 0 1-.925.619H8a1 1 0 0 1-1-1V8.414a1 1 0 0 1 .293-.707z"
   })));
 }
 var ThumbUpFill_default = ThumbUpFillIcon;
 
 // src/Unfollow.tsx
-import * as React48 from "react";
+import * as React49 from "react";
 function UnfollowIcon(_a) {
   var _b = _a, {
     title,
@@ -2055,28 +2094,28 @@ function UnfollowIcon(_a) {
     height: size,
     className: classNames.join(" ").trim()
   }), rest);
-  return /* @__PURE__ */ React48.createElement("svg", __spreadValues({
+  return /* @__PURE__ */ React49.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
     fill: color,
     stroke: "currentColor",
     strokeWidth: 0,
     viewBox: "0 0 24 24",
     "aria-labelledby": titleId
-  }, props), title ? /* @__PURE__ */ React48.createElement("title", {
+  }, props), title ? /* @__PURE__ */ React49.createElement("title", {
     id: titleId
-  }, title) : null, /* @__PURE__ */ React48.createElement("g", {
+  }, title) : null, /* @__PURE__ */ React49.createElement("g", {
     stroke: "none"
-  }, /* @__PURE__ */ React48.createElement("path", {
+  }, /* @__PURE__ */ React49.createElement("path", {
     fill: "none",
     d: "M0 0h24v24H0z"
-  }), /* @__PURE__ */ React48.createElement("path", {
+  }), /* @__PURE__ */ React49.createElement("path", {
     d: "M14 14.252v2.09A6 6 0 0 0 6 22l-2-.001a8 8 0 0 1 10-7.748zM12 13c-3.315 0-6-2.685-6-6s2.685-6 6-6 6 2.685 6 6-2.685 6-6 6zm0-2c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm7 6.586 2.121-2.122 1.415 1.415L20.414 19l2.122 2.121-1.415 1.415L19 20.414l-2.121 2.122-1.415-1.415L17.586 19l-2.122-2.121 1.415-1.415L19 17.586z"
   })));
 }
 var Unfollow_default = UnfollowIcon;
 
 // src/Upload.tsx
-import * as React49 from "react";
+import * as React50 from "react";
 function UploadIcon(_a) {
   var _b = _a, {
     title,
@@ -2098,25 +2137,62 @@ function UploadIcon(_a) {
     height: size,
     className: classNames.join(" ").trim()
   }), rest);
-  return /* @__PURE__ */ React49.createElement("svg", __spreadValues({
+  return /* @__PURE__ */ React50.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
     fill: color,
     stroke: "currentColor",
     strokeWidth: 0,
     viewBox: "0 0 24 24",
     "aria-labelledby": titleId
-  }, props), title ? /* @__PURE__ */ React49.createElement("title", {
+  }, props), title ? /* @__PURE__ */ React50.createElement("title", {
     id: titleId
-  }, title) : null, /* @__PURE__ */ React49.createElement("g", {
+  }, title) : null, /* @__PURE__ */ React50.createElement("g", {
     stroke: "none"
-  }, /* @__PURE__ */ React49.createElement("path", {
+  }, /* @__PURE__ */ React50.createElement("path", {
     fill: "none",
     d: "M0 0h24v24H0z"
-  }), /* @__PURE__ */ React49.createElement("path", {
+  }), /* @__PURE__ */ React50.createElement("path", {
     d: "M3 19h18v2H3v-2zM13 5.828V17h-2V5.828L4.929 11.9l-1.414-1.414L12 2l8.485 8.485-1.414 1.414L13 5.83z"
   })));
 }
 var Upload_default = UploadIcon;
+
+// src/X.tsx
+import * as React51 from "react";
+function XIcon(_a) {
+  var _b = _a, {
+    title,
+    titleId,
+    size = 24,
+    color = "#F8F9FA",
+    className
+  } = _b, rest = __objRest(_b, [
+    "title",
+    "titleId",
+    "size",
+    "color",
+    "className"
+  ]);
+  const classNames = ["codecatch-Icon", className];
+  const props = __spreadValues(__spreadValues({}, {
+    "data-testid": "codecatch-XIcon",
+    width: size,
+    height: size,
+    className: classNames.join(" ").trim()
+  }), rest);
+  return /* @__PURE__ */ React51.createElement("svg", __spreadValues({
+    xmlns: "http://www.w3.org/2000/svg",
+    fill: color,
+    viewBox: "0 0 396 396",
+    "aria-labelledby": titleId
+  }, props), title ? /* @__PURE__ */ React51.createElement("title", {
+    id: titleId
+  }, title) : null, /* @__PURE__ */ React51.createElement("path", {
+    d: "M301.026 37.125h54.582l-119.246 136.29 140.283 185.46h-109.84l-86.031-112.48-98.439 112.48H27.72l127.545-145.777L20.691 37.125H133.32l77.764 102.812 89.942-102.812Zm-19.157 289.08h30.245L116.886 68.079H84.43L281.87 326.205Z",
+    fill: "#fff"
+  }));
+}
+var X_default = XIcon;
 export {
   Account_default as AccountIcon,
   BarChart_default as BarChartIcon,
@@ -2157,6 +2233,7 @@ export {
   Palette_default as PaletteIcon,
   Play_default as PlayIcon,
   Profile_default as ProfileIcon,
+  Reddit_default as RedditIcon,
   Robot_default as RobotIcon,
   Save_default as SaveIcon,
   Search_default as SearchIcon,
@@ -2166,5 +2243,6 @@ export {
   ThumbUpFill_default as ThumbUpFillIcon,
   ThumbUp_default as ThumbUpIcon,
   Unfollow_default as UnfollowIcon,
-  Upload_default as UploadIcon
+  Upload_default as UploadIcon,
+  X_default as XIcon
 };
