@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/codecatchorg/codecatch-icons/compare/v1.12.0...v1.13.0) (2023-09-30)
+
+
+### Features
+
+* **main:** add linkedin icon and update reddit icon ([93dfb0e](https://github.com/codecatchorg/codecatch-icons/commit/93dfb0e4f3814367b690d103eab5bc2487a7f800))
+
 # [1.12.0](https://github.com/codecatchorg/codecatch-icons/compare/v1.11.0...v1.12.0) (2023-09-30)
 
 
