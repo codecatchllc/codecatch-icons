@@ -28,6 +28,7 @@ export { default as GoogleIcon } from "./Google";
 export { default as GroupIcon } from "./Group";
 export { default as InfoIcon } from "./Info";
 export { default as InfoFillIcon } from "./InfoFill";
+export { default as LinkedinIcon } from "./Linkedin";
 export { default as LockIcon } from "./Lock";
 export { default as LoginIcon } from "./Login";
 export { default as LogoutIcon } from "./Logout";
