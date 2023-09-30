@@ -1,3 +1,10 @@
+# [1.12.0](https://github.com/codecatchorg/codecatch-icons/compare/v1.11.0...v1.12.0) (2023-09-30)
+
+
+### Features
+
+* **main:** added social icons ([81f12f3](https://github.com/codecatchorg/codecatch-icons/commit/81f12f3d47fd5d8d742554a63d01a07f9ccd4652))
+
 # [1.11.0](https://github.com/codecatchorg/codecatch-icons/compare/v1.10.8...v1.11.0) (2023-09-29)
 
 
