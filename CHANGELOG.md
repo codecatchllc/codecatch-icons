@@ -1,3 +1,10 @@
+## [1.13.1](https://github.com/codecatchorg/codecatch-icons/compare/v1.13.0...v1.13.1) (2023-10-01)
+
+
+### Bug Fixes
+
+* **main:** fix X icon on light theme ([60c38c5](https://github.com/codecatchorg/codecatch-icons/commit/60c38c546b873ab7f0a98f046e41554c386d91df))
+
 # [1.13.0](https://github.com/codecatchorg/codecatch-icons/compare/v1.12.0...v1.13.0) (2023-09-30)
 
 
