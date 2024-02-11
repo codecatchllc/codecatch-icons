@@ -7,6 +7,7 @@ export { default as ChevronDownIcon } from "./ChevronDown";
 export { default as ChevronLeftIcon } from "./ChevronLeft";
 export { default as ChevronRightIcon } from "./ChevronRight";
 export { default as CloseIcon } from "./Close";
+export { default as CopyIcon } from "./Copy";
 export { default as CopyCodeIcon } from "./CopyCode";
 export { default as CopyLinkIcon } from "./CopyLink";
 export { default as DeleteIcon } from "./Delete";
