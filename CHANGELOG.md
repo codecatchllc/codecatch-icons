@@ -1,3 +1,10 @@
+## [1.13.2](https://github.com/codecatchorg/codecatch-icons/compare/v1.13.1...v1.13.2) (2024-02-11)
+
+
+### Bug Fixes
+
+* **main:** add copy icon ([4e05470](https://github.com/codecatchorg/codecatch-icons/commit/4e0547002a6a9061e467c35b9d6ab000a0e3ed93))
+
 ## [1.13.1](https://github.com/codecatchorg/codecatch-icons/compare/v1.13.0...v1.13.1) (2023-10-01)
 
 
