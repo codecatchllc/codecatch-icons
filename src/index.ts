@@ -23,6 +23,7 @@ export { default as EyeOffIcon } from "./EyeOff";
 export { default as FileCodeIcon } from "./FileCode";
 export { default as FilterIcon } from "./Filter";
 export { default as FollowIcon } from "./Follow";
+export { default as FullscreenExitIcon } from "./FullscreenExit";
 export { default as GitHubIcon } from "./GitHub";
 export { default as GoBackIcon } from "./GoBack";
 export { default as GoogleIcon } from "./Google";
