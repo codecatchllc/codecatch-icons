@@ -1,3 +1,10 @@
+## [1.13.3](https://github.com/codecatchorg/codecatch-icons/compare/v1.13.2...v1.13.3) (2024-04-29)
+
+
+### Bug Fixes
+
+* add FullScreenExit icon ([9c2d9ea](https://github.com/codecatchorg/codecatch-icons/commit/9c2d9ea65b97debf2225f65d07840ccb807d85af))
+
 ## [1.13.2](https://github.com/codecatchorg/codecatch-icons/compare/v1.13.1...v1.13.2) (2024-02-11)
 
 
