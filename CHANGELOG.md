@@ -1,3 +1,10 @@
+## [1.13.4](https://github.com/codecatchorg/codecatch-icons/compare/v1.13.3...v1.13.4) (2024-05-06)
+
+
+### Bug Fixes
+
+* **main:** add ShareVia icon ([03d74b0](https://github.com/codecatchorg/codecatch-icons/commit/03d74b0fcbbd5babb4c3d0dd464d1b7c3514ea11))
+
 ## [1.13.3](https://github.com/codecatchorg/codecatch-icons/compare/v1.13.2...v1.13.3) (2024-04-29)
 
 
