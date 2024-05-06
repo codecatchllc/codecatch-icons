@@ -45,6 +45,7 @@ export { default as RobotIcon } from "./Robot";
 export { default as SaveIcon } from "./Save";
 export { default as SearchIcon } from "./Search";
 export { default as SettingsIcon } from "./Settings";
+export { default as ShareViaIcon } from "./ShareVia";
 export { default as SignUpIcon } from "./SignUp";
 export { default as SunIcon } from "./Sun";
 export { default as ThumbUpIcon } from "./ThumbUp";

@@ -102,6 +102,7 @@ __export(src_exports, {
   SaveIcon: () => Save_default,
   SearchIcon: () => Search_default,
   SettingsIcon: () => Settings_default,
+  ShareViaIcon: () => ShareVia_default,
   SignUpIcon: () => SignUp_default,
   SunIcon: () => Sun_default,
   ThumbUpFillIcon: () => ThumbUpFill_default,
@@ -2100,8 +2101,47 @@ function SettingsIcon(_a) {
 }
 var Settings_default = SettingsIcon;
 
-// src/SignUp.tsx
+// src/ShareVia.tsx
 var React48 = __toESM(require("react"));
+function ShareViaIcon(_a) {
+  var _b = _a, {
+    title,
+    titleId,
+    size = 24,
+    color = "#F8F9FA",
+    className
+  } = _b, rest = __objRest(_b, [
+    "title",
+    "titleId",
+    "size",
+    "color",
+    "className"
+  ]);
+  const classNames = ["codecatch-Icon", className];
+  const props = __spreadValues(__spreadValues({}, {
+    "data-testid": "codecatch-ShareViaIcon",
+    width: size,
+    height: size,
+    className: classNames.join(" ").trim()
+  }), rest);
+  return /* @__PURE__ */ React48.createElement("svg", __spreadValues({
+    xmlns: "http://www.w3.org/2000/svg",
+    fill: color,
+    stroke: "currentColor",
+    strokeWidth: 0,
+    viewBox: "0 0 24 24",
+    "aria-labelledby": titleId
+  }, props), title ? /* @__PURE__ */ React48.createElement("title", {
+    id: titleId
+  }, title) : null, /* @__PURE__ */ React48.createElement("path", {
+    d: "m13.12 17.023-4.199-2.29a4 4 0 1 1 0-5.465l4.2-2.29a4 4 0 1 1 .958 1.755l-4.2 2.29a4.008 4.008 0 0 1 0 1.954l4.2 2.29a4 4 0 1 1-.959 1.755ZM6 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm11-6a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm0 12a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z",
+    stroke: "none"
+  }));
+}
+var ShareVia_default = ShareViaIcon;
+
+// src/SignUp.tsx
+var React49 = __toESM(require("react"));
 function SignUpIcon(_a) {
   var _b = _a, {
     title,
@@ -2123,28 +2163,28 @@ function SignUpIcon(_a) {
     height: size,
     className: classNames.join(" ").trim()
   }), rest);
-  return /* @__PURE__ */ React48.createElement("svg", __spreadValues({
+  return /* @__PURE__ */ React49.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
     fill: color,
     stroke: "currentColor",
     strokeWidth: 0,
     viewBox: "0 0 24 24",
     "aria-labelledby": titleId
-  }, props), title ? /* @__PURE__ */ React48.createElement("title", {
+  }, props), title ? /* @__PURE__ */ React49.createElement("title", {
     id: titleId
-  }, title) : null, /* @__PURE__ */ React48.createElement("g", {
+  }, title) : null, /* @__PURE__ */ React49.createElement("g", {
     stroke: "none"
-  }, /* @__PURE__ */ React48.createElement("path", {
+  }, /* @__PURE__ */ React49.createElement("path", {
     fill: "none",
     d: "M0 0h24v24H0z"
-  }), /* @__PURE__ */ React48.createElement("path", {
+  }), /* @__PURE__ */ React49.createElement("path", {
     d: "M14 14.252v2.09A6 6 0 0 0 6 22l-2-.001a8 8 0 0 1 10-7.748zM12 13c-3.315 0-6-2.685-6-6s2.685-6 6-6 6 2.685 6 6-2.685 6-6 6zm0-2c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm6 6v-3h2v3h3v2h-3v3h-2v-3h-3v-2h3z"
   })));
 }
 var SignUp_default = SignUpIcon;
 
 // src/Sun.tsx
-var React49 = __toESM(require("react"));
+var React50 = __toESM(require("react"));
 function SunIcon(_a) {
   var _b = _a, {
     title,
@@ -2166,28 +2206,28 @@ function SunIcon(_a) {
     height: size,
     className: classNames.join(" ").trim()
   }), rest);
-  return /* @__PURE__ */ React49.createElement("svg", __spreadValues({
+  return /* @__PURE__ */ React50.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
     fill: color,
     stroke: "currentColor",
     strokeWidth: 0,
     viewBox: "0 0 24 24",
     "aria-labelledby": titleId
-  }, props), title ? /* @__PURE__ */ React49.createElement("title", {
+  }, props), title ? /* @__PURE__ */ React50.createElement("title", {
     id: titleId
-  }, title) : null, /* @__PURE__ */ React49.createElement("g", {
+  }, title) : null, /* @__PURE__ */ React50.createElement("g", {
     stroke: "none"
-  }, /* @__PURE__ */ React49.createElement("path", {
+  }, /* @__PURE__ */ React50.createElement("path", {
     fill: "none",
     d: "M0 0h24v24H0z"
-  }), /* @__PURE__ */ React49.createElement("path", {
+  }), /* @__PURE__ */ React50.createElement("path", {
     d: "M12 18a6 6 0 1 1 0-12 6 6 0 0 1 0 12zm0-2a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM11 1h2v3h-2V1zm0 19h2v3h-2v-3zM3.515 4.929l1.414-1.414L7.05 5.636 5.636 7.05 3.515 4.93zM16.95 18.364l1.414-1.414 2.121 2.121-1.414 1.414-2.121-2.121zm2.121-14.85 1.414 1.415-2.121 2.121-1.414-1.414 2.121-2.121zM5.636 16.95l1.414 1.414-2.121 2.121-1.414-1.414 2.121-2.121zM23 11v2h-3v-2h3zM4 11v2H1v-2h3z"
   })));
 }
 var Sun_default = SunIcon;
 
 // src/ThumbUp.tsx
-var React50 = __toESM(require("react"));
+var React51 = __toESM(require("react"));
 function ThumbUpIcon(_a) {
   var _b = _a, {
     title,
@@ -2209,28 +2249,28 @@ function ThumbUpIcon(_a) {
     height: size,
     className: classNames.join(" ").trim()
   }), rest);
-  return /* @__PURE__ */ React50.createElement("svg", __spreadValues({
+  return /* @__PURE__ */ React51.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
     fill: color,
     stroke: "currentColor",
     strokeWidth: 0,
     viewBox: "0 0 24 24",
     "aria-labelledby": titleId
-  }, props), title ? /* @__PURE__ */ React50.createElement("title", {
+  }, props), title ? /* @__PURE__ */ React51.createElement("title", {
     id: titleId
-  }, title) : null, /* @__PURE__ */ React50.createElement("g", {
+  }, title) : null, /* @__PURE__ */ React51.createElement("g", {
     stroke: "none"
-  }, /* @__PURE__ */ React50.createElement("path", {
+  }, /* @__PURE__ */ React51.createElement("path", {
     fill: "none",
     d: "M0 0h24v24H0z"
-  }), /* @__PURE__ */ React50.createElement("path", {
+  }), /* @__PURE__ */ React51.createElement("path", {
     d: "M14.6 8H21a2 2 0 0 1 2 2v2.104a2 2 0 0 1-.15.762l-3.095 7.515a1 1 0 0 1-.925.619H2a1 1 0 0 1-1-1V10a1 1 0 0 1 1-1h3.482a1 1 0 0 0 .817-.423L11.752.85a.5.5 0 0 1 .632-.159l1.814.907a2.5 2.5 0 0 1 1.305 2.853L14.6 8zM7 10.588V19h11.16L21 12.104V10h-6.4a2 2 0 0 1-1.938-2.493l.903-3.548a.5.5 0 0 0-.261-.571l-.661-.33-4.71 6.672c-.25.354-.57.644-.933.858zM5 11H3v8h2v-8z"
   })));
 }
 var ThumbUp_default = ThumbUpIcon;
 
 // src/ThumbUpFill.tsx
-var React51 = __toESM(require("react"));
+var React52 = __toESM(require("react"));
 function ThumbUpFillIcon(_a) {
   var _b = _a, {
     title,
@@ -2252,28 +2292,28 @@ function ThumbUpFillIcon(_a) {
     height: size,
     className: classNames.join(" ").trim()
   }), rest);
-  return /* @__PURE__ */ React51.createElement("svg", __spreadValues({
+  return /* @__PURE__ */ React52.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
     fill: color,
     stroke: "currentColor",
     strokeWidth: 0,
     viewBox: "0 0 24 24",
     "aria-labelledby": titleId
-  }, props), title ? /* @__PURE__ */ React51.createElement("title", {
+  }, props), title ? /* @__PURE__ */ React52.createElement("title", {
     id: titleId
-  }, title) : null, /* @__PURE__ */ React51.createElement("g", {
+  }, title) : null, /* @__PURE__ */ React52.createElement("g", {
     stroke: "none"
-  }, /* @__PURE__ */ React51.createElement("path", {
+  }, /* @__PURE__ */ React52.createElement("path", {
     fill: "none",
     d: "M0 0h24v24H0z"
-  }), /* @__PURE__ */ React51.createElement("path", {
+  }), /* @__PURE__ */ React52.createElement("path", {
     d: "M2 9h3v12H2a1 1 0 0 1-1-1V10a1 1 0 0 1 1-1zm5.293-1.293 6.4-6.4a.5.5 0 0 1 .654-.047l.853.64a1.5 1.5 0 0 1 .553 1.57L14.6 8H21a2 2 0 0 1 2 2v2.104a2 2 0 0 1-.15.762l-3.095 7.515a1 1 0 0 1-.925.619H8a1 1 0 0 1-1-1V8.414a1 1 0 0 1 .293-.707z"
   })));
 }
 var ThumbUpFill_default = ThumbUpFillIcon;
 
 // src/Unfollow.tsx
-var React52 = __toESM(require("react"));
+var React53 = __toESM(require("react"));
 function UnfollowIcon(_a) {
   var _b = _a, {
     title,
@@ -2295,28 +2335,28 @@ function UnfollowIcon(_a) {
     height: size,
     className: classNames.join(" ").trim()
   }), rest);
-  return /* @__PURE__ */ React52.createElement("svg", __spreadValues({
+  return /* @__PURE__ */ React53.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
     fill: color,
     stroke: "currentColor",
     strokeWidth: 0,
     viewBox: "0 0 24 24",
     "aria-labelledby": titleId
-  }, props), title ? /* @__PURE__ */ React52.createElement("title", {
+  }, props), title ? /* @__PURE__ */ React53.createElement("title", {
     id: titleId
-  }, title) : null, /* @__PURE__ */ React52.createElement("g", {
+  }, title) : null, /* @__PURE__ */ React53.createElement("g", {
     stroke: "none"
-  }, /* @__PURE__ */ React52.createElement("path", {
+  }, /* @__PURE__ */ React53.createElement("path", {
     fill: "none",
     d: "M0 0h24v24H0z"
-  }), /* @__PURE__ */ React52.createElement("path", {
+  }), /* @__PURE__ */ React53.createElement("path", {
     d: "M14 14.252v2.09A6 6 0 0 0 6 22l-2-.001a8 8 0 0 1 10-7.748zM12 13c-3.315 0-6-2.685-6-6s2.685-6 6-6 6 2.685 6 6-2.685 6-6 6zm0-2c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm7 6.586 2.121-2.122 1.415 1.415L20.414 19l2.122 2.121-1.415 1.415L19 20.414l-2.121 2.122-1.415-1.415L17.586 19l-2.122-2.121 1.415-1.415L19 17.586z"
   })));
 }
 var Unfollow_default = UnfollowIcon;
 
 // src/Upload.tsx
-var React53 = __toESM(require("react"));
+var React54 = __toESM(require("react"));
 function UploadIcon(_a) {
   var _b = _a, {
     title,
@@ -2338,28 +2378,28 @@ function UploadIcon(_a) {
     height: size,
     className: classNames.join(" ").trim()
   }), rest);
-  return /* @__PURE__ */ React53.createElement("svg", __spreadValues({
+  return /* @__PURE__ */ React54.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
     fill: color,
     stroke: "currentColor",
     strokeWidth: 0,
     viewBox: "0 0 24 24",
     "aria-labelledby": titleId
-  }, props), title ? /* @__PURE__ */ React53.createElement("title", {
+  }, props), title ? /* @__PURE__ */ React54.createElement("title", {
     id: titleId
-  }, title) : null, /* @__PURE__ */ React53.createElement("g", {
+  }, title) : null, /* @__PURE__ */ React54.createElement("g", {
     stroke: "none"
-  }, /* @__PURE__ */ React53.createElement("path", {
+  }, /* @__PURE__ */ React54.createElement("path", {
     fill: "none",
     d: "M0 0h24v24H0z"
-  }), /* @__PURE__ */ React53.createElement("path", {
+  }), /* @__PURE__ */ React54.createElement("path", {
     d: "M3 19h18v2H3v-2zM13 5.828V17h-2V5.828L4.929 11.9l-1.414-1.414L12 2l8.485 8.485-1.414 1.414L13 5.83z"
   })));
 }
 var Upload_default = UploadIcon;
 
 // src/X.tsx
-var React54 = __toESM(require("react"));
+var React55 = __toESM(require("react"));
 function XIcon(_a) {
   var _b = _a, {
     title,
@@ -2381,14 +2421,14 @@ function XIcon(_a) {
     height: size,
     className: classNames.join(" ").trim()
   }), rest);
-  return /* @__PURE__ */ React54.createElement("svg", __spreadValues({
+  return /* @__PURE__ */ React55.createElement("svg", __spreadValues({
     xmlns: "http://www.w3.org/2000/svg",
     fill: color,
     viewBox: "0 0 396 396",
     "aria-labelledby": titleId
-  }, props), title ? /* @__PURE__ */ React54.createElement("title", {
+  }, props), title ? /* @__PURE__ */ React55.createElement("title", {
     id: titleId
-  }, title) : null, /* @__PURE__ */ React54.createElement("path", {
+  }, title) : null, /* @__PURE__ */ React55.createElement("path", {
     d: "M301.026 37.125h54.582l-119.246 136.29 140.283 185.46h-109.84l-86.031-112.48-98.439 112.48H27.72l127.545-145.777L20.691 37.125H133.32l77.764 102.812 89.942-102.812Zm-19.157 289.08h30.245L116.886 68.079H84.43L281.87 326.205Z"
   }));
 }
@@ -2443,6 +2483,7 @@ module.exports = __toCommonJS(src_exports);
   SaveIcon,
   SearchIcon,
   SettingsIcon,
+  ShareViaIcon,
   SignUpIcon,
   SunIcon,
   ThumbUpFillIcon,
