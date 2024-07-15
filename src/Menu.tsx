@@ -1,5 +1,5 @@
-import * as React from "react";
-import { SVGProps } from "react";
+import * as React from 'react';
+import type { SVGProps } from 'react';
 
 interface SVGRProps {
   title?: string;
@@ -11,17 +11,17 @@ function MenuIcon({
   title,
   titleId,
   size = 24,
-  color = "#F8F9FA",
+  color = '#F8F9FA',
   className,
   ...rest
 }: SVGProps<SVGSVGElement> & SVGRProps) {
-  const classNames = ["codecatch-Icon", className];
+  const classNames = ['codecatch-Icon', className];
   const props = {
     ...{
-      "data-testid": "codecatch-MenuIcon",
+      'data-testid': 'codecatch-MenuIcon',
       width: size,
       height: size,
-      className: classNames.join(" ").trim(),
+      className: classNames.join(' ').trim(),
     },
     ...rest,
   };
@@ -38,10 +38,9 @@ function MenuIcon({
       {title ? <title id={titleId}>{title}</title> : null}
       <g stroke="none">
         <path fill="none" d="M0 0h24v24H0z" />
-        <path d="M3 4h18v2H3V4zm0 7h18v2H3v-2zm0 7h18v2H3v-2z" />
+        <path d="M3 4h18v2H3zm0 7h18v2H3zm0 7h18v2H3z" />
       </g>
     </svg>
   );
 }
-
 export default MenuIcon;

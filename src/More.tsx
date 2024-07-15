@@ -1,5 +1,5 @@
-import * as React from "react";
-import { SVGProps } from "react";
+import * as React from 'react';
+import type { SVGProps } from 'react';
 
 interface SVGRProps {
   title?: string;
@@ -11,17 +11,17 @@ function MoreIcon({
   title,
   titleId,
   size = 24,
-  color = "#F8F9FA",
+  color = '#F8F9FA',
   className,
   ...rest
 }: SVGProps<SVGSVGElement> & SVGRProps) {
-  const classNames = ["codecatch-Icon", className];
+  const classNames = ['codecatch-Icon', className];
   const props = {
     ...{
-      "data-testid": "codecatch-MoreIcon",
+      'data-testid': 'codecatch-MoreIcon',
       width: size,
       height: size,
-      className: classNames.join(" ").trim(),
+      className: classNames.join(' ').trim(),
     },
     ...rest,
   };
@@ -38,10 +38,9 @@ function MoreIcon({
       {title ? <title id={titleId}>{title}</title> : null}
       <g stroke="none">
         <path fill="none" d="M0 0h24v24H0z" />
-        <path d="M12 3c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 14c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0-7c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z" />
+        <path d="M12 3c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2m0 14c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2m0-7c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2" />
       </g>
     </svg>
   );
 }
-
 export default MoreIcon;

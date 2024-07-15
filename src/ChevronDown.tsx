@@ -1,5 +1,5 @@
-import * as React from "react";
-import { SVGProps } from "react";
+import * as React from 'react';
+import type { SVGProps } from 'react';
 
 interface SVGRProps {
   title?: string;
@@ -11,17 +11,17 @@ function ChevronDownIcon({
   title,
   titleId,
   size = 24,
-  color = "#F8F9FA",
+  color = '#F8F9FA',
   className,
   ...rest
 }: SVGProps<SVGSVGElement> & SVGRProps) {
-  const classNames = ["codecatch-Icon", className];
+  const classNames = ['codecatch-Icon', className];
   const props = {
     ...{
-      "data-testid": "codecatch-ChevronDownIcon",
+      'data-testid': 'codecatch-ChevronDownIcon',
       width: size,
       height: size,
-      className: classNames.join(" ").trim(),
+      className: classNames.join(' ').trim(),
     },
     ...rest,
   };
@@ -43,5 +43,4 @@ function ChevronDownIcon({
     </svg>
   );
 }
-
 export default ChevronDownIcon;

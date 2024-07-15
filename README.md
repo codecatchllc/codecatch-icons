@@ -12,15 +12,15 @@ CodeCatch Icons is a React-based icon library intended for all CodeCatch React p
 ## Installation
 
 ```bash
-yarn add codecatch-icons
-# or
 npm install codecatch-icons
+# or
+yarn add codecatch-icons
 ```
 
 example usage
 
 ```jsx
-import { SunIcon } from "codecatch-icons";
+import { SunIcon } from 'codecatch-icons';
 const Component = () => {
   return (
     <h4>
@@ -53,13 +53,13 @@ Visit the CodeCatch Icons [GitHub repository](https://github.com/codecatchorg/co
 
 1. Run `git clone https://github.com/codecatchorg/codecatch-icons.git`
 
-2. Run `yarn` to install the dependencies
+2. Run `npm install` to install the dependencies
 
 3. Create a new branch off main
 
-4. Add the desired svg file to the `svg` directory
+4. Add the desired svg file to the `icons` directory
 
-5. Run `yarn build`
+5. Run `npm run build`
 
 6. Run `git add .`
 

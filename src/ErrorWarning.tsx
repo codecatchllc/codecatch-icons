@@ -1,5 +1,5 @@
-import * as React from "react";
-import { SVGProps } from "react";
+import * as React from 'react';
+import type { SVGProps } from 'react';
 
 interface SVGRProps {
   title?: string;
@@ -11,17 +11,17 @@ function ErrorWarningIcon({
   title,
   titleId,
   size = 24,
-  color = "#F8F9FA",
+  color = '#F8F9FA',
   className,
   ...rest
 }: SVGProps<SVGSVGElement> & SVGRProps) {
-  const classNames = ["codecatch-Icon", className];
+  const classNames = ['codecatch-Icon', className];
   const props = {
     ...{
-      "data-testid": "codecatch-ErrorWarningIcon",
+      'data-testid': 'codecatch-ErrorWarningIcon',
       width: size,
       height: size,
-      className: classNames.join(" ").trim(),
+      className: classNames.join(' ').trim(),
     },
     ...rest,
   };
@@ -38,10 +38,9 @@ function ErrorWarningIcon({
       {title ? <title id={titleId}>{title}</title> : null}
       <g stroke="none">
         <path fill="none" d="M0 0h24v24H0z" />
-        <path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-1-5h2v2h-2v-2zm0-8h2v6h-2V7z" />
+        <path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10m0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16m-1-5h2v2h-2zm0-8h2v6h-2z" />
       </g>
     </svg>
   );
 }
-
 export default ErrorWarningIcon;

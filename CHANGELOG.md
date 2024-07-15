@@ -1,65 +1,56 @@
 ## [1.13.3](https://github.com/codecatchorg/codecatch-icons/compare/v1.13.2...v1.13.3) (2024-04-29)
 
-
 ### Bug Fixes
 
-* add FullScreenExit icon ([9c2d9ea](https://github.com/codecatchorg/codecatch-icons/commit/9c2d9ea65b97debf2225f65d07840ccb807d85af))
+- add FullScreenExit icon ([9c2d9ea](https://github.com/codecatchorg/codecatch-icons/commit/9c2d9ea65b97debf2225f65d07840ccb807d85af))
 
 ## [1.13.2](https://github.com/codecatchorg/codecatch-icons/compare/v1.13.1...v1.13.2) (2024-02-11)
 
-
 ### Bug Fixes
 
-* **main:** add copy icon ([4e05470](https://github.com/codecatchorg/codecatch-icons/commit/4e0547002a6a9061e467c35b9d6ab000a0e3ed93))
+- **main:** add copy icon ([4e05470](https://github.com/codecatchorg/codecatch-icons/commit/4e0547002a6a9061e467c35b9d6ab000a0e3ed93))
 
 ## [1.13.1](https://github.com/codecatchorg/codecatch-icons/compare/v1.13.0...v1.13.1) (2023-10-01)
 
-
 ### Bug Fixes
 
-* **main:** fix X icon on light theme ([60c38c5](https://github.com/codecatchorg/codecatch-icons/commit/60c38c546b873ab7f0a98f046e41554c386d91df))
+- **main:** fix X icon on light theme ([60c38c5](https://github.com/codecatchorg/codecatch-icons/commit/60c38c546b873ab7f0a98f046e41554c386d91df))
 
 # [1.13.0](https://github.com/codecatchorg/codecatch-icons/compare/v1.12.0...v1.13.0) (2023-09-30)
 
-
 ### Features
 
-* **main:** add linkedin icon and update reddit icon ([93dfb0e](https://github.com/codecatchorg/codecatch-icons/commit/93dfb0e4f3814367b690d103eab5bc2487a7f800))
+- **main:** add linkedin icon and update reddit icon ([93dfb0e](https://github.com/codecatchorg/codecatch-icons/commit/93dfb0e4f3814367b690d103eab5bc2487a7f800))
 
 # [1.12.0](https://github.com/codecatchorg/codecatch-icons/compare/v1.11.0...v1.12.0) (2023-09-30)
 
-
 ### Features
 
-* **main:** added social icons ([81f12f3](https://github.com/codecatchorg/codecatch-icons/commit/81f12f3d47fd5d8d742554a63d01a07f9ccd4652))
+- **main:** added social icons ([81f12f3](https://github.com/codecatchorg/codecatch-icons/commit/81f12f3d47fd5d8d742554a63d01a07f9ccd4652))
 
 # [1.11.0](https://github.com/codecatchorg/codecatch-icons/compare/v1.10.8...v1.11.0) (2023-09-29)
 
-
 ### Features
 
-* **main:** add robot icon ([9960b03](https://github.com/codecatchorg/codecatch-icons/commit/9960b039011d40707f0726cc605ac0a2ae2a4d1a))
+- **main:** add robot icon ([9960b03](https://github.com/codecatchorg/codecatch-icons/commit/9960b039011d40707f0726cc605ac0a2ae2a4d1a))
 
 ## [1.10.8](https://github.com/codecatchorg/codecatch-icons/compare/v1.10.7...v1.10.8) (2023-09-23)
 
-
 ### Bug Fixes
 
-* **main:** attempt to fix group icon color ([4ce0b02](https://github.com/codecatchorg/codecatch-icons/commit/4ce0b020c7107525fa2bdd383fc87706156d4c77))
+- **main:** attempt to fix group icon color ([4ce0b02](https://github.com/codecatchorg/codecatch-icons/commit/4ce0b020c7107525fa2bdd383fc87706156d4c77))
 
 ## [1.10.7](https://github.com/codecatchorg/codecatch-icons/compare/v1.10.6...v1.10.7) (2023-09-23)
 
-
 ### Bug Fixes
 
-* **main:** fix light theme of group icon ([24eaf4d](https://github.com/codecatchorg/codecatch-icons/commit/24eaf4d0c8626555c6525d6c5a92c8591ae444d4))
+- **main:** fix light theme of group icon ([24eaf4d](https://github.com/codecatchorg/codecatch-icons/commit/24eaf4d0c8626555c6525d6c5a92c8591ae444d4))
 
 ## [1.10.6](https://github.com/codecatchorg/codecatch-icons/compare/v1.10.5...v1.10.6) (2023-08-12)
 
-
 ### Bug Fixes
 
-* **main:** rename default branch to main ([aff5ee4](https://github.com/codecatchorg/codecatch-icons/commit/aff5ee4197c0cd0b93be481fee2741acd9bb526f))
+- **main:** rename default branch to main ([aff5ee4](https://github.com/codecatchorg/codecatch-icons/commit/aff5ee4197c0cd0b93be481fee2741acd9bb526f))
 
 ## [1.10.5](https://github.com/codecatchorg/codecatch-icons/compare/v1.10.4...v1.10.5) (2023-08-12)
 

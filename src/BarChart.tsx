@@ -1,5 +1,5 @@
-import * as React from "react";
-import { SVGProps } from "react";
+import * as React from 'react';
+import type { SVGProps } from 'react';
 
 interface SVGRProps {
   title?: string;
@@ -11,17 +11,17 @@ function BarChartIcon({
   title,
   titleId,
   size = 24,
-  color = "#F8F9FA",
+  color = '#F8F9FA',
   className,
   ...rest
 }: SVGProps<SVGSVGElement> & SVGRProps) {
-  const classNames = ["codecatch-Icon", className];
+  const classNames = ['codecatch-Icon', className];
   const props = {
     ...{
-      "data-testid": "codecatch-BarChartIcon",
+      'data-testid': 'codecatch-BarChartIcon',
       width: size,
       height: size,
-      className: classNames.join(" ").trim(),
+      className: classNames.join(' ').trim(),
     },
     ...rest,
   };
@@ -38,10 +38,9 @@ function BarChartIcon({
       {title ? <title id={titleId}>{title}</title> : null}
       <g stroke="none">
         <path fill="none" d="M0 0h24v24H0z" />
-        <path d="M3 12h4v9H3v-9zm14-4h4v13h-4V8zm-7-6h4v19h-4V2z" />
+        <path d="M3 12h4v9H3zm14-4h4v13h-4zm-7-6h4v19h-4z" />
       </g>
     </svg>
   );
 }
-
 export default BarChartIcon;

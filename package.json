@@ -2,10 +2,22 @@
   "name": "codecatch-icons",
   "version": "0.0.0-semantic-release",
   "description": "A React-based icon library intended for all CodeCatch React projects.",
-  "scope": "@codecatch/codecatch-icons",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "author": "CodeCatch LLC <codecatchservice@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/codecatchllc/codecatch-icons/blob/main/README.md",
+  "repository": "https://github.com/codecatchorg/codecatch-icons.git",
+  "scope": "@codecatch/codecatch-icons",
+  "keywords": [
+    "typescript",
+    "react",
+    "svgr"
+  ],
+  "bugs": {
+    "url": "https://github.com/codecatchllc/codecatch-icons/issues"
+  },
   "exports": {
     ".": {
       "require": "./dist/index.js",
@@ -16,27 +28,44 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/codecatchorg/codecatch-icons.git",
-  "author": "Cameron Shatto <cameronshatto99@gmail.com>",
-  "license": "MIT",
   "scripts": {
-    "docs": "node scripts/docs.js",
-    "svgr": "svgr --icon --title-prop --no-dimensions --typescript -d src svg",
-    "build": "yarn docs && yarn svgr && tsup src/index.ts --format cjs,esm --dts --clean",
-    "prepare": "husky install"
+    "build": "npm run update-readme && npm run svgr && tsup src/index.ts --format cjs,esm --dts --clean",
+    "docs": "typedoc ./src/**/*.ts",
+    "format": "prettier . --check",
+    "format:fix": "prettier . --write",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "lint-staged": "lint-staged && npm run test:ci",
+    "prepare": "husky install",
+    "svgr": "npx @svgr/cli --icon --title-prop --no-dimensions --typescript --out-dir src -- icons",
+    "test": "vitest",
+    "test:ci": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "update-readme": "tsx utils/updateReadme"
   },
   "devDependencies": {
-    "@commitlint/cli": "^16.2.1",
-    "@commitlint/config-conventional": "^16.2.1",
-    "@svgr/cli": "^6.2.1",
-    "@types/react": "^17.0.39",
-    "esbuild": "^0.14.25",
-    "husky": "^7.0.4",
-    "tsup": "^5.12.1",
-    "typescript": "^4.6.2"
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@svgr/cli": "^8.1.0",
+    "@types/react": "^18.3.3",
+    "@typescript-eslint/eslint-plugin": "^7.16.0",
+    "@typescript-eslint/parser": "^7.16.0",
+    "@vitest/coverage-v8": "^2.0.2",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.7",
+    "prettier": "^3.3.3",
+    "tsup": "^8.1.0",
+    "tsx": "^4.16.2",
+    "typedoc": "^0.26.4",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.3",
+    "vitest": "^2.0.2"
   },
   "peerDependencies": {
     "react": "^17.0.2"
-  },
-  "dependencies": {}
+  }
 }

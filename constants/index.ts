@@ -1,10 +1,10 @@
-const path = require("path");
+import path from 'path';
 
-const ICONS_DIR_PATH = path.join(__dirname, "../svg");
-const ICON_URL =
-  "https://github.com/codecatchorg/codecatch-icons/blob/main/svg";
-const ICON_WIDTH = "24";
-const SPACER = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+const ICON_DIR = 'icons';
+const ICONS_DIR_PATH = path.join(__dirname, `../${ICON_DIR}`);
+const ICON_URL = `https://github.com/codecatchorg/codecatch-icons/blob/main/${ICON_DIR}`;
+const ICON_WIDTH = '24';
+const SPACER = '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
 const BEFORE_ICON_DOCS = `<img src="https://github.com/codecatchorg/codecatch-icons/blob/main/img/logo.png" width="120" alt="CodeCatch Icons">
 
 # [CodeCatch Icons](https://github.com/codecatchorg/codecatch-icons)
@@ -19,9 +19,9 @@ CodeCatch Icons is a React-based icon library intended for all CodeCatch React p
 ## Installation
 
 \`\`\`bash
-yarn add codecatch-icons
-# or
 npm install codecatch-icons
+# or
+yarn add codecatch-icons
 \`\`\`
 
 example usage
@@ -61,13 +61,13 @@ const AFTER_ICON_DOCS = `
 
 1. Run \`git clone https://github.com/codecatchorg/codecatch-icons.git\`
 
-2. Run \`yarn\` to install the dependencies
+2. Run \`npm install\` to install the dependencies
 
 3. Create a new branch off main
 
-4. Add the desired svg file to the \`svg\` directory
+4. Add the desired svg file to the \`${ICON_DIR}\` directory
 
-5. Run \`yarn build\`
+5. Run \`npm run build\`
 
 6. Run \`git add .\`
 
@@ -78,7 +78,7 @@ const AFTER_ICON_DOCS = `
 9. Create a PR!
 `;
 
-module.exports = {
+export default {
   ICONS_DIR_PATH,
   ICON_URL,
   ICON_WIDTH,

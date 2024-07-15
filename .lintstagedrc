@@ -1,0 +1,4 @@
+{
+  "*.{md,json}": ["npm run format:fix"],
+  "*.{js,ts}": ["npm run format:fix", "npm run lint:fix"]
+}

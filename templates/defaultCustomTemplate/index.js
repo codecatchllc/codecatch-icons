@@ -19,8 +19,8 @@ const PROPS = `
 
 function defaultCustomTemplate(variables, { tpl }) {
   const { componentName, imports, jsx } = variables;
-  const customComponentName = componentName.replace("Svg", "") + "Icon";
-  const dataTestId = `\'codecatch-${customComponentName}\'`;
+  const customComponentName = componentName.replace('Svg', '') + 'Icon';
+  const dataTestId = `'codecatch-${customComponentName}'`;
 
   return tpl`
     ${imports};
@@ -41,4 +41,5 @@ function defaultCustomTemplate(variables, { tpl }) {
     export default ${customComponentName};
   `;
 }
+
 module.exports = defaultCustomTemplate;

@@ -1,5 +1,5 @@
 module.exports = {
-  template: require("./templates/custom"),
-  indexTemplate: require("./templates/index"),
-  replaceAttrValues: { "#F8F9FA": "{color}" },
+  template: require('./templates/defaultCustomTemplate'),
+  indexTemplate: require('./templates/defaultIndexTemplate'),
+  replaceAttrValues: { '#F8F9FA': '{color}' },
 };
