@@ -13,7 +13,8 @@
   "keywords": [
     "typescript",
     "react",
-    "svgr"
+    "svgr",
+    "node"
   ],
   "bugs": {
     "url": "https://github.com/codecatchllc/codecatch-icons/issues"
@@ -30,7 +31,7 @@
   ],
   "scripts": {
     "build": "npm run update-readme && npm run svgr && tsup src/index.ts --format cjs,esm --dts --clean",
-    "docs": "typedoc ./src/**/*.ts",
+    "docs": "typedoc src/**/*.ts",
     "format": "prettier . --check",
     "format:fix": "prettier . --write",
     "lint": "eslint",
