@@ -1,3 +1,9 @@
+## [1.14.1](https://github.com/codecatchorg/codecatch-icons/compare/v1.14.0...v1.14.1) (2024-09-19)
+
+### Bug Fixes
+
+- **main:** update peerDependencies ([f4b65e8](https://github.com/codecatchorg/codecatch-icons/commit/f4b65e85f5b10e649a019d5581f9842df5aceeb6))
+
 # [1.14.0](https://github.com/codecatchorg/codecatch-icons/compare/v1.13.4...v1.14.0) (2024-07-15)
 
 ### Features
