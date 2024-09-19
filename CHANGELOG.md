@@ -1,3 +1,9 @@
+## [1.14.2](https://github.com/codecatchorg/codecatch-icons/compare/v1.14.1...v1.14.2) (2024-09-19)
+
+### Bug Fixes
+
+- **main:** fix npm release ([e6973d0](https://github.com/codecatchorg/codecatch-icons/commit/e6973d02bfff647afec4faf4faeff34a96b44ce7))
+
 ## [1.14.1](https://github.com/codecatchorg/codecatch-icons/compare/v1.14.0...v1.14.1) (2024-09-19)
 
 ### Bug Fixes
