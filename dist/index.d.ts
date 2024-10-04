@@ -1,13 +1,21 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
+interface SVGRProps$T {
+    title?: string;
+    titleId?: string;
+    size?: string | number;
+    color?: string;
+}
+declare function AccountIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$T): React.JSX.Element;
+
 interface SVGRProps$S {
     title?: string;
     titleId?: string;
     size?: string | number;
     color?: string;
 }
-declare function AccountIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$S): React.JSX.Element;
+declare function AddIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps$S): React.JSX.Element;
 
 interface SVGRProps$R {
     title?: string;
@@ -441,4 +449,4 @@ interface SVGRProps {
 }
 declare function XIcon({ title, titleId, size, color, className, ...rest }: SVGProps<SVGSVGElement> & SVGRProps): React.JSX.Element;
 
-export { AccountIcon, BarChartIcon, BranchIcon, CheckIcon, ChecklistIcon, ChevronDownIcon, ChevronLeftIcon, ChevronRightIcon, CloseIcon, CopyCodeIcon, CopyIcon, CopyLinkIcon, DeleteIcon, DiscordIcon, DownloadIcon, EarthIcon, EditIcon, ErrorWarningFillIcon, ErrorWarningIcon, ExpandIcon, EyeIcon, EyeOffIcon, FileCodeIcon, FilterIcon, FollowIcon, FullscreenExitIcon, GitHubIcon, GoBackIcon, GoogleIcon, GroupIcon, InfoFillIcon, InfoIcon, LinkedinIcon, LockIcon, LoginIcon, LogoutIcon, MenuIcon, MoonIcon, MoreIcon, PaletteIcon, PlayIcon, ProfileIcon, RedditIcon, RobotIcon, SaveIcon, SearchIcon, SettingsIcon, ShareViaIcon, SignUpIcon, SunIcon, ThumbUpFillIcon, ThumbUpIcon, UnfollowIcon, UploadIcon, XIcon };
+export { AccountIcon, AddIcon, BarChartIcon, BranchIcon, CheckIcon, ChecklistIcon, ChevronDownIcon, ChevronLeftIcon, ChevronRightIcon, CloseIcon, CopyCodeIcon, CopyIcon, CopyLinkIcon, DeleteIcon, DiscordIcon, DownloadIcon, EarthIcon, EditIcon, ErrorWarningFillIcon, ErrorWarningIcon, ExpandIcon, EyeIcon, EyeOffIcon, FileCodeIcon, FilterIcon, FollowIcon, FullscreenExitIcon, GitHubIcon, GoBackIcon, GoogleIcon, GroupIcon, InfoFillIcon, InfoIcon, LinkedinIcon, LockIcon, LoginIcon, LogoutIcon, MenuIcon, MoonIcon, MoreIcon, PaletteIcon, PlayIcon, ProfileIcon, RedditIcon, RobotIcon, SaveIcon, SearchIcon, SettingsIcon, ShareViaIcon, SignUpIcon, SunIcon, ThumbUpFillIcon, ThumbUpIcon, UnfollowIcon, UploadIcon, XIcon };

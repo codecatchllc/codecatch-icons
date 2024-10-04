@@ -1,4 +1,5 @@
 export { default as AccountIcon } from './Account';
+export { default as AddIcon } from './Add';
 export { default as BarChartIcon } from './BarChart';
 export { default as BranchIcon } from './Branch';
 export { default as CheckIcon } from './Check';
