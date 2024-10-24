@@ -1,7 +1,7 @@
 {
   "name": "codecatch-icons",
   "version": "1.14.2",
-  "description": "A React-based icon library intended for all CodeCatch React projects.",
+  "description": "A React-based icon library designed for CodeCatch products.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
