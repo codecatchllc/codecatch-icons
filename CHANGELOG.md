@@ -1,3 +1,9 @@
+## [1.14.3](https://github.com/codecatchorg/codecatch-icons/compare/v1.14.2...v1.14.3) (2024-10-04)
+
+### Bug Fixes
+
+- **main:** add Add icon ([013b9d7](https://github.com/codecatchorg/codecatch-icons/commit/013b9d791b10752189a35f864383cb21ac9b237e))
+
 ## [1.14.2](https://github.com/codecatchorg/codecatch-icons/compare/v1.14.1...v1.14.2) (2024-09-19)
 
 ### Bug Fixes
